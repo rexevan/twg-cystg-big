@@ -1,5 +1,0 @@
----
-title: "S.H.I.E.L.D"
-author: "<++>"
-date: "<++>"
----
