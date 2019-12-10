@@ -1,10 +1,3 @@
----
-title : TWG Big Database
-output: 
-  html_document: 
-    keep_md: yes
----
-
 ## Pendahuluan
 
 Segala yang yang memiliki permulaan pasti akan berakhir.
@@ -59,110 +52,11 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
                 "role" : "Villager"
             },
             { 
-                "id" : "akhirx.punya.id",
-                "alignment" : "baddies",
-                "role" : "Seer"
-            },
-            { 
-                "id" : "owlsmile",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : "25-08-2015 20:54"
-            },
-            { 
-                "id" : "portgazzz",
-                "alignment" : "goodies", 
-                "subbed" : "nalfiadi",
-                "role" : "Tracker"
-            },
-            { 
-                "id" : "Mr.Avalanche",
-                "alignment" : "goodies",
-                "role" : "Guardian Angel",
-                "death" : "29-08-2015 19:20"
-            },
-            { 
-                "id" : "kantongerz",
-                "alignment" : "baddies",
-                "role" : "Werewolf" 
-            },
-            { 
-                "id" : "ranggagreat",
-                "alignment" : "goodies",
-                "role" : "Tracker"
-            },
-            { 
-                "id" : "anon009",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : "26-08-2015 20:54"
-            },
-            { 
-                "id" : "xemp.phax",
-                "alignment" : "goodies",
-                "role" : "Tracker",
-                "death" : "22-08-2015 21:11"
-            },
-            { 
-                "id" : "zed96",
-                "alignment" : "goodies",
-                "role" : "Tracker"
-            },
-            { 
-                "id" : "Sherry24",
-                "alignment" : "goodies",
-                "role" : "Guardian Angel",
-                "death" : "28-08-2015 21:10"
-            },
-            { 
                 "id" : "tmofer.mashiro",
                 "alignment" : "baddies",
                 "role" : "Werewolf",
                 "MVP" : true,
                 "death" : "29-08-2015 19:20"
-            },
-            { 
-                "id" : "reinforcedboy",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : "22-08-2015 21:11"
-            },
-            { 
-                "id" : "11sphere92",
-                "alignment" : "goodies",
-                "role" : "Tracker",
-                "death" : "22-08-2015 21:11"
-            },
-            { 
-                "id" : "2nd.zett",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : "28-08-2015 21:10"
-            },
-            { 
-                "id" : "unqsn",
-                "alignment" : "goodies", 
-                "subbed" : "terigucampurair",
-                "role" : "Hunter",
-                "death" : "22-08-2015 21:11"
-            },
-            { 
-                "id" : "ADITMILANISTI",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : "21-08-2015 20:39"
-            },
-            { 
-                "id" : ".falcongirl.",
-                "alignment" : "goodies",
-                "role" : "Villager",
-                "death" : " 24-08-2015 20:24"
-            },
-            { 
-                "id" : "hunterismyname",
-                "alignment" : "goodies",
-                "role" : "Tracker",
-                "death" : "27-08-2015 21:37"
             },
             { 
                 "id" : "sallamx28",
@@ -221,7 +115,7 @@ Status  | TWG
 []      | [99th Expeditions!](http://kask.us/hh1od)
 []      | [Attack On...](http://kask.us/hlWor)
 []      | [Taintful War of Gods (TWG)](http://kask.us/hnd05)
-[]      | [It 's MoeLand !](http://kask.us/hsLsS)
+[]      | [It's MoeLand !](http://kask.us/hsLsS)
 []      | [The Secret Tomb of Lord Hircine](http://kask.us/hwF2N)
 []      | [Invasi Alam Gaib Bumi Nusantara](http://kask.us/hDMkD)
 []      | ["Red Moon"](http://kask.us/hIipQ)
@@ -232,7 +126,7 @@ Status  | TWG
 []      | [Paradise : Brave New World](https://kask.us/h0j4e)
 []      | [Tales of the Psycho Villains](https://kask.us/h1sVd)
 []      | [The Dawn Of Monster](https://kask.us/h3igc)
-[x]      | [Menuju Indonesia Merdeka](https://kask.us/h53gF)
+[X]      | [Menuju Indonesia Merdeka](https://kask.us/h53gF)
 []      | [Bulan November 2015](https://kask.us/h9gNK)
 []      | [BOOM! part II](https://kask.us/ibxhD)
 []      | [The Conjuring Theme](https://kask.us/igU6j)
