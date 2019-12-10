@@ -1,0 +1,258 @@
+[
+    {
+        "name" : "Menuju Indonesia Merdeka",
+        "gm" : "jedith3",
+        "cogm" : "Dzboy",
+        "open" : "18-08-2015 17:51",
+        "start" : "20-08-2015 06:39",
+        "end" : "29-08-2015 15:59",
+        "firstphase" : "D1",
+        "lastphase" : "D6",
+        "players" : [
+            { 
+                "id" : "helium.rusak", 
+                "alignment" : "baddies",
+                "role" : "Roleblocker",
+                "death" : "23-08-2015 20:40"
+            },
+            { 
+                "id" : "Solahart",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "akhirx.punya.id",
+                "alignment" : "baddies",
+                "role" : "Seer"
+            },
+            { 
+                "id" : "owlsmile",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : "25-08-2015 20:54"
+            },
+            { 
+                "id" : "portgazzz",
+                "alignment" : "goodies", 
+                "subbed" : "nalfiadi",
+                "role" : "Tracker"
+            },
+            { 
+                "id" : "Mr.Avalanche",
+                "alignment" : "goodies",
+                "role" : "Guardian Angel",
+                "death" : "29-08-2015 19:20"
+            },
+            { 
+                "id" : "kantongerz",
+                "alignment" : "baddies",
+                "role" : "Werewolf" 
+            },
+            { 
+                "id" : "ranggagreat",
+                "alignment" : "goodies",
+                "role" : "Tracker"
+            },
+            { 
+                "id" : "anon009",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : "26-08-2015 20:54"
+            },
+            { 
+                "id" : "xemp.phax",
+                "alignment" : "goodies",
+                "role" : "Tracker",
+                "death" : "22-08-2015 21:11"
+            },
+            { 
+                "id" : "zed96",
+                "alignment" : "goodies",
+                "role" : "Tracker"
+            },
+            { 
+                "id" : "Sherry24",
+                "alignment" : "goodies",
+                "role" : "Guardian Angel",
+                "death" : "28-08-2015 21:10"
+            },
+            { 
+                "id" : "tmofer.mashiro",
+                "alignment" : "baddies",
+                "role" : "Werewolf",
+                "MVP" : true,
+                "death" : "29-08-2015 19:20"
+            },
+            { 
+                "id" : "reinforcedboy",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : "22-08-2015 21:11"
+            },
+            { 
+                "id" : "11sphere92",
+                "alignment" : "goodies",
+                "role" : "Tracker",
+                "death" : "22-08-2015 21:11"
+            },
+            { 
+                "id" : "2nd.zett",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : "28-08-2015 21:10"
+            },
+            { 
+                "id" : "unqsn",
+                "alignment" : "goodies", 
+                "subbed" : "terigucampurair",
+                "role" : "Hunter",
+                "death" : "22-08-2015 21:11"
+            },
+            { 
+                "id" : "ADITMILANISTI",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : "21-08-2015 20:39"
+            },
+            { 
+                "id" : ".falcongirl.",
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "death" : " 24-08-2015 20:24"
+            },
+            { 
+                "id" : "hunterismyname",
+                "alignment" : "goodies",
+                "role" : "Tracker",
+                "death" : "27-08-2015 21:37"
+            },
+            { 
+                "id" : "sallamx28",
+                "alignment" : "goodies",
+                "role" : "Tracker",
+                "death" : "25-08-2015 20:54"
+            } 
+        ]
+    },
+
+    {
+        "name" : "The Mansion behind the Scarlet Mist",
+        "link" : "https://kask.us/haK0K",
+        "open" : "08-05-2013 14:44",
+        "start" : "09-05-2013 21:09",
+        "end" : "19-05-2013 22:03",
+        "startphase" : "D1",
+        "endphase" : "N5",
+        "gm" : "Huzaiv",
+        "players" : [
+            {
+                "id" : "Ryojacko",
+                "death" : "15-05-2013 22:06"
+            },
+            {
+                "id" : "Aditkw" 
+            },
+            {
+                "id" : "skullengine" 
+            },
+            {
+                "id" : "cresthofan",
+                "death" : " 18-05-2013 12:01"
+            },
+            {
+                "id" : "steve90",
+                "death" : "19-05-2013 22:03",
+                "MVP" : true
+            },
+            {
+                "id" : "Myeekodok",
+                "MVP" : true
+            },
+            {
+                "id" : "DustChain",
+                "death" : "16-05-2013 22:24"
+            },
+            {
+                "id" : "loganmiles",
+                "death" : "13-05-2013 12:14"
+            },
+            {
+                "id" : "violetpeach",
+                "death" : "13-05-2013 22:26"
+            },
+            {
+                "id" : "kapitanvic",
+                "death" : "16-05-2013 22:24"
+            },
+            {
+                "id" : "sundasherlock" 
+            },
+            {
+                "id" : "Xerotess",
+                "death" : " 19-05-2013 12:01"
+            },
+            {
+                "id" : "MatoDunois" 
+            },
+            {
+                "id" : "adnnin",
+                "death" : "15-05-2013 22:06"
+            },
+            {
+                "id" : "nileajah",
+                "death" : "13-05-2013 22:26"
+            },
+            {
+                "id" : "rendra 3" 
+            },
+            {
+                "id" : "Leehan666" ,
+                "death" : "10-05-2013 22:19"
+            },
+            {
+                "id" : "shakato",
+                "death" : "16-05-2013 22:24"
+            },
+            {
+                "id" : "keselekpempek",
+                "death" : "11-05-2013 22:32" 
+            },
+            {
+                "id" : "bagazth",
+                "death" : "13-05-2013 22:26",
+                "MVP" : true
+            },
+            {
+                "id" : "Vickermond" 
+            },
+            {
+                "id" : "qoonjoq",
+                "death" : "12-05-2013 22:33" 
+            },
+            {
+                "id" : "xXCardCaptorXx",
+                "death" : "14-05-2013 22:32"
+            },
+            {
+                "id" : "Liong33",
+                "death" : " 17-05-2013 14:00"
+            },
+            {
+                "id" : "CloudyTama" 
+            },
+            {
+                "id" : "tmofer.mashiro",
+                "death" : "18-05-2013 22:18"
+            },
+            {
+                "id" : "rena97",
+                "death" : "17-05-2013 22:00"
+            },
+            {
+                "id" : "version-9.99",
+                "death" : "11-05-2013 22:32"
+            }
+        ]
+    }
+
+]
