@@ -1,9 +1,3 @@
----
-output: 
-  html_document: 
-    keep_md: yes
----
-
 # TWG BIG CYSTG Database
 
 ## Pendahuluan
@@ -142,11 +136,11 @@ Status   | TWG
 [ ]      | [99th Expeditions!](http://kask.us/hh1od)
 [ ]      | [Attack On...](http://kask.us/hlWor)
 [ ]      | [Taintful War of Gods (TWG)](http://kask.us/hnd05)
-[ ]      | [It's MoeLand !](http://kask.us/hsLsS)
+[x]      | [It's MoeLand !](http://kask.us/hsLsS)
 [ ]      | [The Secret Tomb of Lord Hircine](http://kask.us/hwF2N)
 [ ]      | [Invasi Alam Gaib Bumi Nusantara](http://kask.us/hDMkD)
-[ ]      | ["Red Moon"](http://kask.us/hIipQ)
-[ ]      | [Das Ruhenheim](http://kask.us/hKZBJ)
+[x]      | [Red Riding Hood - "Red Moon"](http://kask.us/hIipQ)
+[x]      | [Das Ruhenheim](http://kask.us/hKZBJ)
 [ ]      | [The DPR & Dangerous Viruses](http://kask.us/hNFBO)
 [ ]      | [CheckMate!](http://kask.us/hQHBC)
 [ ]      | [Trust & Betrayal](https://kask.us/hV1Bo)
