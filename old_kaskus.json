@@ -2,14 +2,145 @@
     {
         "name" : "Kutukan Sri dan Gala",
         "link" : "https://archive.kaskus.co.id/thread/8765940",
-        "gm" : "",
-        "cogm" : "",
-        "open" : "",
-        "start" :  "",
+        "gm" : "Huzaiv",
+        "open" : "25/05/2011 01:03 PM",
+        "start" :  "26/05/2011 08:23 PM",
         "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
+        "won" : "baddies", 
+        "phases" : [
+            {
+                "phase" : "D1",
+                "begin" : "26/05/2011 08:23 PM",
+                "dies" : ["lukystar"]
+            },
+            {
+                "phase" : "N1",
+                "begin" : "27/05/2011 10:14 PM",
+                "dies" : ["jagoan_baru"]
+            },
+            {
+                "phase" : "D2",
+                "begin" : "28/05/2011 08:12 PM",
+                "dies" : ["pushplay"]
+            },
+            {
+                "phase" : "N2",
+                "begin" : "29/05/2011 08:08 PM",
+                "dies" : ["00H3nnyCute00"]
+            },
+            {
+                "phase" : "D3",
+                "begin" : "30/05/2011 08:14 PM",
+                "dies" : ["FourBrothers"]
+            },
+            {
+                "phase" : "N3",
+                "begin" : "31/05/2011 08:42 PM",
+                "dies" : ["pasirjengkol", "ryuzakichibi"]
+            },
+            {
+                "phase" : "D4",
+                "begin" : "01/06/2011 08:26 PM",
+                "dies" : ["CeKilatoZ"]
+            },
+            {
+                "phase" : "N4",
+                "begin" : "02/06/2011 08:43 PM",
+                "dies" : ["xlimitedx"]
+            },
+            {
+                "phase" : "D5",
+                "begin" : "03/06/2011 06:41 PM",
+                "dies" : ["nakasani", "cobaltblue"]
+            },
+            {
+                "phase" : "N5",
+                "begin" : "04/06/2011 08:10 PM",
+                "dies" : ["http."]
+            }
+        ],
+        "players" : [
+            {
+                "id" : "Irfan14",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "FourBrothers",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "ryuzakichibi",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "xjocker",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "xlimitedx",
+                "alignment" : "goodies",
+                "role" : "Hunter"
+            },
+            {
+                "id" : "nakasani",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "YosoRoso.ver2",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "pasirjengkol",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "http.",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "akira_yosuke",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "pushplay",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "CeKilatoZ",
+                "alignment" : "goodies",
+                "role" : "Seer"
+            },
+            {
+                "id" : "lukystar",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "cobaltblue",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "00H3nnyCute00",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "jagoan_baru",
+                "alignment" : "goodies",
+                "role" : "Guardian Angel"
+            }
+        ]
     },
     {
         "name" : "H19N Terror!",
@@ -194,54 +325,6 @@
     {
         "name" : "The Dark Age",
         "link" : "http://archive.kaskus.co.id/thread/15858591",
-        "gm" : "",
-        "cogm" : "",
-        "open" : "",
-        "start" :  "",
-        "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
-    },
-    {
-        "name" : "",
-        "link" : "",
-        "gm" : "",
-        "cogm" : "",
-        "open" : "",
-        "start" :  "",
-        "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
-    },
-    {
-        "name" : "",
-        "link" : "",
-        "gm" : "",
-        "cogm" : "",
-        "open" : "",
-        "start" :  "",
-        "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
-    },
-    {
-        "name" : "",
-        "link" : "",
-        "gm" : "",
-        "cogm" : "",
-        "open" : "",
-        "start" :  "",
-        "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
-    },
-    {
-        "name" : "",
-        "link" : "",
         "gm" : "",
         "cogm" : "",
         "open" : "",

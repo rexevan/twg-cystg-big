@@ -18,8 +18,6 @@ Terima Kasih bagi kalian yang telah mengisi hari-hari remaja ku.
 Ada Beberapa data yang dikumpulkan, seperti nama, tautan, waktu *thread* dibuka, data mengenai fase dan pemain.
 Variabel dan penjelasannya dapat dilihat pada tabel dibawah ini.
 
-
-
 Variabel | Deskripsi
 ---------|---------
 name        | Nama TWG, tidak termasuk nomor romawi di depan nama TWG

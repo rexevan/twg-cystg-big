@@ -865,13 +865,11 @@
             },
             { 
                 "id" : "1St.ZeTT", 
-                "alignment" : "goodies",
-                "role" : "Villa Pawn"
+                "alignment" : "goodies"
             },
             { 
                 "id" : "Dzboy", 
-                "alignment" : "goodies",
-                "role" : "Villa Pawn"
+                "alignment" : "goodies"
             },
             { 
                 "id" : "ZhumpHex", 
@@ -880,67 +878,50 @@
             },
             { 
                 "id" : "milennium2000", 
-                "alignment" : "goodies",
-                "role" : "Villa Pawn"
+                "alignment" : "goodies"
             },
             { 
                 "id" : "gamemaster123",
-                "alignment" : "goodies",
-                "role" : 
+                "alignment" : "goodies"
             },
             { 
-                "id" : "momochi26",
-                "alignment" : ,
-                "role" : 
+                "id" : "momochi26"
             },
             { 
                 "id" : "fahape",
-                "alignment" : "goodies",
-                "role" : 
+                "alignment" : "goodies"
             },
             { 
                 "id" : "portgazzz",
-                "alignment" : "goodies",
-                "role" : 
+                "alignment" : "goodies"
             },
             { 
                 "id" : "fizer0",
-                "alignment" : "goodies",
-                "role" : "Horse Knight"
+                "alignment" : "goodies"
             },
             { 
                 "id" : "andromedafun",
-                "alignment" : ,
-                "role" : 
+                "alignment" : "goodies"
             },
             { 
-                "id" : "jedith3",
-                "alignment" : ,
-                "role" : 
+                "id" : "jedith3"
             },
             { 
-                "id" : "asnol2",
-                "alignment" : ,
-                "role" : 
+                "id" : "asnol2"
             },
             { 
-                "id" : "arifauzi92",
-                "alignment" : ,
-                "role" : 
+                "id" : "arifauzi92"
             },
             { 
                 "id" : "pitik.oenyoe",
-                "alignment" : "goodies",
-                "role" : "Villa Pawn"
+                "alignment" : "goodies"
             },
             { 
-                "id" : "sakurasougw",
-                "alignment" : "baddies"
+                "id" : "sakurasougw"
             },
             { 
                 "id" : ".falcongirl.",
-                "alignment" : "goodies",
-                "role" : "Queen of Seer"
+                "alignment" : "goodies"
             },
             { 
                 "id" : "mz.mpiz",
@@ -953,13 +934,14 @@
         ]   
     },
     {
+
         "name" : "Red Riding Hood - Red Moon",
         "link" : "https://kask.us/hIipQ",
         "gm" : "version-9.99",
         "cogm" : "suhendrosl",
         "open" : "19-06-2014 23:13",
         "start" :  "20-06-2014 21:03",
-        "finish" : "",
+        "finish" : "27-06-2014 00:25",
         "won" : "goodies",
         "phases" : [
             {
@@ -1126,6 +1108,165 @@
             { 
                 "id" : "vandi94",
                 "clone" : "renirenireni",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            }
+        ]
+    },
+    {
+        "name" : "Hisashiburi",
+        "link" : "https://kask.us/iyBPW",
+        "gm" : "Solahart",
+        "open" : "10-10-2018 19:10",
+        "start" :  "17-10-2018 21:49",
+        "finish" : "",
+        "won" : "goodies",
+        "phases" : [
+            {
+                "phase" : "D1",
+                "begin" : "17-10-2018 21:49",
+                "dies" : ["mayumi.morinaga"]
+            },
+            {
+                "phase" : "N1",
+                "begin" : "18-10-2018 20:12",
+                "dies" : [".falcongirl."]
+            },
+            {
+                "phase" : "D2",
+                "begin" : "18-10-2018 22:08",
+                "dies" : ["isul.ternoda"]
+            },
+            {
+                "phase" : "N2",
+                "begin" : "19-10-2018 20:00",
+                "dies" : ["RaynaQ"]
+            },
+            {
+                "phase" : "D3",
+                "begin" : "19-10-2018 22:03",
+                "dies" : ["nakapyon", "akhirx.punya.id", "sikaksikaku"]
+            },
+            {
+                "phase" : "N3",
+                "begin" : "20-10-2018 21:21",
+                "dies" : ["leoril", "yosa31", "mdinowumbo"]
+            },
+            {
+                "phase" : "D4",
+                "begin" : "20-10-2018 22:03",
+                "dies" : ["murmurs", "sagarichan"]
+            },
+            {
+                "phase" : "N4",
+                "begin" : "21-10-2018 20:15",
+                "dies" : ["Sherry24"]
+            },
+            {
+                "phase" : "D5",
+                "begin" : "21-10-2018 22:00",
+                "dies" : ["top0502"]
+            }
+        ],
+        "players": [
+            {
+                "id" : "excimer",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "nakapyon",
+                "alignment" : "baddies",
+                "role" : "Alpha"
+            },
+            {
+                "id" : "mayumi.morinaga",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "irfan999999999",
+                "alignment" : "goodies",
+                "role" : "Lover"
+            },
+            {
+                "id" : "leoril",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "isul.ternoda",
+                "alignment" : "baddies",
+                "role" : "Roleblocker"
+            },
+            {
+                "id" : "rafc",
+                "subbed" : "miyarobins",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "mdinowumbo",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "ekliptika",
+                "alignment" : "goodies",
+                "role" : "Tracker"
+            },
+            {
+                "id" : ".falcongirl.",
+                "alignment" : "goodies",
+                "role" : "Hunter"
+            },
+            {
+                "id" : "murmurs",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "RaynaQ",
+                "alignment" : "goodies",
+                "role" : "Guardian Angel"
+            },
+            {
+                "id" : "sagarichan",
+                "alignment" : "goodies",
+                "role" : "Seer"
+            },
+            {
+                "id" : "akhirx.punya.id",
+                "alignment" : "baddies",
+                "role" : "Lone Framer"
+            },
+            {
+                "id" : "fixsilver",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "Yosa31",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "burnoutsyndrome",
+                "alignment" : "goodies",
+                "role" : "Lover"
+            },
+            {
+                "id" : "Sherry24",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            {
+                "id" : "top0502",
+                "alignment" : "baddies",
+                "role" : "Werewolf"
+            },
+            {
+                "id" : "sikaksikaku",
                 "alignment" : "goodies",
                 "role" : "Villager"
             }
