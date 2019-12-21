@@ -97,7 +97,7 @@ Untuk tanya, *request*, kritik dan saran, silahkan hubungi saya via KASKUS maupu
 
 Status   | TWG
 ---------|---------
-[ ]      | [Kutukan Sri dan Gala](https://archive.kaskus.co.id/thread/8765940)
+[x]      | [Kutukan Sri dan Gala](https://archive.kaskus.co.id/thread/8765940)
 [ ]      | [H19N Terror!](http://archive.kaskus.co.id/thread/8972518)
 [ ]      | [Werewolves vs Vampires :::Twilight:::](http://archive.kaskus.co.id/thread/9227137)
 [ ]      | [Massive Attack at Hogwarts](http://archive.kaskus.co.id/thread/9494605)
