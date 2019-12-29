@@ -147,64 +147,59 @@
         "link" : "http://archive.kaskus.co.id/thread/8972518",
         "gm" : "Huzaiv",
         "open" : "05/06/2011 03:59 PM",
-        "start" :  "",
-        "finish" : "",
+        "start" :  "06/06/2011 11:54 AM",
+        "finish" : "16/06/2011 09:09 AM",
         "won" : ["goodies", "neutral"], 
         "phases" : [
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" :"D1",
+                "begin" : "06/06/2011 11:54 AM",
+                "dies" : ["nakasani"]
+            },
+            {   
+                "phase" : "N1",
+                "begin" : "07/06/2011 01:21 PM",
+                "dies" : ["xjocker"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "D2",
+                "begin" : "08/06/2011 12:53 PM",
+                "dies" : ["MissKero"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "N2",
+                "begin" : "09/06/2011 01:05 PM",
+                "dies" : ["Xerotess", "irfan14"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "D3",
+                "begin" : "10/06/2011 12:59 PM",
+                "dies" : ["jagoan_baru"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "N3",
+                "begin" : "11/06/2011 12:58 PM",
+                "dies" : ["00H3nnyCute00", "fix_it", "adit_99"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "D4",
+                "begin" : "12/06/2011 12:20 PM",
+                "dies" : ["Silentvoician"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "N4",
+                "begin" : "13/06/2011 01:41 PM",
+                "dies" : ["rendra_3", "http.", "pushplay"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "D5",
+                "begin" : "14/06/2011 01:19 PM",
+                "dies" : ["xlimitedx"]
             },
             {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
-            },
-            {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
-            },
-            {
-                "phase" : "",
-                "begin" : "",
-                "dies" : [""]
+                "phase" : "N5",
+                "begin" : "15/06/2011 01:10 PM",
+                "dies" : ["FourBrothers"]
             }
         ],
         "players" : [
@@ -265,8 +260,8 @@
             },
             {
                 "id" : "00H3nnyCute00",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },
             {
                 "id" : "FourBrothers",
@@ -340,7 +335,7 @@
         "gm" : "perpendicular",
         "cogm" : "cobaltblue",
         "open" : "21/07/2011 01:00 PM",
-        "start" :  "22/07/2011 03:08 PM ",
+        "start" :  "22/07/2011 03:08 PM",
         "finish" : "",
         "won" : "", 
         "phases" : [
