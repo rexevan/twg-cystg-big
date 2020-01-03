@@ -311,11 +311,213 @@
         "gm" : "lukystar",
         "cogm" : "pasirjengkol",
         "open" : "17/06/2011 11:09 AM",
-        "start" :  "",
+        "start" :  "20/06/2011 10:13 PM",
         "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
+        "won" : "goodies", 
+        "phases" : [
+            {
+                "phase" : "N1",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D1",
+                "begin" : "20/06/2011 10:13 PM",
+                "dies" : []
+            },
+            {
+                "phase" : "N2",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D2",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "N3",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D3",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "N4",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D4",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "N5",
+                "begin" : "",
+                "dies" : ["perpendicular"]
+            },
+            {
+                "phase" : "D5",
+                "begin" : "",
+                "dies" : ["perpendicular"]
+            }
+        ],
+        "players" : [
+            {
+                "id" : "OxySterols",
+                "alignment" : "",
+                "role" : ""
+            },
+            {
+                "id" : "perpendicular",
+                "alignment" : "baddies",
+                "role" : "Vampire"
+            },
+            {
+                "id" : "Xerotess",
+                "alignment" : "",
+                "role" : ""
+            },
+            {
+                "id" : "pushplay",
+                "alignment" : "",
+                "role" : ""
+            },
+            {
+                "id" : "WiryoSableng",
+                "alignment" : "",
+                "role" : ""
+            },
+            {
+                "id" : "xlimitedx",
+                "alignment" : "",
+                "role" : ""
+            },
+            {
+                "id" : "CeKilatoZ",
+                "alignment" : "baddies",
+                "role" : "Alpha"
+            },            
+            {
+                "id" : "00H3nnyCute00",
+                "alignment" : "baddies",
+                "role" : "Dracula"
+            },            
+            {
+                "id" : "MissKero",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "YosoRoso.ver2",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "http.",
+                "alignment" : "baddies",
+                "role" : "Vampire"
+            },            
+            {
+                "id" : "xjocker",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "Huzaiv",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "FourBrothers",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "jagoan_baru",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "6May1997",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "irfan14",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "Empa1",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "unknown.l4w",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "Waika",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "dgr",
+                "alignment" : "goodies",
+                "role" : "Seer"
+            },            
+            {
+                "id" : "descart",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "Grifiest",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "ReNveLaTioNa",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "indosphere",
+                "alignment" : "goodies",
+                "role" : "Priest"
+            },
+            {
+                "id" : "devil7th",
+                "alignment" : "",
+                "role" : ""
+            }, 
+            {
+                "id" : "cobaltblue",
+                "alignment" : "goodies",
+                "role" : "Gypsy"
+            },           
+            {
+                "id" : "Killua68",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "R.1.C",
+                "alignment" : "",
+                "role" : ""
+            },            
+            {
+                "id" : "axeon",
+                "alignment" : "",
+                "role" : ""
+            }
+        ]
     },
     {
         "name" : "Massive Attack at Hogwarts",
