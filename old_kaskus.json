@@ -61,7 +61,7 @@
         ],
         "players" : [
             {
-                "id" : "Irfan14",
+                "id" : "irfan14",
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
@@ -311,66 +311,66 @@
         "gm" : "lukystar",
         "cogm" : "pasirjengkol",
         "open" : "17/06/2011 11:09 AM",
-        "start" :  "20/06/2011 10:13 PM",
-        "finish" : "",
+        "start" :  "19/06/2011 10:08 PM",
+        "finish" : "29/06/2011 10:21 PM",
         "won" : "goodies", 
         "phases" : [
             {
                 "phase" : "N1",
-                "begin" : "",
+                "begin" : "19/06/2011 10:08 PM",
                 "dies" : []
             },
             {
                 "phase" : "D1",
                 "begin" : "20/06/2011 10:13 PM",
-                "dies" : []
+                "dies" : ["00H3nnyCute00"]
             },
             {
                 "phase" : "N2",
-                "begin" : "",
-                "dies" : []
+                "begin" : "21/06/2011 11:46 PM",
+                "dies" : ["Huzaiv"] 
             },
-            {
+            {    
                 "phase" : "D2",
-                "begin" : "",
-                "dies" : []
+                "begin" : "22/06/2011 10:31 PM",
+                "dies" : ["FourBrothers"]
             },
             {
                 "phase" : "N3",
-                "begin" : "",
-                "dies" : []
+                "begin" : "24/06/2011 12:27 AM",
+                "dies" : ["perpendicular", "descart"]
             },
             {
                 "phase" : "D3",
-                "begin" : "",
-                "dies" : []
+                "begin" : "24/06/2011 11:57 PM",
+                "dies" : ["CeKilatoZ"]
             },
             {
                 "phase" : "N4",
-                "begin" : "",
-                "dies" : []
+                "begin" : "25/06/2011 10:54 PM",
+                "dies" : ["http."]
             },
             {
                 "phase" : "D4",
-                "begin" : "",
-                "dies" : []
+                "begin" : "26/06/2011 11:05 PM",
+                "dies" : ["cobaltblue","FourBrothers"]
             },
             {
                 "phase" : "N5",
-                "begin" : "",
-                "dies" : ["perpendicular"]
+                "begin" : "27/06/2011 10:21 PM",
+                "dies" : ["R.1.C"]
             },
             {
                 "phase" : "D5",
-                "begin" : "",
+                "begin" : "28/06/2011 11:21 PM",
                 "dies" : ["perpendicular"]
             }
         ],
         "players" : [
             {
                 "id" : "OxySterols",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },
             {
                 "id" : "perpendicular",
@@ -379,23 +379,18 @@
             },
             {
                 "id" : "Xerotess",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },
             {
                 "id" : "pushplay",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },
             {
                 "id" : "WiryoSableng",
-                "alignment" : "",
-                "role" : ""
-            },
-            {
-                "id" : "xlimitedx",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },
             {
                 "id" : "CeKilatoZ",
@@ -406,17 +401,7 @@
                 "id" : "00H3nnyCute00",
                 "alignment" : "baddies",
                 "role" : "Dracula"
-            },            
-            {
-                "id" : "MissKero",
-                "alignment" : "",
-                "role" : ""
-            },            
-            {
-                "id" : "YosoRoso.ver2",
-                "alignment" : "",
-                "role" : ""
-            },            
+            },                        
             {
                 "id" : "http.",
                 "alignment" : "baddies",
@@ -424,48 +409,38 @@
             },            
             {
                 "id" : "xjocker",
-                "alignment" : "",
-                "role" : ""
-            },            
-            {
-                "id" : "Huzaiv",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "FourBrothers",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Copycat"
             },            
             {
                 "id" : "jagoan_baru",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "6May1997",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "irfan14",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "Empa1",
-                "alignment" : "",
-                "role" : ""
-            },            
-            {
-                "id" : "unknown.l4w",
-                "alignment" : "",
-                "role" : ""
-            },            
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },                        
             {
                 "id" : "Waika",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "dgr",
@@ -474,18 +449,18 @@
             },            
             {
                 "id" : "descart",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Prostitute"
             },            
             {
                 "id" : "Grifiest",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "ReNveLaTioNa",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             },            
             {
                 "id" : "indosphere",
@@ -494,8 +469,8 @@
             },
             {
                 "id" : "devil7th",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
             }, 
             {
                 "id" : "cobaltblue",
@@ -504,18 +479,43 @@
             },           
             {
                 "id" : "Killua68",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },          
+            {
+                "id" : "MissKero",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "xlimitedx",
+                "alignment" : "goodies",
+                "role" : "Mason"
             },            
             {
                 "id" : "R.1.C",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Mason"
             },            
             {
+                "id" : "unknown.l4w",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "Huzaiv",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "YosoRoso.ver2",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
                 "id" : "axeon",
-                "alignment" : "",
-                "role" : ""
+                "alignment" : "goodies",
+                "role" : "Mason"
             }
         ]
     },
@@ -627,8 +627,201 @@
         "start" :  "",
         "finish" : "",
         "won" : "goodies", 
-        "phases" : [],
-        "players" : []
+        "phases" : [
+            {
+                "phase" : "D1",
+                "begin" : "",
+                "dies" : ["keselekpempek", "limit_breaker"]
+            },
+            {
+                "phase" : "N1",
+                "begin" : "",
+                "dies" : ["Myeekodok", "ShadowX"]
+            },
+            {
+                "phase" : "D2",
+                "begin" : "",
+                "dies" : ["rendra_3", "Chemistry.Lover"]
+            },
+            {
+                "phase" : "N2",
+                "begin" : "",
+                "dies" : ["Sacfron"]
+            },
+            {
+                "phase" : "D3",
+                "begin" : "",
+                "dies" : ["leozz"]
+            },
+            {
+                "phase" : "N3",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D4",
+                "begin" : "",
+                "dies" : ["xoleghdoanz"]
+            },
+            {
+                "phase" : "N4",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D5",
+                "begin" : "",
+                "dies" : ["detective1412"]
+            },
+            {
+                "phase" : "N5",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D6",
+                "begin" : "",
+                "dies" : ["ayikridic"]
+            },
+            {
+                "phase" : "N6",
+                "begin" : "",
+                "dies" : ["Priandika", "Priest"]
+            },
+            {
+                "phase" : "D7",
+                "begin" : "",
+                "dies" : ["Jedayiz"]
+            },
+            {
+                "phase" : "N7",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D8",
+                "begin" : "",
+                "dies" : ["Adnnin"]
+            },
+            {
+                "phase" : "N8",
+                "begin" : "",
+                "dies" : []
+            },
+            {
+                "phase" : "D9",
+                "begin" : "",
+                "dies" : ["fanatic406", "CeKilatoZ"]
+            }
+        ],
+        "players" : [
+            {
+                "id" : "",
+                "alignment" : "goodies",
+                "roles" : "Seer"
+            },
+            {
+                "id" : "Chemistry.Lover",
+                "alignment" : "goodies",
+                "roles" : "Hunter"
+            },            
+            {
+                "id" : "Priandika",
+                "alignment" : "goodies",
+                "roles" : "Priest"
+            },            
+            {
+                "id" : "leozz",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "limit_breaker",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "rendra_3",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "CeKilatoZ",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "irfan14",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "Sunburn",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "Ghani1311",
+                "subbed" : "Adnnin",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "ShadowX",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "detective1412",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "xoleghdoanz",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "keselekpempek",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "ayikridic",
+                "alignment" : "goodies",
+                "roles" : "Townie"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "",
+                "roles" : "Townie"
+            },
+            {
+                "id" : "Sacfron",
+                "alignment" : "baddies",
+                "roles" : "Godfather"
+            },            
+            {
+                "id" : "Myeekodok",
+                "alignment" : "baddies",
+                "roles" : "Right Hand"
+            },            
+            {
+                "id" : "fanatic406",
+                "alignment" : "baddies",
+                "roles" : "Oyabun"
+            },            
+            {
+                "id" : "Jedayiz",
+                "alignment" : "baddies",
+                "roles" : "So-Taicho"
+            }
+        ]
     },
     {
         "name" : "Curse of 14th Benizakura",
