@@ -99,7 +99,7 @@ Status   | TWG
 ---------|---------
 [x]      | [Kutukan Sri dan Gala](https://archive.kaskus.co.id/thread/8765940)
 [x]      | [H19N Terror!](http://archive.kaskus.co.id/thread/8972518)
-[ ]      | [Werewolves vs Vampires :::Twilight:::](http://archive.kaskus.co.id/thread/9227137)
+[x]      | [Werewolves vs Vampires :::Twilight:::](http://archive.kaskus.co.id/thread/9227137)
 [ ]      | [Massive Attack at Hogwarts](http://archive.kaskus.co.id/thread/9494605)
 [ ]      | [Calamity of The Hidden Leaf Village](http://archive.kaskus.co.id/thread/9772548)
 [ ]      | [An Infiltration Destinies](http://archive.kaskus.co.id/thread/10108649)
@@ -109,7 +109,7 @@ Status   | TWG
 [ ]      | [Waking The Demon](http://archive.kaskus.co.id/thread/11118743)
 [ ]      | [Celestia](http://archive.kaskus.co.id/thread/11421415)
 [ ]      | [Van Helsing](http://archive.kaskus.co.id/thread/11759074)
-[ ]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
+[x]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
 [ ]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
 [ ]      | [The Dark Knight](http://archive.kaskus.co.id/thread/13708071)
 [ ]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
@@ -153,3 +153,6 @@ Status   | TWG
 [ ]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
 [ ]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
 [x]      | [Hisashiburi](https://kask.us/iyBPW)
+
+
+	

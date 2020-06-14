@@ -624,202 +624,227 @@
         "link" : "http://archive.kaskus.co.id/thread/12356185",
         "gm" : "egao.aya18",
         "open" : "04/01/2012 06:40 PM",
-        "start" :  "",
-        "finish" : "",
+        "start" :  "06/01/2012 06:10 AM",
+        "finish" : "23/01/2012 04:54 PM",
         "won" : "goodies", 
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "",
+                "begin" : "06/01/2012 06:10 AM",
                 "dies" : ["keselekpempek", "limit_breaker"]
             },
             {
                 "phase" : "N1",
-                "begin" : "",
+                "begin" : "06/01/2012 10:23 PM",
                 "dies" : ["Myeekodok", "ShadowX"]
             },
             {
                 "phase" : "D2",
-                "begin" : "",
-                "dies" : ["rendra_3", "Chemistry.Lover"]
+                "begin" : "07/01/2012 10:31 PM",
+                "dies" : ["rendra_3", "Sunburn", "Chemistry.Lover"]
             },
             {
                 "phase" : "N2",
-                "begin" : "",
+                "begin" : "08/01/2012 10:25 PM",
                 "dies" : ["Sacfron"]
             },
             {
                 "phase" : "D3",
-                "begin" : "",
+                "begin" : "10/01/2012 05:17 AM",
                 "dies" : ["leozz"]
             },
             {
                 "phase" : "N3",
-                "begin" : "",
+                "begin" : "10/01/2012 10:42 PM",
                 "dies" : []
             },
             {
                 "phase" : "D4",
-                "begin" : "",
+                "begin" : "11/01/2012 10:26 PM",
                 "dies" : ["xoleghdoanz"]
             },
             {
                 "phase" : "N4",
-                "begin" : "",
+                "begin" : "13/01/2012 09:36 AM",
                 "dies" : []
             },
             {
                 "phase" : "D5",
-                "begin" : "",
+                "begin" : "13/01/2012 10:23 PM",
                 "dies" : ["detective1412"]
             },
             {
                 "phase" : "N5",
-                "begin" : "",
+                "begin" : "14/01/2012 10:35 PM",
                 "dies" : []
             },
             {
                 "phase" : "D6",
-                "begin" : "",
+                "begin" : "15/01/2012 10:00 PM",
                 "dies" : ["ayikridic"]
             },
             {
                 "phase" : "N6",
-                "begin" : "",
-                "dies" : ["Priandika", "Priest"]
+                "begin" : "16/01/2012 10:10 PM",
+                "dies" : ["Priandika", "Irfan14"]
             },
             {
                 "phase" : "D7",
-                "begin" : "",
+                "begin" : "17/01/2012 10:08 PM",
                 "dies" : ["Jedayiz"]
             },
             {
                 "phase" : "N7",
-                "begin" : "",
+                "begin" : "18/01/2012 10:03 PM",
                 "dies" : []
             },
             {
                 "phase" : "D8",
-                "begin" : "",
+                "begin" : "20/01/2012 05:09 AM",
                 "dies" : ["Adnnin"]
             },
             {
                 "phase" : "N8",
-                "begin" : "",
+                "begin" : "21/01/2012 09:01 AM",
                 "dies" : []
             },
             {
                 "phase" : "D9",
-                "begin" : "",
+                "begin" : "21/01/2012 10:16 PM",
                 "dies" : ["fanatic406", "CeKilatoZ"]
+            },
+            {
+                "phase" : "N9",
+                "begin" : "22/01/2012 10:14 PM",
+                "dies" : ["fanatic406"]
             }
         ],
-        "players" : [
+        "players" : [          
             {
-                "id" : "",
-                "alignment" : "goodies",
-                "roles" : "Seer"
-            },
-            {
-                "id" : "Chemistry.Lover",
-                "alignment" : "goodies",
-                "roles" : "Hunter"
-            },            
-            {
-                "id" : "Priandika",
-                "alignment" : "goodies",
-                "roles" : "Priest"
-            },            
-            {
-                "id" : "leozz",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "limit_breaker",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "rendra_3",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "CeKilatoZ",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "irfan14",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "Sunburn",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "Ghani1311",
-                "subbed" : "Adnnin",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "ShadowX",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "detective1412",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "",
-                "alignment" : "goodies",
-                "roles" : "Townie"
+                "id" : "fanatic406",
+                "alignment" : "baddies",
+                "role" : "Oyabun"
             },
             {
                 "id" : "xoleghdoanz",
-                "alignment" : "goodies",
-                "roles" : "Townie"
+                "alignment" : "baddies",
+                "role" : "So-Taicho"
             },
             {
-                "id" : "keselekpempek",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "id" : "ayikridic",
-                "alignment" : "goodies",
-                "roles" : "Townie"
-            },
-            {
-                "alignment" : "goodies",
-                "id" : "",
-                "roles" : "Townie"
+                "id" : "detective1412",
+                "alignment" : "baddies",
+                "role" : "Townie",
+                "trait" : "Watcher"
             },
             {
                 "id" : "Sacfron",
                 "alignment" : "baddies",
-                "roles" : "Godfather"
+                "role" : "Godfather"
             },            
             {
                 "id" : "Myeekodok",
                 "alignment" : "baddies",
-                "roles" : "Right Hand"
-            },            
+                "role" : "Right Hand"
+            },
             {
-                "id" : "fanatic406",
+                "id" : "Sunburn",
                 "alignment" : "baddies",
-                "roles" : "Oyabun"
-            },            
+                "role" : "Mafia"
+            },
             {
                 "id" : "Jedayiz",
-                "alignment" : "baddies",
-                "roles" : "So-Taicho"
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Stalker"
+            },
+            {
+                "id" : "Chemistry.Lover",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Hunter"
+            },            
+            {
+                "id" : "Priandika",
+                "alignment" : "goodies",
+                "role" : "Priest"
+            },            
+            {
+                "id" : "leozz",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Drunker",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "limit_breaker",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Amnestic",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "rendra_3",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Bomber",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "CeKilatoZ",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Drunker",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "irfan14",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Gunsmith",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "Adnnin",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Fool"
+            },
+            {
+                "id" : "ShadowX",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Double Agent"
+            },
+            {
+                "id" : "anugia",
+                "alignment" : "goodies",
+                "role" : "Secret Agent"
+            },
+            {
+                "id" : "keselekpempek",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Bomber"
+            },  
+            {
+                "id" : "ayikridic",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Santo",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "andika.pradana",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Watcher",
+                "sectrait" : "Faith"
+            },
+            {
+                "id" : "FourBrothers",
+                "alignment" : "goodies",
+                "role" : "Townie",
+                "trait" : "Innocent"
             }
         ]
     },
