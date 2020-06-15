@@ -853,11 +853,211 @@
         "link" : "http://archive.kaskus.co.id/thread/13091781",
         "gm" : "Leehan666",
         "open" : "14/02/2012 08:56 PM",
-        "start" :  "",
-        "finish" : "",
-        "won" : "", 
-        "phases" : [],
-        "players" : []
+        "start" :  "16/02/2012 09:01 PM",
+        "finish" : "29/02/2012 09:05 PM",
+        "won" : "goodies", 
+        "phases" : [
+            {
+                "phase" : "D1",
+                "begin" : "16/02/2012 09:01 PM",
+                "dies" : ["sacfron"]
+            },
+            {
+                "phase" : "N1",
+                "begin" : "17/02/2012 09:59 PM",
+                "dies" : ["SerPiero"]
+            },
+            {
+                "phase" : "D2",
+                "begin" : "18/02/2012 10:17 PM",
+                "dies" : ["sygkm"]
+            },
+            {
+                "phase" : "N2",
+                "begin" : "19/02/2012 09:33 PM",
+                "dies" : ["YosoRoso", "jedayiz"]
+            },
+            {
+                "phase" : "D3",
+                "begin" : "20/02/2012 12:56 AM",
+                "dies" : ["fanatic406"]
+            },
+            {
+                "phase" : "N3",
+                "begin" : "20/02/2012 09:02 PM",
+                "dies" : []
+            },
+            {
+                "phase" : "D4",
+                "begin" : "21/02/2012 09:12 PM",
+                "dies" : ["leozz"]
+            },
+            {
+                "phase" : "N4",
+                "begin" : "22/02/2012 09:10 PM",
+                "dies" : ["CeKilatoZ", "DropItOut", "Taurus.175"]
+            },
+            {
+                "phase" : "D5",
+                "begin" : "23/02/2012 09:24 PM",
+                "dies" : ["Eus"]
+            },
+            {
+                "phase" : "N5",
+                "begin" : "24/02/2012 09:04 PM",
+                "dies" : ["jackdaws", "Nalluka"]
+            },
+            {
+                "phase" : "D6",
+                "begin" : "25/02/2012 09:19 PM",
+                "dies" : ["beezelbug", "GoNdoRukem"]
+            },
+            {
+                "phase" : "N6",
+                "begin" : "26/02/2012 09:29 PM",
+                "dies" : ["killv"]
+            },
+            {
+                "phase" : "D7",
+                "begin" : "27/02/2012 09:14 PM",
+                "dies" : ["baudjaya"]
+            },
+            {
+                "phase" : "N7",
+                "begin" : "28/02/2012 09:32 PM",
+                "dies" : ["grifiest"]
+            }
+        ],
+        "players" : [
+            {
+                "id" : "sygkm",
+                "alignment" : "baddies",
+                "role" : "Lone Wolf"
+            },
+            {
+                "id" : "Eus",
+                "alignment" : "goodies",
+                "role" : "Watcher"
+            },
+            {
+                "id" : "adnnin",
+                "mvp" : true,
+                "alignment" : "goodies",
+                "role" : "Paranoid Cop"
+            },
+            {
+                "id" : "fanatic406",
+                "alignment" : "goodies",
+                "role" : "Innocent"
+            },
+            {
+                "id" : "sacfron",
+                "mvp" : true,
+                "alignment" : "goodies",
+                "role" : "Paranoid Cop"
+            },
+            {
+                "id" : "YosoRoso",
+                "alignment" : "goodies",
+                "role" : "Twins"
+            },
+            {
+                "id" : "keselekpempek",
+                "alignment" : "goodies",
+                "role" : "Guardian Angel"
+            },
+            {
+                "id" : "jedayiz",
+                "alignment" : "goodies",
+                "role" : "Twins"
+            },
+            {
+                "id" : "rendra 3",
+                "alignment" : "neutral",
+                "role" : "Granny"
+            },
+            {
+                "id" : "GoNdoRukem",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "CeKilatoZ",
+                "alignment" : "goodies",
+                "role" : "Insane Cop"
+            },
+            {
+                "id" : "leozz",
+                "alignment" : "baddies",
+                "role" : "Driver"
+            },
+            {
+                "id" : "beezelbug",
+                "alignment" : "goodies",
+                "role" : "Hooker"
+            },
+            {
+                "id" : "jackdaws",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "andra_ub17",
+                "alignment" : "goodies",
+                "role" : "Paranoid Cop"
+            },
+            {
+                "id" : "Nalluka",
+                "alignment" : "goodies",
+                "role" : "Naive Cop"
+            },
+            {
+                "id" : "killv",
+                "alignment" : "goodies",
+                "role" : "Naive Cop"
+            },
+            {
+                "id" : "Taurus.175",
+                "alignment" : "goodies",
+                "role" : "Drunker"
+            },
+            {
+                "id" : "WereborG",
+                "alignment" : "goodies",
+                "role" : "Fool"
+            },
+            {
+                "id" : "grifiest",
+                "mvp" : true,
+                "alignment" : "baddies",
+                "role" : "Framer"
+            },
+            {
+                "id" : "baudjaya",
+                "alignment" : "baddies",
+                "role" : "Traitor"
+            },
+            {
+                "id" : "SerPiero",
+                "alignment" : "goodies",
+                "role" : "Mason"
+            },
+            {
+                "id" : "temenx",
+                "alignment" : "goodies",
+                "role" : "Naive Cop"
+            },
+            {
+                "id" : "felix.felicis",
+                "alignment" : "goodies",
+                "role" : "Hunter"
+            },
+            {
+                "id" : "DropItOut",
+                "alignment" : "goodies",
+                "role" : "Real Cop"
+            }
+        ]
     },
     {
         "name" : "The Dark Knight",
