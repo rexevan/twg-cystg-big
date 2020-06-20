@@ -1,3 +1,9 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
+
 # TWG BIG CYSTG Database
 
 ## Pendahuluan
@@ -31,13 +37,33 @@ won         | Aligment yang memenangkan permainan (goodies, baddies, neutral).
 phases      | Informasi mengenai fase seperti waktu dimulainya suatu fase dan pemain yang mati / *dead* pada akhir fase tersebut.
 players     | Informasi mengenai pemain seperti *aligment*, *role*, status MVP, dan pemain cadangan (jika pemain bersangkutan digantikan oleh pemain cadangan)
 
+### phase
+
+Variabel | Deskripsi
+---------|---------
+phase | fase (Day 1, Night 1, dst.)
+end | waktu berakhirnya suatu fase, biasanya ini juga menunjukkan waktu dimulainya fase berikutnya.
+subsitutions | pergantian pemain yang terjadi pada fase tersebut
+subout | id pemain yang digantikan
+subin | id pemain yang menggantikan
+dies | pemain yang mati pada akhir fase
+
+### players
+
+Variabel | Deskripsi
+---------|---------
+id | merujuk kepada pemain TWG yang sedang berlangsung
+mvp | status pemain sebagai *Most Valuable Player*
+aligment | aligmet pemain (goodies, baddies, neutral)
+role | peran pemain 
+Realid | id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimainkan adalah **fullclone**.
 
 Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Notation).
 Bentuk ini dipilih mengingat bentuk informasi yang *nested*.
 Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indonesia Merdeka](https://kask.us/h53gF).
 
 ```
-    {
+{
         "name" : "Menuju Indonesia Merdeka",
         "link" : "https://kask.us/h53gF",
         "gm" : "jedith3",
@@ -49,19 +75,19 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "20-08-2015 06:39",
+                "end" : "21-08-2015 20:39",
                 "dies"  : ["ADITMILANISTI"]
             },
             {
                 "phase" : "N1",
-                "begin" : "21-08-2015 20:39",
+                "end" : "22-08-2015 21:11",
+                "subsitutions" : [
+                    {"subout" : "unqsn","subin" : "terigucampurair"},
+                    {"subout" : "portgazzz","subin" : "nalfiadi"}
+                ],
                 "dies"  : ["xemp.phax", "terigucampurair", "11sphere92", "reinforcedboy"]
             },
-            {
-                "phase" : "D2",
-                "begin" : "22-08-2015 21:11",
-                "dies"  : ["helium.rusak"]
-            }
+    ....
         ],
         "players" : [
             { 
@@ -74,17 +100,9 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
-            { 
-                "id" : "tmofer.mashiro",
-                "alignment" : "baddies",
-                "role" : "Werewolf",
-                "MVP" : true
-            }
-        ....
         ]
-    },
+ }
 
-    
 ```
 
 Terdapat 2 file penyimpanan, yaitu `new_kaskus.json` untuk TWG yang masih dapat diakses kaskus sekarnag (belum masuk arsip KASKUS) dan `old_kaskus.json` untuk TWG yang telah masuk arsip KASKUS.
@@ -110,7 +128,7 @@ Status   | TWG
 [ ]      | [Celestia](http://archive.kaskus.co.id/thread/11421415)
 [ ]      | [Van Helsing](http://archive.kaskus.co.id/thread/11759074)
 [x]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
-[ ]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
+[x]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
 [ ]      | [The Dark Knight](http://archive.kaskus.co.id/thread/13708071)
 [ ]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
 [ ]      | [Tales of Minakami Village](http://archive.kaskus.co.id/thread/15359906)
@@ -153,6 +171,3 @@ Status   | TWG
 [ ]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
 [ ]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
 [x]      | [Hisashiburi](https://kask.us/iyBPW)
-
-
-	

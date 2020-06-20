@@ -11,57 +11,61 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "20-08-2015 06:39",
+                "end" : "21-08-2015 20:39",
                 "dies"  : ["ADITMILANISTI"]
             },
             {
                 "phase" : "N1",
-                "begin" : "21-08-2015 20:39",
+                "end" : "22-08-2015 21:11",
+                "subsitutions" : [
+                    {"subout" : "unqsn","subin" : "terigucampurair"},
+                    {"subout" : "portgazzz","subin" : "nalfiadi"}
+                ],
                 "dies"  : ["xemp.phax", "terigucampurair", "11sphere92", "reinforcedboy"]
             },
             {
                 "phase" : "D2",
-                "begin" : "22-08-2015 21:11",
+                "end" : "23-08-2015 20:40",
                 "dies"  : ["helium.rusak"]
             },
             {
                 "phase" : "N2",
-                "begin" : "23-08-2015 20:40",
+                "end" : "24-08-2015 20:24",
                 "dies"  : [".falcongirl."]
             },
             {
                 "phase" : "D3",
-                "begin" : "24-08-2015 20:24",
+                "end" : "25-08-2015 20:54",
                 "dies"  : ["owlsmile", "sallamx28"]
             },
             {
                 "phase" : "N3",
-                "begin" : "25-08-2015 20:54",
+                "end" : "26-08-2015 20:54",
                 "dies"  : ["anon009"]
             },
             {
                 "phase" : "D4",
-                "begin" : "26-08-2015 20:54",
+                "end" : "27-08-2015 19:23",
                 "dies"  : ["akhirx.punya.id"]
             },
             {
                 "phase" : "N4",
-                "begin" : "27-08-2015 19:23",
+                "end" : "27-08-2015 21:37",
                 "dies"  : ["hunterismyname"]
             },
             {
                 "phase" : "D5",
-                "begin" : "27-08-2015 21:37",
+                "end" : "28-08-2015 19:19",
                 "dies"  : ["kantongerz"]
             },
             {
                 "phase" : "N5",
-                "begin" : "28-08-2015 19:19",
+                "end" : "28-08-2015 21:10",
                 "dies"  : ["Sherry24", "2nd.zett"]
             },
             {
                 "phase" : "D6",
-                "begin" : "28-08-2015 21:10",
+                "end" : "29-08-2015 19:20",
                 "dies"  : ["tmofer.mashiro", "Mr.Avalanche"]
             }
         ],
@@ -187,67 +191,67 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "09-05-2013 21:09",
+                "end" : "10-05-2013 22:19",
                 "dies"  : ["Leehan666"]
             },
             {
                 "phase" : "N1",
-                "begin" : "10-05-2013 22:19",
+                "end" : "11-05-2013 22:32",
                 "dies"  : ["keselekpempek","version-9.99"]
             },
             {
                 "phase" : "D2",
-                "begin" : "11-05-2013 22:32",
+                "end" : "13-05-2013 12:14",
                 "dies"  : ["qoonjooq", "loganmiles"]
             },
             {
                 "phase" : "N2",
-                "begin" : "13-05-2013 12:14",
+                "end" : "13-05-2013 22:26",
                 "dies"  : ["nileajah", "bagazth", "violetpeach"]
             },
             {
                 "phase" : "D3",
-                "begin" : "13-05-2013 22:26",
+                "end" : "14-05-2013 22:32",
                 "dies"  : ["xXCardCaptorXx"]
             },
             {
                 "phase" : "N3",
-                "begin" : "14-05-2013 22:32",
+                "end" : "15-05-2013 22:06",
                 "dies"  : ["adnnin", "Ryojacko"]
             },
             {
                 "phase" : "D4",
-                "begin" : "15-05-2013 22:06",
+                "end" : "16-05-2013 22:24",
                 "dies"  : ["DustChain", "kapitanvic", "shakato"]
             },
             {
                 "phase" : "N4",
-                "begin" : "16-05-2013 22:24",
+                "end" : "17-05-2013 14:00",
                 "dies"  : ["Liong33"]
             },
             {
                 "phase" : "D5",
-                "begin" : "17-05-2013 14:00",
+                "end" : "17-05-2013 22:00",
                 "dies"  : ["rena97"]
             },
             {
                 "phase" : "N5",
-                "begin" : "17-05-2013 22:00",
+                "end" : "18-05-2013 12:01",
                 "dies"  : ["cresthofan"]
             },
             {
                 "phase" : "D6",
-                "begin" : "18-05-2013 12:01",
+                "end" : "18-05-2013 22:18",
                 "dies"  : ["tmofer.mashiro"]
             },
             {
                 "phase" : "N6",
-                "begin" : "18-05-2013 22:18",
+                "end" : "19-05-2013 12:01",
                 "dies"  : ["Xerotess"]
             },
             {
                 "phase" : "D7",
-                "begin" : "19-05-2013 12:01",
+                "end" : "19-05-2013 22:03",
                 "dies"  : ["steve90"]
             }
         ],
@@ -404,102 +408,102 @@
         "cogm" : "perpendicular",
         "open" : "14-01-2014 20:49",
         "start" :  "19-01-2014 11:29",
-        "finish" : "",
+        "finish" : "06-02-2014 22:00",
         "won" : "goodies", 
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "19-01-2014 11:29",
+                "end" : "20-01-2014 21:28",
                 "dies"  : ["vandi94"]
             },
             {
                 "phase" : "N1",
-                "begin" : "20-01-2014 21:28",
+                "end" : "21-01-2014 21:34",
                 "dies"  : ["indosphere", "sacfron"]
             },
             {
                 "phase" : "D2",
-                "begin" : "21-01-2014 21:34",
+                "end" : "22-01-2014 22:25",
                 "dies"  : ["Dustchain"]
             },
             {
                 "phase" : "N2",
-                "begin" : "22-01-2014 22:25",
+                "end" : "23-01-2014 21:07",
                 "dies"  : ["nileajah"]
             },
             {
                 "phase" : "D3",
-                "begin" : "23-01-2014 21:07 ",
+                "end" : "24-01-2014 21:34",
                 "dies"  : ["version-9.99"]
             },
             {
                 "phase" : "N3",
-                "begin" : "24-01-2014 21:34",
+                "end" : "25-01-2014 21:31",
                 "dies"  : ["thesuperbejo"]
             },
             {
                 "phase" : "D4",
-                "begin" : "25-01-2014 21:31",
+                "end" : "27-01-2014 21:12",
                 "dies"  : ["ezio18"]
             },
             {
                 "phase" : "N4",
-                "begin" : "27-01-2014 21:12",
+                "end" : "27-01-2014 21:13",
                 "dies"  : []
             },
             {
                 "phase" : "D5",
-                "begin" : "27-01-2014 21:13",
+                "end" : "28-01-2014 21:21",
                 "dies"  : ["Liong33"]
             },
             {
                 "phase" : "N5",
-                "begin" : "28-01-2014 21:21",
+                "end" : "29-01-2014 21:05",
                 "dies"  : ["00H3nnyCute00", "trian12"]
             },
             {
                 "phase" : "D6",
-                "begin" : "29-01-2014 21:05",
+                "end" : "30-01-2014 21:05",
                 "dies"  : ["alvinsucita"]
             },
             {
                 "phase" : "N6",
-                "begin" : "30-01-2014 21:05",
+                "end" : "31-01-2014 22:39",
                 "dies"  : ["SchyZeR"]
             },
             {
                 "phase" : "D7",
-                "begin" : "31-01-2014 22:39",
+                "end" : "01-02-2014 22:56",
                 "dies"  : ["flaveo1"]
             },
             {
                 "phase" : "N7",
-                "begin" : "01-02-2014 22:56",
+                "end" : "02-02-2014 21:31",
                 "dies"  : ["berubo18"]
             },
             {
                 "phase" : "D8",
-                "begin" : "02-02-2014 21:31",
+                "end" : "04-02-2014 09:11",
                 "dies"  : ["Auditore", "loganmiles"]
             },
             {
                 "phase" : "N8",
-                "begin" : "04-02-2014 09:11",
+                "end" : "04-02-2014 21:32",
                 "dies"  : ["CloudyTama"]
             },
             {
                 "phase" : "D9",
-                "begin" : "04-02-2014 21:32",
+                "end" : "05-02-2014 21:12",
                 "dies"  : []
             },
             {
                 "phase" : "N9",
-                "begin" : "05-02-2014 21:12",
+                "end" : "06-02-2014 09:13",
                 "dies"  : []
             },
             {
                 "phase" : "D10",
-                "begin" : "06-02-2014 09:13",
+                "end" : "06-02-2014 22:00",
                 "dies"  : ["Mr.Avalanche"]
             }
         ],
@@ -630,67 +634,67 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "11-08-2014 19:13",
+                "end" : "14-08-2014 21:20",
                 "dies"  : ["enz10"]
             },
             {
                 "phase" : "N1",
-                "begin" : "14-08-2014 21:20",
+                "end" : "15-08-2014 21:09",
                 "dies"  : ["noelblulub"]
             },
             {
                 "phase" : "D2",
-                "begin" : "15-08-2014 21:09",
+                "end" : "16-08-2014 20:38",
                 "dies"  : ["nalfiadi"]
             },
             {
                 "phase" : "N2",
-                "begin" : "16-08-2014 20:38",
+                "end" : "17-08-2014 20:28",
                 "dies"  : ["Arfour"]
             },
             {
                 "phase" : "D3",
-                "begin" : "17-08-2014 20:28",
+                "end" : "18-08-2014 20:13",
                 "dies"  : ["fahape"]
             },
             {
                 "phase" : "N3",
-                "begin" : "18-08-2014 20:13",
+                "end" : "19-08-2014 20:32",
                 "dies"  : ["vickermond", "RaynaQ"]
             },
             {
                 "phase" : "D4",
-                "begin" : "19-08-2014 20:32",
+                "end" : "20-08-2014 20:51",
                 "dies"  : ["grifiest"]
             },
             {
                 "phase" : "N4",
-                "begin" : "20-08-2014 20:51",
+                "end" : "21-08-2014 20:54",
                 "dies"  : ["vandi94"]
             },
             {
                 "phase" : "D5",
-                "begin" : "21-08-2014 20:54",
+                "end" : " 22-08-2014 20:17",
                 "dies"  : ["CrazyUya"]
             },
             {
                 "phase" : "N5",
-                "begin" : " 22-08-2014 20:17",
+                "end" : "23-08-2014 21:14",
                 "dies"  : ["red.katsuragi"]
             },
             {
                 "phase" : "D6",
-                "begin" : "23-08-2014 21:14",
+                "end" : "24-08-2014 20:53",
                 "dies"  : ["dgr"]
             },
             {
                 "phase" : "N6",
-                "begin" : "24-08-2014 20:53",
+                "end" : "25-08-2014 20:52",
                 "dies"  : ["fizer0"]
             },
             {
                 "phase" : "D7",
-                "begin" : "25-08-2014 20:52",
+                "end" : "27-08-2014 18:27",
                 "dies"  : ["asnol2"]
             }
         ],
@@ -804,57 +808,57 @@
         "cogm" : "andika.pradana",
         "open" : "20-11-2014 10:01",
         "start" : "08-12-2014 08:28",
-        "finish" : "16-12-2014 23:50",
+        "finish" : "17-12-2014 22:15",
         "won" : "baddies", 
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "08-12-2014 08:28",
+                "end" : "08-12-2014 22:02",
                 "dies"  : ["fizer0"]
             },
             {
                 "phase" : "N1",
-                "begin" : "08-12-2014 22:02",
+                "end" : "09-12-2014 22:19",
                 "dies"  : ["momochi26"]
             },
             {
                 "phase" : "D2",
-                "begin" : "09-12-2014 22:19",
+                "end" : "10-12-2014 22:16",
                 "dies"  : ["milennium2000"]
             },
             {
                 "phase" : "N2",
-                "begin" : "10-12-2014 22:16",
+                "end" : "11-12-2014 22:11",
                 "dies"  : ["pitik.oenyoe"]
             },
             {
                 "phase" : "D3",
-                "begin" : "11-12-2014 22:11",
+                "end" : "12-12-2014 22:55",
                 "dies"  : ["1St.ZeTT"]
             },
             {
                 "phase" : "N3",
-                "begin" : "12-12-2014 22:55",
+                "end" : "13-12-2014 22:12",
                 "dies"  : ["Faridasta", "jedith3"]
             },
             {
                 "phase" : "D4",
-                "begin" : "13-12-2014 22:12",
+                "end" : "14-12-2014 21:55",
                 "dies"  : ["Dzboy"]
             },
             {
                 "phase" : "N4",
-                "begin" : "14-12-2014 21:55",
+                "end" : "15-12-2014 22:24",
                 "dies"  : [".falcongirl."]
             },
             {
                 "phase" : "D5",
-                "begin" : "15-12-2014 22:24",
+                "end" : "16-12-2014 23:50",
                 "dies"  : ["andromedafun", "fahape"]
             },
             {
                 "phase" : "N5",
-                "begin" : "16-12-2014 23:50",
+                "finish" : "17-12-2014 22:15",
                 "dies"  : ["gamemaster123"]
             }
         ],
@@ -934,7 +938,6 @@
         ]   
     },
     {
-
         "name" : "Red Riding Hood - Red Moon",
         "link" : "https://kask.us/hIipQ",
         "gm" : "version-9.99",
@@ -943,171 +946,190 @@
         "start" :  "20-06-2014 21:03",
         "finish" : "27-06-2014 00:25",
         "won" : "goodies",
+        "fullclone" : true,
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "20-06-2014 21:03",
-                "dies"  : ["CloudyTama"]
+                "end"   : "21-06-2014 21:42",
+                "dies"  : ["shirayuri"]
             },
             {
                 "phase" : "N1",
-                "begin" : "21-06-2014 21:42",
-                "dies"  : ["riki.rawfan"]
+                "end"   : "22-06-2014 04:19",
+                "dies"  : ["arfour"]
             },
             {
                 "phase" : "D2",
-                "begin" : "22-06-2014 04:19",
-                "dies"  : ["the.strategist"]
+                "end"   : "22-06-2014 22:00",
+                "dies"  : ["Myeeaouw"]
             },
             {
                 "phase" : "N2",
-                "begin" : "22-06-2014 22:00",
-                "dies"  : ["rifQudo", "andromedafun"]
+                "end"   : "23-06-2014 06:46",
+                "dies"  : ["2nd.Zett", "e17.desktop"]
             },
             {
                 "phase" : "D3",
-                "begin" : "23-06-2014 06:46",
-                "dies"  : ["Myeekodok"]
+                "end"   : "23-06-2014 21:16",
+                "dies"  : ["young.azrael"]
             },
             {
                 "phase" : "N3",
-                "begin" : "23-06-2014 21:16",
-                "dies"  : ["enz10"]
+                "end"   : "24-06-2014 06:41",
+                "dies"  : ["greenvespa"]
             },
             {
                 "phase" : "D4",
-                "begin" : "24-06-2014 06:41",
-                "dies"  : ["lee.kwang.sooo"]
+                "end"   : "24-06-2014 21:16",
+                "dies"  : ["rojopurwo"]
             },
             {
                 "phase" : "N4",
-                "begin" : "24-06-2014 21:16",
-                "dies"  : ["nileajah"]
+                "end"   : "25-06-2014 06:53",
+                "dies"  : ["mafiatwg"]
             },
             {
                 "phase" : "D5",
-                "begin" : "25-06-2014 06:53",
-                "dies"  : ["berubo18"]
+                "end"   : "25-06-2014 21:16",
+                "dies"  : ["apha.ajha.bhole"]
             },
             {
                 "phase" : "N5",
-                "begin" : "25-06-2014 21:16",
-                "dies"  : ["SchyZeR"]
+                "end" : " 26-06-2014 07:16",
+                "dies"  : ["id.gelap"]
             },
             {
                 "phase" : "D6",
-                "begin" : "26-06-2014 07:16",
-                "dies"  : ["arifauzi92"]
+                "end"   : "26-06-2014 21:19",
+                "dies"  : ["sarkhopagus"]
             },
             {
                 "phase" : "N6",
-                "begin" : "26-06-2014 21:19",
-                "dies"  : []
+                "end"   : "27-06-2014 00:25",
+                "dies"  : ["sutradara", "scream", "temenx"]
             }
         ],
         "players" : [
             { 
-                "id" : "arifauzi92",
+                "id" : "sarkophagus",
+                "realid" : "arifauzi92",
                 "alignment" : "baddies",
                 "role" : "Werewolf"
             },
             { 
-                "id" : "enz10", 
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "rifQudo", 
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "noelblulub", 
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "nileajah",
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "RaynaQ", 
+                "id" : "the.scream",
+                "realid" : "RaynaQ",
                 "mvp" : true,
                 "alignment" : "baddies",
                 "role" : "Werewolf"
             },
             { 
-                "id" : "the.strategist",
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "aditkw", 
+                "id" : "temenx",
+                "realid" : "aditkw",
                 "alignment" : "baddies",
                 "role" : "Werewolf"
             },
             { 
-                "id" : "CrazyUya",
-                "alignment" : "goodies",
-                "role" : "Villager" 
-            },
-            { 
-                "id" : "riki.rawfan",
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "trian12",
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
-            { 
-                "id" : "nalfiadi",
+                "id" : "tv.director",
+                "realid" : "nalfiadi",
                 "alignment" : "baddies",
-                "role" : "Werewolf"
+                "role" : "Werewolf" 
             },
             { 
-                "id" : "lee.kwang.sooo",
+                "id" : "greenvespa",
+                "realid" : "enz10",
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "SchyZeR",
+                "id" : "2nd.zett",
+                "realid" : "rifQudo",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "Caramelz.18",
+                "realid" : "noelblulub",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "mafiatwg",
+                "realid" : "nileajah",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "myeeaouw",
+                "realid" : "the.strategist",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "Nalukka",
+                "realid" : "CrazyUya",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "arfour",
+                "realid" : "riki.rawfan",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "eyangkabur",
+                "alignment" : "goodies",
+                "realid" : "trian12",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "rojopurwo",
+                "realid" : "lee.kwang.sooo",
+                "alignment" : "goodies",
+                "role" : "Villager"
+            },
+            { 
+                "id" : "id.gelap",
+                "realid" : "SchyZeR",
                 "mvp" : true,
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "andromedafun",
+                "id" : "e17.desktop",
+                "realid" : "andromedafun",
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "berubo18",
+                "id" : "apha.ajha.bhole",
+                "realid" : "berubo18",
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "Myeekodok",
+                "id" : "young.azrael",
+                "realid" : "Myeekodok",
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "Mr.Avalanche",
+                "id" : "v4lk",
+                "realid" : "Mr.Avalance",
                 "mvp" : true,
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "CloudyTama",
-                "clone" : "shirayuri",
+                "id" : "shirayuri",
+                "realid" : "CloudyTama", 
                 "alignment" : "goodies",
                 "role" : "Villager"
             },
             { 
-                "id" : "vandi94",
-                "clone" : "renirenireni",
+                "id" : "renirenireni",
+                "realid" : "vandi",  
                 "alignment" : "goodies",
                 "role" : "Villager"
             }
@@ -1119,52 +1141,52 @@
         "gm" : "Solahart",
         "open" : "10-10-2018 19:10",
         "start" :  "17-10-2018 21:49",
-        "finish" : "",
+        "finish" : "22-10-2018 20:11",
         "won" : "goodies",
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "17-10-2018 21:49",
+                "end" : "18-10-2018 20:12",
                 "dies" : ["mayumi.morinaga"]
             },
             {
                 "phase" : "N1",
-                "begin" : "18-10-2018 20:12",
+                "end" : "18-10-2018 22:08",
                 "dies" : [".falcongirl."]
             },
             {
                 "phase" : "D2",
-                "begin" : "18-10-2018 22:08",
+                "end" : "19-10-2018 20:00",
                 "dies" : ["isul.ternoda"]
             },
             {
                 "phase" : "N2",
-                "begin" : "19-10-2018 20:00",
+                "end" : "19-10-2018 22:03",
                 "dies" : ["RaynaQ"]
             },
             {
                 "phase" : "D3",
-                "begin" : "19-10-2018 22:03",
+                "end" : "20-10-2018 21:21",
                 "dies" : ["nakapyon", "akhirx.punya.id", "sikaksikaku"]
             },
             {
                 "phase" : "N3",
-                "begin" : "20-10-2018 21:21",
+                "end" : "20-10-2018 22:03",
                 "dies" : ["leoril", "yosa31", "mdinowumbo"]
             },
             {
                 "phase" : "D4",
-                "begin" : "20-10-2018 22:03",
+                "end" : "21-10-2018 20:15",
                 "dies" : ["murmurs", "sagarichan"]
             },
             {
                 "phase" : "N4",
-                "begin" : "21-10-2018 20:15",
+                "end" : "21-10-2018 22:00",
                 "dies" : ["Sherry24"]
             },
             {
                 "phase" : "D5",
-                "begin" : "21-10-2018 22:00",
+                "end" : "22-10-2018 20:11",
                 "dies" : ["top0502"]
             }
         ],

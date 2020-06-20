@@ -10,52 +10,52 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "26/05/2011 08:23 PM",
+                "end" : "27/05/2011 10:14 PM",
                 "dies" : ["lukystar"]
             },
             {
                 "phase" : "N1",
-                "begin" : "27/05/2011 10:14 PM",
+                "end" : "28/05/2011 08:12 PM",
                 "dies" : ["jagoan_baru"]
             },
             {
                 "phase" : "D2",
-                "begin" : "28/05/2011 08:12 PM",
+                "end" : "29/05/2011 08:08 PM",
                 "dies" : ["pushplay"]
             },
             {
                 "phase" : "N2",
-                "begin" : "29/05/2011 08:08 PM",
+                "end" : "30/05/2011 08:14 PM",
                 "dies" : ["00H3nnyCute00"]
             },
             {
                 "phase" : "D3",
-                "begin" : "30/05/2011 08:14 PM",
+                "end" : "31/05/2011 08:42 PM",
                 "dies" : ["FourBrothers"]
             },
             {
                 "phase" : "N3",
-                "begin" : "31/05/2011 08:42 PM",
+                "end" : "01/06/2011 08:26 PM",
                 "dies" : ["pasirjengkol", "ryuzakichibi"]
             },
             {
                 "phase" : "D4",
-                "begin" : "01/06/2011 08:26 PM",
+                "end" : "02/06/2011 08:43 PM",
                 "dies" : ["CeKilatoZ"]
             },
             {
                 "phase" : "N4",
-                "begin" : "02/06/2011 08:43 PM",
+                "end" : "03/06/2011 06:41 PM",
                 "dies" : ["xlimitedx"]
             },
             {
                 "phase" : "D5",
-                "begin" : "03/06/2011 06:41 PM",
+                "end" : "04/06/2011 08:10 PM",
                 "dies" : ["nakasani", "cobaltblue"]
             },
             {
                 "phase" : "N5",
-                "begin" : "04/06/2011 08:10 PM",
+                "end" : "05/06/2011 10:03 AM",
                 "dies" : ["http."]
             }
         ],
@@ -153,52 +153,52 @@
         "phases" : [
             {
                 "phase" :"D1",
-                "begin" : "06/06/2011 11:54 AM",
+                "end" : "07/06/2011 01:21 PM",
                 "dies" : ["nakasani"]
             },
             {   
                 "phase" : "N1",
-                "begin" : "07/06/2011 01:21 PM",
+                "end" : "08/06/2011 12:53 PM",
                 "dies" : ["xjocker"]
             },
             {
                 "phase" : "D2",
-                "begin" : "08/06/2011 12:53 PM",
+                "end" : "09/06/2011 01:05 PM",
                 "dies" : ["MissKero"]
             },
             {
                 "phase" : "N2",
-                "begin" : "09/06/2011 01:05 PM",
+                "end" : "10/06/2011 12:59 PM",
                 "dies" : ["Xerotess", "irfan14"]
             },
             {
                 "phase" : "D3",
-                "begin" : "10/06/2011 12:59 PM",
+                "end" : "11/06/2011 12:58 PM",
                 "dies" : ["jagoan_baru"]
             },
             {
                 "phase" : "N3",
-                "begin" : "11/06/2011 12:58 PM",
+                "end" : "12/06/2011 12:20 PM",
                 "dies" : ["00H3nnyCute00", "fix_it", "adit_99"]
             },
             {
                 "phase" : "D4",
-                "begin" : "12/06/2011 12:20 PM",
+                "end" : "13/06/2011 01:41 PM",
                 "dies" : ["Silentvoician"]
             },
             {
                 "phase" : "N4",
-                "begin" : "13/06/2011 01:41 PM",
+                "end" : "14/06/2011 01:19 PM",
                 "dies" : ["rendra_3", "http.", "pushplay"]
             },
             {
                 "phase" : "D5",
-                "begin" : "14/06/2011 01:19 PM",
+                "end" : "15/06/2011 01:10 PM",
                 "dies" : ["xlimitedx"]
             },
             {
                 "phase" : "N5",
-                "begin" : "15/06/2011 01:10 PM",
+                "end" : "16/06/2011 09:09 AM",
                 "dies" : ["FourBrothers"]
             }
         ],
@@ -317,52 +317,52 @@
         "phases" : [
             {
                 "phase" : "N1",
-                "begin" : "19/06/2011 10:08 PM",
+                "end" : "20/06/2011 10:13 PM",
                 "dies" : []
             },
             {
                 "phase" : "D1",
-                "begin" : "20/06/2011 10:13 PM",
+                "end" : "21/06/2011 11:46 PM",
                 "dies" : ["00H3nnyCute00"]
             },
             {
                 "phase" : "N2",
-                "begin" : "21/06/2011 11:46 PM",
+                "end" : "22/06/2011 10:31 PM",
                 "dies" : ["Huzaiv"] 
             },
             {    
                 "phase" : "D2",
-                "begin" : "22/06/2011 10:31 PM",
+                "end" : "24/06/2011 12:27 AM",
                 "dies" : ["FourBrothers"]
             },
             {
                 "phase" : "N3",
-                "begin" : "24/06/2011 12:27 AM",
+                "end" : "24/06/2011 11:57 PM",
                 "dies" : ["perpendicular", "descart"]
             },
             {
                 "phase" : "D3",
-                "begin" : "24/06/2011 11:57 PM",
+                "end" : "25/06/2011 10:54 PM",
                 "dies" : ["CeKilatoZ"]
             },
             {
                 "phase" : "N4",
-                "begin" : "25/06/2011 10:54 PM",
+                "end" : "26/06/2011 11:05 PM",
                 "dies" : ["http."]
             },
             {
                 "phase" : "D4",
-                "begin" : "26/06/2011 11:05 PM",
+                "end" : "27/06/2011 10:21 PM",
                 "dies" : ["cobaltblue","FourBrothers"]
             },
             {
                 "phase" : "N5",
-                "begin" : "27/06/2011 10:21 PM",
+                "end" : "28/06/2011 11:21 PM",
                 "dies" : ["R.1.C"]
             },
             {
                 "phase" : "D5",
-                "begin" : "28/06/2011 11:21 PM",
+                "end" : "29/06/2011 10:21 PM",
                 "dies" : ["perpendicular"]
             }
         ],
@@ -543,7 +543,7 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "22/07/2011 03:08 PM",
+                "end" : "22/07/2011 03:08 PM",
                 "dies": []
             }
         ],
@@ -630,92 +630,92 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "06/01/2012 06:10 AM",
+                "end" : "06/01/2012 10:23 PM",
                 "dies" : ["keselekpempek", "limit_breaker"]
             },
             {
                 "phase" : "N1",
-                "begin" : "06/01/2012 10:23 PM",
+                "end" : "07/01/2012 10:31 PM",
                 "dies" : ["Myeekodok", "ShadowX"]
             },
             {
                 "phase" : "D2",
-                "begin" : "07/01/2012 10:31 PM",
+                "end" : "08/01/2012 10:25 PM",
                 "dies" : ["rendra_3", "Sunburn", "Chemistry.Lover"]
             },
             {
                 "phase" : "N2",
-                "begin" : "08/01/2012 10:25 PM",
+                "end" : "10/01/2012 05:17 AM",
                 "dies" : ["Sacfron"]
             },
             {
                 "phase" : "D3",
-                "begin" : "10/01/2012 05:17 AM",
+                "end" : "10/01/2012 10:42 PM",
                 "dies" : ["leozz"]
             },
             {
                 "phase" : "N3",
-                "begin" : "10/01/2012 10:42 PM",
+                "end" : "11/01/2012 10:26 PM",
                 "dies" : []
             },
             {
                 "phase" : "D4",
-                "begin" : "11/01/2012 10:26 PM",
+                "end" : "13/01/2012 09:36 AM",
                 "dies" : ["xoleghdoanz"]
             },
             {
                 "phase" : "N4",
-                "begin" : "13/01/2012 09:36 AM",
+                "end" : "13/01/2012 10:23 PM",
                 "dies" : []
             },
             {
                 "phase" : "D5",
-                "begin" : "13/01/2012 10:23 PM",
+                "end" : "14/01/2012 10:35 PM",
                 "dies" : ["detective1412"]
             },
             {
                 "phase" : "N5",
-                "begin" : "14/01/2012 10:35 PM",
+                "end" : "15/01/2012 10:00 PM",
                 "dies" : []
             },
             {
                 "phase" : "D6",
-                "begin" : "15/01/2012 10:00 PM",
+                "end" : "16/01/2012 10:10 PM",
                 "dies" : ["ayikridic"]
             },
             {
                 "phase" : "N6",
-                "begin" : "16/01/2012 10:10 PM",
+                "end" : "17/01/2012 10:08 PM",
                 "dies" : ["Priandika", "Irfan14"]
             },
             {
                 "phase" : "D7",
-                "begin" : "17/01/2012 10:08 PM",
+                "end" : "18/01/2012 10:03 PM",
                 "dies" : ["Jedayiz"]
             },
             {
                 "phase" : "N7",
-                "begin" : "18/01/2012 10:03 PM",
+                "end" : "20/01/2012 05:09 AM",
                 "dies" : []
             },
             {
                 "phase" : "D8",
-                "begin" : "20/01/2012 05:09 AM",
+                "end" : "21/01/2012 09:01 AM",
                 "dies" : ["Adnnin"]
             },
             {
                 "phase" : "N8",
-                "begin" : "21/01/2012 09:01 AM",
+                "end" : "21/01/2012 10:16 PM",
                 "dies" : []
             },
             {
                 "phase" : "D9",
-                "begin" : "21/01/2012 10:16 PM",
+                "end" : "22/01/2012 10:14 PM",
                 "dies" : ["fanatic406", "CeKilatoZ"]
             },
             {
                 "phase" : "N9",
-                "begin" : "22/01/2012 10:14 PM",
+                "end" : "23/01/2012 04:54 PM",
                 "dies" : ["fanatic406"]
             }
         ],
@@ -859,72 +859,72 @@
         "phases" : [
             {
                 "phase" : "D1",
-                "begin" : "16/02/2012 09:01 PM",
+                "end" : "17/02/2012 09:59 PM",
                 "dies" : ["sacfron"]
             },
             {
                 "phase" : "N1",
-                "begin" : "17/02/2012 09:59 PM",
+                "end" : "18/02/2012 10:17 PM",
                 "dies" : ["SerPiero"]
             },
             {
                 "phase" : "D2",
-                "begin" : "18/02/2012 10:17 PM",
+                "end" : "19/02/2012 09:33 PM",
                 "dies" : ["sygkm"]
             },
             {
                 "phase" : "N2",
-                "begin" : "19/02/2012 09:33 PM",
+                "end" : "20/02/2012 12:56 AM",
                 "dies" : ["YosoRoso", "jedayiz"]
             },
             {
                 "phase" : "D3",
-                "begin" : "20/02/2012 12:56 AM",
+                "end" : "20/02/2012 09:02 PM",
                 "dies" : ["fanatic406"]
             },
             {
                 "phase" : "N3",
-                "begin" : "20/02/2012 09:02 PM",
+                "end" : "21/02/2012 09:12 PM",
                 "dies" : []
             },
             {
                 "phase" : "D4",
-                "begin" : "21/02/2012 09:12 PM",
+                "end" : "22/02/2012 09:10 PM",
                 "dies" : ["leozz"]
             },
             {
                 "phase" : "N4",
-                "begin" : "22/02/2012 09:10 PM",
+                "end" : "23/02/2012 09:24 PM",
                 "dies" : ["CeKilatoZ", "DropItOut", "Taurus.175"]
             },
             {
                 "phase" : "D5",
-                "begin" : "23/02/2012 09:24 PM",
+                "end" : "24/02/2012 09:04 PM",
                 "dies" : ["Eus"]
             },
             {
                 "phase" : "N5",
-                "begin" : "24/02/2012 09:04 PM",
+                "end" : "25/02/2012 09:19 PM",
                 "dies" : ["jackdaws", "Nalluka"]
             },
             {
                 "phase" : "D6",
-                "begin" : "25/02/2012 09:19 PM",
+                "end" : "26/02/2012 09:29 PM",
                 "dies" : ["beezelbug", "GoNdoRukem"]
             },
             {
                 "phase" : "N6",
-                "begin" : "26/02/2012 09:29 PM",
+                "end" : "27/02/2012 09:14 PM",
                 "dies" : ["killv"]
             },
             {
                 "phase" : "D7",
-                "begin" : "27/02/2012 09:14 PM",
+                "end" : "28/02/2012 09:32 PM",
                 "dies" : ["baudjaya"]
             },
             {
                 "phase" : "N7",
-                "begin" : "28/02/2012 09:32 PM",
+                "end" : "29/02/2012 09:05 PM",
                 "dies" : ["grifiest"]
             }
         ],
