@@ -538,14 +538,34 @@
             {"alignment" : "goodies", "role" : "Grey Wolf", "id" : "jcross"},
             {"alignment" : "goodies", "role" : "Fairy Godmother", "id" : "ayikridic"},
             {"alignment" : "goodies", "role" : "Fire Eyes", "id" : "fanatic406", "mvp" : true},
-
+      
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "grifiest"},
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "teddy5145"},
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "YosoRoso.ver2"},
-            {"alignment" : "baddies", "role" : "Guardian Demon", "id" : "andika.pradana"},
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "rendra_3", "mvp" :true},
+            {"alignment" : "baddies", "role" : "Guardian Demon", "id" : "andika.pradana"},
 
             {"alignment" : "neutral", "role" : "Cupid", "id" : "WiryoSableng"}
+        ]
+    },
+
+    {
+        "name" : "Van Helsing",
+        "link" : "https://archive.kaskus.co.id/thread/11759074",
+        "gm" :  "FourBrothers",
+        "open" : ,
+        "start" : ,
+        "finish" : ,
+        "won" : ,
+        "phases" : [
+            {"phase" : "D", "updated" : "", "dies" : []},
+            {"phase" : "N", "updated" : "", "dies" : []},
+            {"phase" : "", "updated" : "", "dies" : []},
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : , "id" :},
+            {"alignment" : "baddies", "role" : , "id" :},
+            {"alignment" : "neutral", "role" : , "id" :}
         ]
     },
     {
@@ -668,8 +688,16 @@
         "start" :  "",
         "finish" : "",
         "won" : "",
-        "phases" : [],
-        "players" : []
+        "phases" : [
+            {"phase" : "D", "updated" : "", "dies" : []},
+            {"phase" : "N", "updated" : "", "dies" : []},
+            {"phase" : "", "updated" : "", "dies" : []},
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : , "id" :},
+            {"alignment" : "baddies", "role" : , "id" :},
+            {"alignment" : "neutral", "role" : , "id" :}
+        ]
     },
     {
         "name" : "Membunuh atau Dibunuh",
@@ -679,8 +707,16 @@
         "start" :  "",
         "finish" : "",
         "won" : "",
-        "phases" : [],
-        "players" : []
+        "phases" : [
+            {"phase" : "D", "updated" : "", "dies" : []},
+            {"phase" : "N", "updated" : "", "dies" : []},
+            {"phase" : "", "updated" : "", "dies" : []},
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : , "id" :},
+            {"alignment" : "baddies", "role" : , "id" :},
+            {"alignment" : "neutral", "role" : , "id" :}
+        ]
     },
     {
         "name" : "Tales of Minakami Village",
@@ -690,8 +726,16 @@
         "start" :  "",
         "finish" : "",
         "won" : "",
-        "phases" : [],
-        "players" : []
+        "phases" : [
+            {"phase" : "D", "updated" : "", "dies" : []},
+            {"phase" : "N", "updated" : "", "dies" : []},
+            {"phase" : "", "updated" : "", "dies" : []},
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : , "id" :},
+            {"alignment" : "baddies", "role" : , "id" :},
+            {"alignment" : "neutral", "role" : , "id" :}
+        ]
     },
     {
         "name" : "The Dark Age",

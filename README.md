@@ -1,9 +1,3 @@
----
-output:
-  html_document:
-    keep_md: yes
----
-
 # TWG BIG CYSTG Database
 
 ## Pendahuluan
@@ -60,7 +54,7 @@ Realid | id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimain
 
 Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Notation).
 Bentuk ini dipilih mengingat bentuk informasi yang *nested*.
-Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indonesia Merdeka](https://kask.us/h53gF).
+Informasi setiap fase dan pemain dibuat dalam 1 line agar file tidak kelihatan panjang ke bawah.
 
 ```
 {
@@ -73,40 +67,22 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
         "finish" : "29-08-2015 19:20",
         "won" : "goodies",
         "phases" : [
-            {
-                "phase" : "D1",
-                "end" : "21-08-2015 20:39",
-                "dies"  : ["ADITMILANISTI"]
-            },
-            {
-                "phase" : "N1",
-                "end" : "22-08-2015 21:11",
-                "subsitutions" : [
-                    {"subout" : "unqsn","subin" : "terigucampurair"},
-                    {"subout" : "portgazzz","subin" : "nalfiadi"}
-                ],
-                "dies"  : ["xemp.phax", "terigucampurair", "11sphere92", "reinforcedboy"]
-            },
-    ....
+            {"phase" : "D1", "updated" : "21-08-2015 20:39", "dies"  : ["ADITMILANISTI"]},
+            {"phase" : "N1", "updated" : "22-08-2015 21:11", 
+            "dies"  : ["xemp.phax", "terigucampurair", "11sphere92", "reinforcedboy"], 
+            "subsitutions" : [{"subout" : "unqsn","subin" : "terigucampurair"}, {"subout" : "portgazzz","subin" : "nalfiadi"}
         ],
         "players" : [
-            {
-                "id" : "helium.rusak",
-                "alignment" : "baddies",
-                "role" : "Roleblocker"
-            },
-            {
-                "id" : "Solahart",
-                "alignment" : "goodies",
-                "role" : "Villager"
-            },
+            {"alignment" : "baddies", "role" : "Roleblocker", "id" : "helium.rusak"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "Solahart"}
         ]
  }
-
 ```
 
 Terdapat 2 file penyimpanan, yaitu `new_kaskus.json` untuk TWG yang masih dapat diakses kaskus sekarnag (belum masuk arsip KASKUS) dan `old_kaskus.json` untuk TWG yang telah masuk arsip KASKUS.
 TWG yang telah masuk arsip KASKUS menggunakan waktu AM/PM dalam informasi waktu sementara TWG yang lebih baru menggunakan satuan 24 jam dalam informasi waktu.
+Di masa yang akan datang, kedua file ini akan menjadi satu dengan format waktu yang sama, yaitu tidak menggukan keterangan AM/PM. 
+Semua waktu dalam file ini menggunakan Waktu Indonesia Bagian Tengah (WITA) atau GMT+8.
 
 Berikut adalah Tautan TWG BIG yang bisa saya temukan.
 Untuk tanya, *request*, kritik dan saran, silahkan hubungi saya via KASKUS maupun langsung di GitHub.
