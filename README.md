@@ -1,6 +1,6 @@
 ---
-output: 
-  html_document: 
+output:
+  html_document:
     keep_md: yes
 ---
 
@@ -9,7 +9,7 @@ output:
 ## Pendahuluan
 
 Segala yang yang memiliki permulaan pasti akan berakhir.
-Sama seperti forum KASKUS yang kian sepi, komunitas CYSTG pun kian sepi. 
+Sama seperti forum KASKUS yang kian sepi, komunitas CYSTG pun kian sepi.
 Disaat repo ini dibuat, bisa dibilang kalau komunitas atau sub forum CYSTG sedang mati suri.
 
 Cukup disayangkan, mengingat komunitas ini telah mengisi masa remaja saya, mulai dari SMP sampai lulus kuliah.
@@ -17,7 +17,7 @@ Dengan semakin sepinya KASKUS dan CYSTG, menurut saya komunitas kami hanya akan 
 Repository ini mempunyai fungsi sebagai database untuk permainan The Werewolf Game (TWG) BIG dari sub forum [CYSTG](https://www.kaskus.co.id/forum/18/can-you-solve-this-game/)
 Repository ini berisikan memori yang ingin saya kenang selamanya.
 
-Terima Kasih bagi kalian yang telah mengisi hari-hari remaja ku.
+**Terima Kasih bagi kalian yang telah mengisi hari-hari remaja saya.**
 
 ## Data yang dikumpulkan
 
@@ -33,7 +33,7 @@ cogm        | co-Game Master. Seperti co-pilot, co-Game Master membantu Game Mas
 open        | Waktu (tanggal dan jam) *thread* dibuka
 start       | Waktu (tanggal dan jam) fase pertama dimulai
 finish      | Waktu (tanggal dan jam) fase terakhir selesai
-won         | Aligment yang memenangkan permainan (goodies, baddies, neutral). 
+won         | Aligment yang memenangkan permainan (goodies, baddies, neutral).
 phases      | Informasi mengenai fase seperti waktu dimulainya suatu fase dan pemain yang mati / *dead* pada akhir fase tersebut.
 players     | Informasi mengenai pemain seperti *aligment*, *role*, status MVP, dan pemain cadangan (jika pemain bersangkutan digantikan oleh pemain cadangan)
 
@@ -55,7 +55,7 @@ Variabel | Deskripsi
 id | merujuk kepada pemain TWG yang sedang berlangsung
 mvp | status pemain sebagai *Most Valuable Player*
 aligment | aligmet pemain (goodies, baddies, neutral)
-role | peran pemain 
+role | peran pemain
 Realid | id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimainkan adalah **fullclone**.
 
 Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Notation).
@@ -71,7 +71,7 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
         "open" : "18-08-2015 17:51",
         "start" :  "20-08-2015 06:39",
         "finish" : "29-08-2015 19:20",
-        "won" : "goodies", 
+        "won" : "goodies",
         "phases" : [
             {
                 "phase" : "D1",
@@ -90,12 +90,12 @@ Sebagai contoh, di bawah ini adalah data yang disimpan untuk TWG [Menuju Indones
     ....
         ],
         "players" : [
-            { 
-                "id" : "helium.rusak", 
+            {
+                "id" : "helium.rusak",
                 "alignment" : "baddies",
                 "role" : "Roleblocker"
             },
-            { 
+            {
                 "id" : "Solahart",
                 "alignment" : "goodies",
                 "role" : "Villager"
@@ -118,21 +118,21 @@ Status   | TWG
 [x]      | [Kutukan Sri dan Gala](https://archive.kaskus.co.id/thread/8765940)
 [x]      | [H19N Terror!](http://archive.kaskus.co.id/thread/8972518)
 [x]      | [Werewolves vs Vampires :::Twilight:::](http://archive.kaskus.co.id/thread/9227137)
-[ ]      | [Massive Attack at Hogwarts](http://archive.kaskus.co.id/thread/9494605)
-[ ]      | [Calamity of The Hidden Leaf Village](http://archive.kaskus.co.id/thread/9772548)
-[ ]      | [An Infiltration Destinies](http://archive.kaskus.co.id/thread/10108649)
-[ ]      | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)
-[ ]      | [Game of D (Deception, Denial, Death)](http://archive.kaskus.co.id/thread/10446494)
-[ ]      | [How To Save a Life](http://archive.kaskus.co.id/thread/10761235)
-[ ]      | [Waking The Demon](http://archive.kaskus.co.id/thread/11118743)
-[ ]      | [Celestia](http://archive.kaskus.co.id/thread/11421415)
+[x]      | [Massive Attack at Hogwarts](http://archive.kaskus.co.id/thread/9494605)
+[x]      | [Calamity of The Hidden Leaf Village](http://archive.kaskus.co.id/thread/9772548)
+[x]      | [An Infiltration Destinies](http://archive.kaskus.co.id/thread/10108649)
+[x]      | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)
+[x]      | [Game of D (Deception, Denial, Death)](http://archive.kaskus.co.id/thread/10446494)
+[x]      | [How To Save a Life](http://archive.kaskus.co.id/thread/10761235)
+[x]      | [Waking The Demon](http://archive.kaskus.co.id/thread/11118743)
+[x]      | [Celestia](http://archive.kaskus.co.id/thread/11421415)
 [ ]      | [Van Helsing](http://archive.kaskus.co.id/thread/11759074)
 [x]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
 [x]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
 [ ]      | [The Dark Knight](http://archive.kaskus.co.id/thread/13708071)
 [ ]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
 [ ]      | [Tales of Minakami Village](http://archive.kaskus.co.id/thread/15359906)
-[ ]      | [The Dark Age](http://archive.kaskus.co.id/thread/15858591)
+[x]      | [The Dark Age](http://archive.kaskus.co.id/thread/15858591)
 
 ## Daftar TWG untuk new_kaskus.json
 
