@@ -1,0 +1,59 @@
+[
+    {
+        "name" : "The Mansion behind the Scarlet Mist",
+        "link" : "https://kask.us/haK0K",
+        "gm" : "Huzaiv",
+        "open" : "08-05-2013 14:44",
+        "start" : "09-05-2013 21:09",
+        "finish" : "19-05-2013 22:03",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["Leehan666"]},
+            {"phase" : "N1", "dies" : ["keselekpempek","version-9.99"]},
+            {"phase" : "D2", "dies" : ["qoonjooq", "loganmiles"]},
+            {"phase" : "N2", "dies" : ["nileajah", "bagazth", "violetpeach"]},
+            {"phase" : "D3", "dies" : ["xXCardCaptorXx"]},
+            {"phase" : "N3", "dies" : ["adnnin", "Ryojacko"]},
+            {"phase" : "D4", "dies" : ["DustChain", "kapitanvic", "shakato"]},
+            {"phase" : "N4", "dies" : ["Liong33"]},
+            {"phase" : "D5", "dies" : ["rena97"]},
+            {"phase" : "N5", "dies" : ["cresthofan"]},
+            {"phase" : "D6", "dies" : ["tmofer.mashiro"]},
+            {"phase" : "N6", "dies" : ["Xerotess"]},
+            {"phase" : "D7", "dies" : ["steve90"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "trait" : "Cirno", "id" : "loganmiles"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "trait" : "Nitori Kawashiro", "id" : "rena97"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "trait" : "Momiji Inubashiri","id" : "Leehan666"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "Aditkw"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "shakato"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "rendra_3"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "Ryojacko"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "vickermond"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "MatoDunois"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "CloudyTama"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "skullengine"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "violetpeach"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "version-9.99"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "sundasherlock"},
+            {"alignment" : "goodies", "role" : "Vanilla Youkai", "id" : "tmofer.mashiro"},
+
+            {"alignment" : "goodies", "role" : "Reimu", "id" : "adnnin"},
+            {"alignment" : "goodies", "role" : "Marisa", "id" : "Liong33"},
+            {"alignment" : "goodies", "role" : "Sanae", "id" : "kapitanvic"},
+
+            {"alignment" : "goodies", "role" : "Keine Kamishirasawa", "id" : "Xerotess"},
+            {"alignment" : "goodies", "role" : "Daiyousei", "id" : "cresthofan"},
+            {"alignment" : "goodies", "role" : "Konpaku Youmu", "id" : "bagazth", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Alice Margatroid", "id" : "Myeekodok", "mvp" : true},
+
+            {"alignment" : "baddies", "role" : "Hong Meiling", "id" : "nileajah"},
+            {"alignment" : "baddies", "role" : "Flandre Scarlet", "id" : "qoonjoq"},
+            {"alignment" : "baddies", "role" : "Patchouli Knowledge", "id" : "DustChain"},
+            {"alignment" : "baddies", "role" : "Koakuma", "id" : "steve90", "mvp" : true},
+            {"alignment" : "baddies", "role" : "Remilia Scarlet", "id" : "xXCardCaptorXx"},
+            {"alignment" : "baddies", "role" : "Sakuya Izayoi   ", "id" : "keselekpempek"}
+        ]
+    }
+]

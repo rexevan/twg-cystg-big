@@ -1,0 +1,46 @@
+[
+    {
+        "name" : "Hisashiburi",
+        "link" : "https://kask.us/iyBPW",
+        "gm" : "Solahart",
+        "open" : "10-10-2018 19:10",
+        "start" :  "17-10-2018 21:49",
+        "finish" : "22-10-2018 20:11",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["mayumi.morinaga"]},
+            {"phase" : "N1", "dies" : [".falcongirl."]},
+            {"phase" : "D2", "dies" : ["isul.ternoda"]},
+            {"phase" : "N2", "dies" : ["RaynaQ"]},
+            {"phase" : "D3", "dies" : ["nakapyon", "akhirx.punya.id", "sikaksikaku"]},
+            {"phase" : "N3", "dies" : ["leoril", "yosa31", "mdinowumbo"]},
+            {"phase" : "D4", "dies" : ["murmurs", "sagarichan"]},
+            {"phase" : "N4", "dies" : ["Sherry24"]},
+            {"phase" : "D5", "dies" : ["top0502"]}
+        ],
+        "players": [
+            { "alignment" : "goodies", "role" : "Villager", "id" : "Yosa31"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "leoril"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "excimer"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "Sherry24"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "fixsilver"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "mdinowumbo"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "sikaksikaku"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "mayumi.morinaga"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "rafc", "subbed" : "miyarobins"},
+
+            { "alignment" : "goodies", "role" : "Seer", "id" : "sagarichan"},
+            { "alignment" : "goodies", "role" : "Tracker", "id" : "ekliptika"},
+            { "alignment" : "goodies", "role" : "Hunter", "id" : ".falcongirl."},
+            { "alignment" : "goodies", "role" : "Lover", "id" : "irfan999999999"},
+            { "alignment" : "goodies", "role" : "Lover", "id" : "burnoutsyndrome"},
+            { "alignment" : "goodies", "role" : "Guardian Angel", "id" : "RaynaQ"},
+
+            { "alignment" : "baddies", "role" : "Alpha", "id" : "nakapyon"},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "murmurs"},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "top0502"},
+            { "alignment" : "baddies", "role" : "Roleblocker", "id" : "isul.ternoda"},
+            { "alignment" : "baddies", "role" : "Lone Framer", "id" : "akhirx.punya.id"}
+        ]
+    }
+]

@@ -1,0 +1,289 @@
+[
+    {
+        "name" : "SinCity",
+        "link" : "http://archive.kaskus.co.id/thread/12356185",
+        "gm" : "egao.aya18",
+        "open" : "04/01/2012 18:40",
+        "start" :  "06/01/2012 06:10",
+        "finish" : "23/01/2012 16:54",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["keselekpempek", "limit_breaker"]},
+            {"phase" : "N1", "dies" : ["Myeekodok", "ShadowX"]},
+            {"phase" : "D2", "dies" : ["rendra_3", "Sunburn", "Chemistry.Lover"]},
+            {"phase" : "N2", "dies" : ["sacfron"]},
+            {"phase" : "D3", "dies" : ["leozz"]},
+            {"phase" : "N3", "dies" : []},
+            {"phase" : "D4", "dies" : ["xoleghdoanz"]},
+            {"phase" : "N4", "dies" : []},
+            {"phase" : "D5", "dies" : ["detective1412"]},
+            {"phase" : "N5", "dies" : []},
+            {"phase" : "D6", "dies" : ["ayikridic"]},
+            {"phase" : "N6", "dies" : ["Priandika", "Irfan14"]},
+            {"phase" : "D7", "dies" : ["jedayiz"]},
+            {"phase" : "N7", "dies" : []},
+            {"phase" : "D8", "dies" : ["adnnin"]},
+            {"phase" : "N8", "dies" : []},
+            {"phase" : "D9", "dies" : ["fanatic406", "CeKilatoZ"]},
+            {"phase" : "N9", "dies" : ["fanatic406"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Priest", "id" : "Priandika"},
+            {"alignment" : "goodies", "role" : "Secret Agent", "id" : "anugia"},
+
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "sectrait" : "Faith", "id" : "leozz"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Santo", "sectrait" : "Faith", "id" : "ayikridic"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Gunsmith", "sectrait" : "Faith","id" : "irfan14"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Bomber", "sectrait" : "Faith",  "id" : "rendra_3"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "sectrait" : "Faith", "id" : "CeKilatoZ"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Watcher", "sectrait" : "Faith", "id" : "andika.pradana"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Amnestic", "sectrait" : "Faith", "id" : "limit_breaker"},
+
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Fool", "id" : "adnnin"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Stalker", "id" : "jedayiz"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Bomber", "id" : "keselekpempek"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Double Agent",  "id" : "ShadowX"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Innocent", "id" : "FourBrothers"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Hunter", "id" : "Chemistry.Lover"},
+
+            {"alignment" : "baddies", "role" : "Mafia", "id" : "Sunburn"},
+            {"alignment" : "baddies", "role" : "Oyabun","id" : "fanatic406"},
+            {"alignment" : "baddies", "role" : "Godfather" , "id" : "sacfron"},
+            {"alignment" : "baddies", "role" : "Right Hand", "id" : "Myeekodok"},
+            {"alignment" : "baddies", "role" : "So-Taicho", "id" : "xoleghdoanz"},
+            {"alignment" : "baddies", "role" : "Townie", "trait" : "Watcher", "id" : "detective1412"}
+        ]
+    },
+    {
+        "name" : "Curse of 14th Benizakura",
+        "link" : "http://archive.kaskus.co.id/thread/13091781",
+        "gm" : "Leehan666",
+        "open" : "14/02/2012 20:56",
+        "start" :  "16/02/2012 21:01",
+        "finish" : "29/02/2012 21:05",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["sacfron"] },
+            {"phase" : "N1", "dies" : ["SerPiero"] },
+            {"phase" : "D2", "dies" : ["sygkm"] },
+            {"phase" : "N2", "dies" : ["YosoRoso", "jedayiz"] },
+            {"phase" : "D3", "dies" : ["fanatic406"] },
+            {"phase" : "N3", "dies" : [] },
+            {"phase" : "D4", "dies" : ["leozz"] },
+            {"phase" : "N4", "dies" : ["CeKilatoZ", "DropItOut", "Taurus.175"] },
+            {"phase" : "D5", "dies" : ["Eus"] },
+            {"phase" : "N5", "dies" : ["jackdaws", "Nalluka"] },
+            {"phase" : "D6", "dies" : ["beezelbug", "GoNdoRukem"] },
+            {"phase" : "N6", "dies" : ["killv"] },
+            {"phase" : "D7", "dies" : ["baudjaya"] },
+            {"phase" : "N7", "dies" : ["grifiest"] }
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "andra_ub17"},
+            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "adnnin", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "sacfron", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Naive Cop", "id" : "killv"},
+            {"alignment" : "goodies", "role" : "Naive Cop", "id" : "temenx"},
+            {"alignment" : "goodies", "role" : "Naive Cop", "id" : "Nalluka"},
+            {"alignment" : "goodies", "role" : "Real Cop", "id" : "DropItOut"},
+            {"alignment" : "goodies", "role" : "Insane Cop", "id" : "CeKilatoZ"},
+
+            {"alignment" : "goodies", "role" : "Mason", "id" : "jackdaws"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "SerPiero"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "GoNdoRukem"},
+
+            {"alignment" : "goodies", "role" : "Twins", "id" : "jedayiz"},
+            {"alignment" : "goodies", "role" : "Twins", "id" : "YosoRoso"},
+
+            {"alignment" : "goodies", "role" : "Watcher", "id" : "Eus"},
+            {"alignment" : "goodies", "role" : "Fool", "id" : "WereborG"},
+            {"alignment" : "goodies", "role" : "Hooker", "id" : "beezelbug"},
+            {"alignment" : "goodies", "role" : "Drunker", "id" : "Taurus.175"},
+            {"alignment" : "goodies", "role" : "Innocent", "id" : "fanatic406"},
+            {"alignment" : "goodies", "role" : "Hunter", "id" : "felix.felicis"},
+            {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "keselekpempek"},
+
+            {"alignment" : "baddies", "role" : "Driver", "id" : "leozz"},
+            {"alignment" : "baddies", "role" : "Lone Wolf", "id" : "sygkm"},
+            {"alignment" : "baddies", "role" : "Traitor", "id" : "baudjaya"},
+            {"alignment" : "baddies", "role" : "Framer", "id" : "grifiest", "mvp" : true},
+
+            {"alignment" : "neutral", "role" : "Granny", "id" : "rendra_3"}
+        ]
+    },
+    {
+        "name" : "The Dark Knight",
+        "link" : "http://archive.kaskus.co.id/thread/13708071",
+        "gm" : "sacfron",
+        "cogm" : "egao.aya18",
+        "open" : "26/03/2012 20:13",
+        "start" :  "31/03/2012 22:32",
+        "finish" : "10/04/2012 13:34",
+        "won" : "baddies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["jackdaws"], "substituion" : [{"subout" : "sygkm", "subin" : "green.martian"}]},
+            {"phase" : "N1", "dies" : ["keselekpempek", "bebektepos"]},
+            {"phase" : "D2", "dies" : ["Antoniio01"]},
+            {"phase" : "N2", "dies" : ["blus0n"]},
+            {"phase" : "D3", "dies" : ["felix.felicis"]},
+            {"phase" : "N3", "dies" : ["andika.pradana", "nakasani"]},
+            {"phase" : "D4", "dies" : ["addictorKASKUS2", "di.skripsi.nya"]},
+            {"phase" : "N4", "dies" : ["jedayiz", "0nonalay0v20"]},
+            {"phase" : "D5", "dies" : ["adnnin"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Gotham Elite", "trait" : "Fake Hunter", "id" : "teddy5145"},
+            {"alignment" : "goodies", "role" : "Gotham Elite", "trait" : "Fake Hunter", "id" : "adnnin"},
+            {"alignment" : "goodies", "role" : "Gotham Elite", "id" : "addictorKASKUS2"},
+            {"alignment" : "goodies", "role" : "Gotham Elite", "id" : "jedayiz"},
+            {"alignment" : "goodies", "role" : "Gotham Elite", "id" : "0nonalay0v20"},
+
+            {"alignment" : "goodies", "role" : "Batman", "id" : "Antoniio01"},
+            {"alignment" : "goodies", "role" : "Alfred", "id" : "jackdaws"},
+            {"alignment" : "goodies", "role" : "Rachel", "id" : "felix.felicis"},
+            {"alignment" : "goodies", "role" : "Gotham Mayor", "id" : "negativ"},
+            {"alignment" : "goodies", "role" : "Jim Gordon", "id" : "bebektepos"},
+            {"alignment" : "goodies", "role" : "Harvey Dent", "id" : "di.skripsi.nya", "mvp" : true},
+
+            {"alignment" : "goodies", "role" : "Gotham Police", "id" : "andika.pradana"},
+            {"alignment" : "goodies", "role" : "Gotham Police", "id" : "blus0n"},
+            {"alignment" : "goodies", "role" : "Gotham Police", "id" : "leozz"},
+
+            {"alignment" : "baddies", "role" : "Corrupt Police", "id" : "keselekpempek"},
+            {"alignment" : "baddies", "role" : "Joker", "id" :"fanatic406", "mvp" : true},
+            {"alignment" : "baddies", "role" : "Lau", "id" :"sygkm", "subbed" : "green.martian"},
+            {"alignment" : "baddies", "role" : "Gotham Gangster", "id" : "nakasani", "mvp" : true}
+        ]
+    },
+    {
+        "name" : "Membunuh atau Dibunuh",
+        "link" : "http://archive.kaskus.co.id/thread/14482535",
+        "gm" : "egao.aya18",
+        "open" : "16/05/2012 01:15",
+        "start" :  "19/05/2012 12:37",
+        "finish" : "30/05/2012 12:06",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["sacfron"]},
+            {"phase" : "N1", "dies" : []},
+            {"phase" : "D2", "dies" : ["fanatic406"]},
+            {"phase" : "N2", "dies" : ["xanxux", "coolzcloud"]},
+            {"phase" : "D3", "dies" : ["davindra"]},
+            {"phase" : "N3", "dies" : ["andika.pradana"]},
+            {"phase" : "D4", "dies" : ["jedayiz"]},
+            {"phase" : "N4", "dies" : ["negosiasiman"]},
+            {"phase" : "D5", "dies" : ["hacker00321"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Villager", "trait" : "Pemabuk", "id" : "benny17"},
+            {"alignment" : "goodies", "role" : "Villager", "trait" : "Sejoli", "id" : "negosiasiman"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "davindra"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "Mecha_post"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "coolzcloud"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "dwiMeilindaa"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "ayikridic"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "andra_ub17"},
+
+            {"alignment" : "goodies", "role" : "Mason", "trait" : "Sahabat", "id" : "addictorKASKUS2"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "Killua68"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "lukystar"},
+
+            {"alignment" : "goodies", "role" : "Hunter", "trait" : "Sejoli", "id" : "andika.pradana"},
+            {"alignment" : "goodies", "role" : "Seer", "id" : "sacfron"},
+            {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "fanatic406"},
+
+            {"alignment" : "baddies", "role" : "Werewolf", "trait" : "Sahabat", "id" : "bebektepos"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "xanxux"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "jedayiz"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "hacker00321"}
+        ]
+    },
+    {
+        "name" : "Tales of Minakami Village",
+        "link" : "http://archive.kaskus.co.id/thread/15359906",
+        "gm" : "egao.aya18",
+        "open" : "09/07/2012 08:36",
+        "start" :  "12/07/2012 19:10",
+        "finish" : "25/07/2012 13:33",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["baddies"]},
+            {"phase" : "N1", "dies" : ["benny17"]},
+            {"phase" : "D2", "dies" : ["4rtistic", "Eus"], "modkill" : ["Eus"]},
+            {"phase" : "N2", "dies" : ["jedayiz"]},
+            {"phase" : "D3", "dies" : ["davindra", "metaldropal"], "modkill" : ["metaldropal"]},
+            {"phase" : "N3", "dies" : ["ranggagreat"]},
+            {"phase" : "D4", "dies" : ["dgr"]},
+            {"phase" : "N4", "dies" : []},
+            {"phase" : "D5", "dies" : ["engokid"]},
+            {"phase" : "N5", "dies" : ["christian96", "jackspades", " raivac"], "modkill" : ["christian96", "jackspades"]},
+            {"phase" : "D6", "dies" : ["devil7th"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Villager", "id" : "jedayiz"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "baddies"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "jackspades"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "metaldropal"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "Crow1503"},
+
+            {"alignment" : "goodies", "role" : "Mason", "id" : "raivac"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "benny17"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "YosoRoso.ver2"},
+
+            {"alignment" : "goodies", "role" : "Gypsy", "id" : "bagazth", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Hunter", "id" : "blacklist2010  "},
+            {"alignment" : "goodies", "role" : "Watcher", "id" : "Eus"},
+            {"alignment" : "goodies", "role" : "Informan", "id" : "4rtistic"},
+            {"alignment" : "goodies", "role" : "Virgin", "id" : "ranggagreat"},
+            {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "davindra"},
+
+            {"alignment" : "baddies", "role" : "Alpha", "id" : "dgr"},
+            {"alignment" : "baddies", "role" : "Kusabi", "id" : "engokid"},
+            {"alignment" : "baddies", "role" : "Copy Wolf", "id" : "devil7th", "mvp" : true},
+            {"alignment" : "baddies", "role" : "Roleblocker", "id" : "christian96"}
+        ]
+    },
+    {
+        "name" : "The Dark Age",
+        "link" : "http://archive.kaskus.co.id/thread/15858591",
+        "gm" : "baddies",
+        "open" : "06/08/2012 01:25",
+        "start" :  "07/08/2012 22:38",
+        "finish" : "15/08/2012 22:42",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["devil7th"]},
+            {"phase" : "N1", "dies" : ["vickermond"]},
+            {"phase" : "D2", "dies" : ["lukystar"]},
+            {"phase" : "N2", "dies" : ["baraknaga"]},
+            {"phase" : "D3", "dies" : ["egao.aya18", "martebs"], "modkill" : ["martebs"]},
+            {"phase" : "N3", "dies" : ["Myeekodok"]},
+            {"phase" : "D4", "dies" : ["gun.", "bebektepos"], "modkill" : ["bebektepos"]},
+            {"phase" : "N4", "dies" : ["Radiv"]},
+            {"phase" : "D5", "dies" : ["devilzz13"]}
+        ],
+        "players" : [
+			{"alignment" : "goodies", "id" : "gun."},
+			{"alignment" : "goodies", "id" : "raivac"},
+			{"alignment" : "goodies", "id" : "jedayiz"},
+			{"alignment" : "goodies", "id" : "4Rtistic"},
+			{"alignment" : "goodies", "id" : "davindra"},
+			{"alignment" : "goodies", "id" : "devil7th"},
+			{"alignment" : "goodies", "id" : "baraknaga"},
+			{"alignment" : "goodies", "id" : "Myeekodok"},
+			{"alignment" : "goodies", "id" : "vickermond"},
+			{"alignment" : "goodies", "id" : "bebektepos"},
+			{"alignment" : "goodies", "id" : "5hooterflik"},
+			{"alignment" : "goodies", "id" : "justpretend"},
+			{"alignment" : "goodies", "id" : "heru.enviro"},
+			{"alignment" : "goodies", "id" : "keselekpempek"},
+
+			{"alignment" : "baddies", "id" : "martebsa"},
+			{"alignment" : "baddies", "id" : "lukystar"},
+			{"alignment" : "baddies", "id" : "devilzz13"},
+			{"alignment" : "baddies", "id" : "egao.aya18"},
+
+			{"alignment" : "neutral", "id" : "Radiv"}
+        ]
+    }
+]

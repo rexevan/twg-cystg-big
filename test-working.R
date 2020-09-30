@@ -1,9 +1,11 @@
+# install.package(c("tidyverse", "jsonlite", "magrittr", "lubridate"))
+
 library(tidyverse)
 library(jsonlite)
 library(magrittr)
 library(lubridate)
 
-twg_list <- fromJSON("new_kaskus.json")
+twg_list <- fromJSON("2011.json")
 
 twg_tidy <- tibble(
   name = twg_list$name,

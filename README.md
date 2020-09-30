@@ -36,7 +36,6 @@ players     | Informasi mengenai pemain seperti *aligment*, *role*, status MVP, 
 Variabel | Deskripsi
 ---------|---------
 phase | fase (Day 1, Night 1, dst.)
-end | waktu berakhirnya suatu fase, biasanya ini juga menunjukkan waktu dimulainya fase berikutnya.
 subsitutions | pergantian pemain yang terjadi pada fase tersebut
 subout | id pemain yang digantikan
 subin | id pemain yang menggantikan
@@ -53,8 +52,10 @@ role | peran pemain
 Realid | id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimainkan adalah **fullclone**.
 
 Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Notation).
-Bentuk ini dipilih mengingat bentuk informasi yang *nested*.
+Bentuk ini dipilih mengingat data yang dikupulkan merupakan data yang *nested*.
 Informasi setiap fase dan pemain dibuat dalam 1 line agar file tidak kelihatan panjang ke bawah.
+
+Setelah update V1, semua TWG dibagi berdasarkan tahun rilisnya. Ini berbeda dengan versi sebelumnya ketika TWG dibagi berdasarkan apakah menggunakan old kaskus / *archive* atau menggunakan new kaskus.
 
 ```
 {
@@ -79,15 +80,10 @@ Informasi setiap fase dan pemain dibuat dalam 1 line agar file tidak kelihatan p
  }
 ```
 
-Terdapat 2 file penyimpanan, yaitu `new_kaskus.json` untuk TWG yang masih dapat diakses kaskus sekarnag (belum masuk arsip KASKUS) dan `old_kaskus.json` untuk TWG yang telah masuk arsip KASKUS.
-TWG yang telah masuk arsip KASKUS menggunakan waktu AM/PM dalam informasi waktu sementara TWG yang lebih baru menggunakan satuan 24 jam dalam informasi waktu.
-Di masa yang akan datang, kedua file ini akan menjadi satu dengan format waktu yang sama, yaitu tidak menggukan keterangan AM/PM. 
-Semua waktu dalam file ini menggunakan Waktu Indonesia Bagian Tengah (WITA) atau GMT+8.
+Berikut adalah Tautan TWG BIG yang bisa saya temukan. Data dikumpulkan berasal dari masing-masing tautan. 
+Jika kamu ingin bertanya, *request*, ataupun menyampaikan kritik dan saran, silahkan hubungi [saya via KASKUS](https://www.kaskus.co.id/@Tmofer) maupun langsung di GitHub.
 
-Berikut adalah Tautan TWG BIG yang bisa saya temukan.
-Untuk tanya, *request*, kritik dan saran, silahkan hubungi saya via KASKUS maupun langsung di GitHub.
-
-## Daftar TWG untuk old_kaskus.json
+## TWG 2011
 
 Status   | TWG
 ---------|---------
@@ -102,22 +98,27 @@ Status   | TWG
 [x]      | [How To Save a Life](http://archive.kaskus.co.id/thread/10761235)
 [x]      | [Waking The Demon](http://archive.kaskus.co.id/thread/11118743)
 [x]      | [Celestia](http://archive.kaskus.co.id/thread/11421415)
-[ ]      | [Van Helsing](http://archive.kaskus.co.id/thread/11759074)
-[x]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
-[x]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
-[ ]      | [The Dark Knight](http://archive.kaskus.co.id/thread/13708071)
-[ ]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
-[ ]      | [Tales of Minakami Village](http://archive.kaskus.co.id/thread/15359906)
-[x]      | [The Dark Age](http://archive.kaskus.co.id/thread/15858591)
+[x]      | [Van Helsing](http://archive.kaskus.co.id/thread/11759074)
 
-## Daftar TWG untuk new_kaskus.json
+## TWG 2012
 
 Status   | TWG
----------|----------
+---------|---------
+[x]      | [SinCity](http://archive.kaskus.co.id/thread/12356185)
+[x]      | [Curse of 14th Benizakura](http://archive.kaskus.co.id/thread/13091781)
+[x]      | [The Dark Knight](http://archive.kaskus.co.id/thread/13708071)
+[x]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
+[x]      | [Tales of Minakami Village](http://archive.kaskus.co.id/thread/15359906)
+[x]      | [The Dark Age](http://archive.kaskus.co.id/thread/15858591)
 [ ]      | [Be Lucky on West (Justice on Bet)](http://kask.us/gWPzz)
 [ ]      | [Lord of The Rings (The Chosen Ringbearer)](http://kask.us/gV5NT)
 [ ]      | [S.H.I.E.L.D](http://kask.us/gWu3t)
 [ ]      | [Battle of Analysis](http://kask.us/gVUlF)
+
+## TWG 2013 
+
+Status   | TWG
+---------|----------
 [ ]      | [The End of The Dragon World?](http://kask.us/g353e)
 [ ]      | [The Hanged Man](http://kask.us/g5DaG)
 [ ]      | [Apartment 312](http://kask.us/g9d8f)
@@ -130,20 +131,58 @@ Status   | TWG
 [ ]      | [Taintful War of Gods (TWG)](http://kask.us/hnd05)
 [x]      | [It's MoeLand !](http://kask.us/hsLsS)
 [ ]      | [The Secret Tomb of Lord Hircine](http://kask.us/hwF2N)
+
+## TWG 2014
+
+Status   | TWG
+---------|----------
 [ ]      | [Invasi Alam Gaib Bumi Nusantara](http://kask.us/hDMkD)
 [x]      | [Red Riding Hood - "Red Moon"](http://kask.us/hIipQ)
 [x]      | [Das Ruhenheim](http://kask.us/hKZBJ)
 [ ]      | [The DPR & Dangerous Viruses](http://kask.us/hNFBO)
 [x]      | [CheckMate!](http://kask.us/hQHBC)
+
+## TWG 2015
+
+Status   | TWG
+---------|----------
 [ ]      | [Trust & Betrayal](https://kask.us/hV1Bo)
 [ ]      | [Paradise : Brave New World](https://kask.us/h0j4e)
 [ ]      | [Tales of the Psycho Villains](https://kask.us/h1sVd)
 [ ]      | [The Dawn Of Monster](https://kask.us/h3igc)
 [x]      | [Menuju Indonesia Merdeka](https://kask.us/h53gF)
 [ ]      | [Bulan November 2015](https://kask.us/h9gNK)
+[ ]      | [Serigala Berbulu Qurban](https://kask.us/h7EyC)
+
+## TWG 2016
+
+Status   | TWG
+---------|----------
 [ ]      | [BOOM! part II](https://kask.us/ibxhD)
 [ ]      | [The Conjuring Theme](https://kask.us/igU6j)
 [ ]      | [Lovers All The Way](https://kask.us/ihXsw)
+
+
+## TWG 2017 
+
+Status   | TWG
+---------|----------
 [ ]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
 [ ]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
+
+
+## TWG 2018
+
+Status   | TWG
+---------|----------
 [x]      | [Hisashiburi](https://kask.us/iyBPW)
+
+## TWG 2019
+
+Status   | TWG
+---------|----------
+
+## TWG 2020
+
+Status   | TWG
+---------|----------

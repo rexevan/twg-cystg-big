@@ -1,0 +1,328 @@
+[
+    {
+        "name" : "It's MoeLand !",
+        "link" : "https://kask.us/hsLsS",
+        "gm" : "nakapyon",
+        "cogm" : "perpendicular",
+        "open" : "14-01-2014 20:49",
+        "start" :  "19-01-2014 11:29",
+        "finish" : "06-02-2014 22:00",
+        "won" : "goodies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["vandi94"]},
+            {"phase" : "N1", "dies" : ["indosphere", "sacfron"]},
+            {"phase" : "D2", "dies" : ["Dustchain"]},
+            {"phase" : "N2", "dies" : ["nileajah"]},
+            {"phase" : "D3", "dies" : ["version-9.99"]},
+            {"phase" : "N3", "dies" : ["thesuperbejo"]},
+            {"phase" : "D4", "dies" : ["ezio18"]},
+            {"phase" : "N4", "dies" : []},
+            {"phase" : "D5", "dies" : ["Liong33"]},
+            {"phase" : "N5", "dies" : ["00H3nnyCute00", "trian12"]},
+            {"phase" : "D6", "dies" : ["alvinsucita"]},
+            {"phase" : "N6", "dies" : ["SchyZeR"]},
+            {"phase" : "D7", "dies" : ["flaveo1"]},
+            {"phase" : "N7", "dies" : ["berubo18"]},
+            {"phase" : "D8", "dies" : ["Auditore", "loganmiles"]},
+            {"phase" : "N8", "dies" : ["CloudyTama"]},
+            {"phase" : "D9", "dies" : []},
+            {"phase" : "N9", "dies" : []},
+            {"phase" : "D10", "dies" : ["Mr.Avalanche"]}
+        ],
+        "players" : [
+            {"alignment" : "goodies", "role" : "Steel Skin", "id" : "trian12"},
+            {"alignment" : "goodies", "role" : "Hunter", "id" : "thesuperbejo"},
+            {"alignment" : "goodies", "role" : "Hypnotizer", "id" : "SchyZeR"},
+            {"alignment" : "goodies", "role" : "Tsundere", "id" : "egao.aya18"},
+            {"alignment" : "goodies", "role" : "Absorber", "id" : "Auditore30"},
+            {"alignment" : "goodies", "role" : "Singer", "id" : "CloudyTama"},
+            {"alignment" : "goodies", "role" : "Tracker", "id" : "sacfron"},
+            {"alignment" : "goodies", "role" : "Dreamer", "id" : "indosphere"},
+            {"alignment" : "goodies", "role" : "Trapmaster", "id" : "vandi94"},
+            {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "berubo18"},
+            {"alignment" : "goodies", "role" : "Curser", "id" : "loganmiles"},
+            {"alignment" : "goodies", "role" : "Berserk", "id" : "00H3nnyCute00"},
+            {"alignment" : "goodies", "role" : "klutz", "id" : "flaveo1"},
+            {"alignment" : "goodies", "role" : "Sibling", "id" : "nileajah", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Sibling", "id" : "DustChain"},
+            {"alignment" : "goodies", "role" : "Seer", "id" : "1St.ZeTT", "mvp" : true},
+
+            {"alignment" : "baddies", "role" : "Senpai", "id" : "riki.rawfan"},
+            {"alignment" : "baddies", "role" : "Kouhai", "id" : "Mr.Avalanche"},
+            {"alignment" : "baddies", "role" : "Apostle", "id" : "alvinsucita"},
+            {"alignment" : "baddies", "role" : "Zombie", "id" : "version-9.99"},
+            {"alignment" : "baddies", "role" : "Time Manipulator", "id" : "ezio18"},
+            {"alignment" : "baddies", "role" : "Voodoo Lady", "id" : "Liong33", "mvp" : true}
+        ]
+    },
+    {
+        "name" : "Das Ruhenheim",
+        "link" : "https://kask.us/hKZBJ",
+        "gm" : "cobaltblue",
+        "open" : "11-08-2014 19:13",
+        "start" :  "13-08-2014 03:22",
+        "finish" : "27-08-2014 18:27",
+        "won" : "goodies",
+        "phases" : [
+            { "phase" : "D1", "dies"  : ["enz10"]},
+            { "phase" : "N1", "dies"  : ["noelblulub"]},
+            { "phase" : "D2", "dies"  : ["nalfiadi"]},
+            { "phase" : "N2", "dies"  : ["Arfour"]},
+            { "phase" : "D3", "dies"  : ["fahape"]},
+            { "phase" : "N3", "dies"  : ["vickermond", "RaynaQ"]},
+            { "phase" : "D4", "dies"  : ["grifiest"]},
+            { "phase" : "N4", "dies"  : ["vandi94"]},
+            { "phase" : "D5", "dies"  : ["CrazyUya"]},
+            { "phase" : "N5", "dies"  : ["red.katsuragi"]},
+            { "phase" : "D6", "dies"  : ["dgr"]},
+            { "phase" : "N6", "dies"  : ["fizer0"]},
+            { "phase" : "D7", "dies"  : ["asnol2"]}
+        ],
+        "players" : [
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "vickermond",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Seer",
+                "id" : "andromedafun",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "enz10",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "fizer0",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "red.katsuragi",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Mason",
+                "id" : "berubo18",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Werewolf",
+                "id" : "CrazyUya",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Mason",
+                "id" : "Mr.Avalanche",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "milennium200",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Traitor",
+                "id" : "asnol2",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Roleblocker",
+                "id" : "nalfiadi",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Spy",
+                "id" : "RaynaQ",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "grifiest",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "Waika",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Werewolf",
+                "id" : "dgr",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "arifauzi92",
+            },
+            {
+                "alignment" : "baddies",
+                "role" : "Werewolf",
+                "id" : "Arfour",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Villager",
+                "id" : "fahape",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Guardian Angel",
+                "id" : "noelblulub",
+            },
+            {
+                "alignment" : "goodies",
+                "role" : "Hunter",
+                "id" : "vandi94",
+            }
+        ]
+    },
+    {
+        "name" : "CheckMate!",
+        "link" : "https://kask.us/hQHBC",
+        "gm" : "version-9.99",
+        "cogm" : "andika.pradana",
+        "open" : "20-11-2014 10:01",
+        "start" : "08-12-2014 08:28",
+        "finish" : "17-12-2014 22:15",
+        "won" : "baddies",
+        "phases" : [
+            {"phase" : "D1", "dies" : ["fizer0"]},
+            {"phase" : "N1", "dies" : ["momochi26"]},
+            {"phase" : "D2", "dies" : ["milennium2000"] },
+            {"phase" : "N2", "dies" : ["pitik.oenyoe"]},
+            {"phase" : "D3", "dies" : ["1St.ZeTT"]},
+            {"phase" : "N3", "dies" : ["Faridasta", "jedith3"]},
+            {"phase" : "D4", "dies" : ["Dzboy"]},
+            {"phase" : "N4", "dies" : [".falcongirl."]},
+            {"phase" : "D5", "dies" : ["andromedafun", "fahape"]},
+            {"phase" : "N5", "dies" : ["gamemaster123"]}
+        ],
+        "players" : [
+            {
+                "alignment" : "goodies",
+                "id" : "Faridasta"
+            },
+            {
+                "id" : "1St.ZeTT",
+                "alignment" : "goodies"
+            },
+            {
+                "id" : "Dzboy",
+                "alignment" : "goodies"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "ZhumpHex",
+                "mvp" : true
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "milennium2000"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "gamemaster123"
+            },
+            {
+                "id" : "momochi26"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "fahape"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "portgazzz"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "fizer0"
+            },
+            {
+                "alignment" : "goodies",
+                "id" : "andromedafun"
+            },
+            {
+                "id" : "jedith3"
+            },
+            {
+                "id" : "asnol2"
+            },
+            {
+                "id" : "arifauzi92"
+            },
+            {
+                "alignment" : "goodies"
+                "id" : "pitik.oenyoe",
+            },
+            {
+                "id" : "sakurasougw"
+            },
+            {
+                "alignment" : "goodies"
+                "id" : ".falcongirl.",
+            },
+            {
+                "id" : "mz.mpiz",
+                "alignment" : "goodies"
+            },
+            {
+                "alignment" : "goodies"
+                "id" : "nalfiadi",
+            }
+        ]
+    },
+    {
+        "name" : "Red Riding Hood - Red Moon",
+        "link" : "https://kask.us/hIipQ",
+        "gm" : "version-9.99",
+        "cogm" : "suhendrosl",
+        "open" : "19-06-2014 23:13",
+        "start" :  "20-06-2014 21:03",
+        "finish" : "27-06-2014 00:25",
+        "won" : "goodies",
+        "fullclone" : true,
+        "phases" : [
+            {"phase" : "D1", "dies"  : ["shirayuri"]},
+            {"phase" : "N1", "dies"  : ["arfour"]},
+            {"phase" : "D2", "dies"  : ["Myeeaouw"]},
+            {"phase" : "N2", "dies"  : ["2nd.Zett", "e17.desktop"]},
+            {"phase" : "D3", "dies"  : ["young.azrael"]},
+            {"phase" : "N3", "dies"  : ["greenvespa"]},
+            {"phase" : "D4", "dies"  : ["rojopurwo"]},
+            {"phase" : "N4", "dies"  : ["mafiatwg"]},
+            {"phase" : "D5", "dies"  : ["apha.ajha.bhole"]},
+            {"phase" : "N5", "dies"  : ["id.gelap"]},
+            {"phase" : "D6", "dies"  : ["sarkhopagus"]},
+            {"phase" : "N6", "dies"  : ["sutradara", "scream", "temenx"]}
+        ],
+        "players" : [
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "sarkophagus", "realid" : "arifauzi92"},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "the.scream", "realid" : "RaynaQ", "mvp" : true},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "temenx", "realid" : "aditkw"},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "tv.director", "realid" : "nalfiadi"},
+     
+            { "alignment" : "goodies", "role" : "Villager", "id" : "greenvespa", "realid" : "enz10"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "2nd.zett", "realid" : "rifQudo"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "Caramelz.18", "realid" : "noelblulub"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "mafiatwg", "realid" : "nileajah"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "myeeaouw", "realid" : "the.strategist"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "Nalukka", "realid" : "CrazyUya"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "arfour", "realid" : "riki.rawfan"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "eyangkabur", "realid" : "trian12"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "rojopurwo", "realid" : "lee.kwang.sooo"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "id.gelap", "realid" : "SchyZeR", "mvp" : true},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "e17.desktop", "realid" : "andromedafun"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "apha.ajha.bhole", "realid" : "berubo18"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "young.azrael", "realid" : "Myeekodok"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "v4lk","realid" : "Mr.Avalance",  "mvp" : true},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "shirayuri", "realid" : "CloudyTama"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "renirenireni", "realid" : "vandi"}
+        ]
+    }
+]
