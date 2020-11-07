@@ -1,5 +1,7 @@
 # TWG BIG CYSTG Database
 
+Untuk melihat pemutakhiran terbaru, silahkan periksa Update Notes.
+
 ## Pendahuluan
 
 Segala yang yang memiliki permulaan pasti akan berakhir.
@@ -24,9 +26,9 @@ name        | Nama TWG, tidak termasuk nomor romawi di depan nama TWG
 link        | Tautan dari TWG Tersebut. Beberapa TWG yang sudah lama dan masuk *KASKUS archive*, sedangkan yang lebih baru dapat diakses langsung dari situs KASKUS yang sekarang.
 gm          | Game Master / Host dari TWG tersebut
 cogm        | co-Game Master. Seperti co-pilot, co-Game Master membantu Game Master dalam menjalankan permainan.
-open        | Waktu (tanggal dan jam) *thread* dibuka
-start       | Waktu (tanggal dan jam) fase pertama dimulai
-finish      | Waktu (tanggal dan jam) fase terakhir selesai
+open        | Tanggal *thread* dibuka
+start       | Tanggal fase pertama dimulai
+finish      | Tanggal fase terakhir selesai
 won         | Aligment yang memenangkan permainan (goodies, baddies, neutral).
 phases      | Informasi mengenai fase seperti waktu dimulainya suatu fase dan pemain yang mati / *dead* pada akhir fase tersebut.
 players     | Informasi mengenai pemain seperti *aligment*, *role*, status MVP, dan pemain cadangan (jika pemain bersangkutan digantikan oleh pemain cadangan)
@@ -55,32 +57,37 @@ Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Nota
 Bentuk ini dipilih mengingat data yang dikupulkan merupakan data yang *nested*.
 Informasi setiap fase dan pemain dibuat dalam 1 line agar file tidak kelihatan panjang ke bawah.
 
-Setelah update V1, semua TWG dibagi berdasarkan tahun rilisnya. Ini berbeda dengan versi sebelumnya ketika TWG dibagi berdasarkan apakah menggunakan old kaskus / *archive* atau menggunakan new kaskus.
-
-```
-{
-        "name" : "Menuju Indonesia Merdeka",
-        "link" : "https://kask.us/h53gF",
-        "gm" : "jedith3",
-        "cogm" : "Dzboy",
-        "open" : "18-08-2015 17:51",
-        "start" :  "20-08-2015 06:39",
-        "finish" : "29-08-2015 19:20",
-        "won" : "goodies",
+```{json}
+    {
+        "name" : "Kutukan Sri dan Gala",
+        "link" : "https://archive.kaskus.co.id/thread/8765940",
+        "gm" : "Huzaiv",
+        "theme" : "Werewolves",
+        "open" : "25-05-2011",
+        "start" :  "26-05-2011",
+        "finish" : "05-06-2011",
+        "won" : "baddies",
         "phases" : [
-            {"phase" : "D1", "updated" : "21-08-2015 20:39", "dies"  : ["ADITMILANISTI"]},
-            {"phase" : "N1", "updated" : "22-08-2015 21:11", 
-            "dies"  : ["xemp.phax", "terigucampurair", "11sphere92", "reinforcedboy"], 
-            "subsitutions" : [{"subout" : "unqsn","subin" : "terigucampurair"}, {"subout" : "portgazzz","subin" : "nalfiadi"}
+            {"phase" : "D1", "dies" : ["lukystar"]},
+            {"phase" : "N1", "dies" : ["jagoan_baru"]},
+            {"phase" : "D2", "dies" : ["pushplay"]}
+            ....
         ],
         "players" : [
-            {"alignment" : "baddies", "role" : "Roleblocker", "id" : "helium.rusak"},
-            {"alignment" : "goodies", "role" : "Villager", "id" : "Solahart"}
+            { "alignment" : "goodies", "role" : "Villager", "id" : "YosoRoso.ver2"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "00H3nnyCute00"},
+            { "alignment" : "goodies", "role" : "Mason", "id" : "ryuzakichibi"},
+            { "alignment" : "goodies", "role" : "Hunter", "id" : "xlimitedx"},
+            { "alignment" : "goodies", "role" : "Seer", "id" : "CeKilatoZ" },
+            { "alignment" : "goodies", "role" : "Guardian Angel", "id" : "jagoan_baru" },
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "cobaltblue"},
+            { "alignment" : "baddies", "role" : "Werewolf", "id" : "pasirjengkol"}
+            ....
         ]
- }
+    }
 ```
 
-Berikut adalah Tautan TWG BIG yang bisa saya temukan. Data dikumpulkan berasal dari masing-masing tautan. 
+Berikut adalah Tautan TWG BIG yang bisa saya temukan. Data dikumpulkan berasal dari masing-masing tautan.
 Jika kamu ingin bertanya, *request*, ataupun menyampaikan kritik dan saran, silahkan hubungi [saya via KASKUS](https://www.kaskus.co.id/@Tmofer) maupun langsung di GitHub.
 
 ## TWG 2011
@@ -110,12 +117,12 @@ Status   | TWG
 [x]      | [Membunuh atau Dibunuh](http://archive.kaskus.co.id/thread/14482535)
 [x]      | [Tales of Minakami Village](http://archive.kaskus.co.id/thread/15359906)
 [x]      | [The Dark Age](http://archive.kaskus.co.id/thread/15858591)
-[ ]      | [Be Lucky on West (Justice on Bet)](http://kask.us/gWPzz)
-[ ]      | [Lord of The Rings (The Chosen Ringbearer)](http://kask.us/gV5NT)
-[ ]      | [S.H.I.E.L.D](http://kask.us/gWu3t)
-[ ]      | [Battle of Analysis](http://kask.us/gVUlF)
+[x]      | [Be Lucky on West (Justice on Bet)](http://kask.us/gWPzz)
+[x]      | [Lord of The Rings (The Chosen Ringbearer)](http://kask.us/gV5NT)
+[x]      | [S.H.I.E.L.D](http://kask.us/gWu3t)
+[x]      | [Battle of Analysis](http://kask.us/gVUlF)
 
-## TWG 2013 
+## TWG 2013
 
 Status   | TWG
 ---------|----------
@@ -162,14 +169,13 @@ Status   | TWG
 [ ]      | [The Conjuring Theme](https://kask.us/igU6j)
 [ ]      | [Lovers All The Way](https://kask.us/ihXsw)
 
-
-## TWG 2017 
+## TWG 2017
 
 Status   | TWG
 ---------|----------
 [ ]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
 [ ]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
-
+[ ]      | [TWG: Gathering Berdarah](https://kask.us/itxtJ)
 
 ## TWG 2018
 

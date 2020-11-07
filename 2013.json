@@ -55,5 +55,92 @@
             {"alignment" : "baddies", "role" : "Remilia Scarlet", "id" : "xXCardCaptorXx"},
             {"alignment" : "baddies", "role" : "Sakuya Izayoi   ", "id" : "keselekpempek"}
         ]
+    },
+    {
+        "name" : "",
+        "link" : "",
+        "gm" : "",
+        "open" : "",
+        "start" :  "",
+        "finish" : "",
+        "won" : "",
+        "phases" : [
+            {"phase" : "D1", "dies" : []},
+            {"phase" : "N1", "dies" : []},
+            {"phase" : "D2", "dies" : []},
+            {"phase" : "N2", "dies" : []},
+            {"phase" : "D3", "dies" : [], "modkill" : []},
+            {"phase" : "N3", "dies" : []},
+            {"phase" : "D4", "dies" : [], "modkill" : []},
+            {"phase" : "N4", "dies" : []},
+            {"phase" : "D5", "dies" : []}
+        ],
+        "players" : [
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+
+			{"alignment" : "neutral", "id" : }
+        ]
+    },
+    {
+        "name" : "",
+        "link" : "",
+        "gm" : "",
+        "open" : "",
+        "start" :  "",
+        "finish" : "",
+        "won" : "",
+        "phases" : [
+            {"phase" : "D1", "dies" : []},
+            {"phase" : "N1", "dies" : []},
+            {"phase" : "D2", "dies" : []},
+            {"phase" : "N2", "dies" : []},
+            {"phase" : "D3", "dies" : [], "modkill" : []},
+            {"phase" : "N3", "dies" : []},
+            {"phase" : "D4", "dies" : [], "modkill" : []},
+            {"phase" : "N4", "dies" : []},
+            {"phase" : "D5", "dies" : []}
+        ],
+        "players" : [
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+			{"alignment" : "goodies", "id" : },
+
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+			{"alignment" : "baddies", "id" : },
+
+			{"alignment" : "neutral", "id" : }
+        ]
     }
+]
 ]
