@@ -21,22 +21,22 @@
             {"phase" : "N5", "dies" : ["http."]}
         ],
         "players" : [
-            { "alignment" : "goodies", "role" : "Villager", "id" : "irfan14"},
-            { "alignment" : "goodies", "role" : "Villager", "id" : "nakasani"},
-            { "alignment" : "goodies", "role" : "Villager", "id" : "YosoRoso.ver2"},
-            { "alignment" : "goodies", "role" : "Villager", "id" : "00H3nnyCute00"},
-            { "alignment" : "goodies", "role" : "Villager", "id" : "pushplay"},
-            { "alignment" : "goodies", "role" : "Mason", "id" : "FourBrothers"},
-            { "alignment" : "goodies", "role" : "Mason", "id" : "ryuzakichibi"},
-            { "alignment" : "goodies", "role" : "Mason", "id" : "lukystar"},
-            { "alignment" : "goodies", "role" : "Mason", "id" : "http."},
-            { "alignment" : "goodies", "role" : "Hunter", "id" : "xlimitedx"},
-            { "alignment" : "goodies", "role" : "Seer", "id" : "CeKilatoZ" },
-            { "alignment" : "goodies", "role" : "Guardian Angel", "id" : "jagoan_baru" },
-            { "alignment" : "baddies", "role" : "Werewolf", "id" : "cobaltblue"},
-            { "alignment" : "baddies", "role" : "Werewolf", "id" : "pasirjengkol"},
-            { "alignment" : "baddies", "role" : "Werewolf", "id" : "akira_yosuke"},
-            { "alignment" : "baddies", "role" : "Werewolf", "id" : "xjocker"}
+            {"alignment" : "goodies", "role" : "Villager", "id" : "irfan14"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "nakasani"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "YosoRoso.ver2"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "00H3nnyCute00"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "pushplay"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "FourBrothers"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "ryuzakichibi"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "lukystar"},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "http."},
+            {"alignment" : "goodies", "role" : "Hunter", "id" : "xlimitedx"},
+            {"alignment" : "goodies", "role" : "Seer", "id" : "CeKilatoZ" },
+            {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "jagoan_baru" },
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "cobaltblue"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "pasirjengkol"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "akira_yosuke"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "xjocker"}
         ]
     },
     {
@@ -97,16 +97,16 @@
         "finish" : "29-06-2011",
         "won" : "goodies",
         "phases" : [
-            { "phase" : "N1", "dies" : [] },
-            { "phase" : "D1", "dies" : ["00H3nnyCute00"] },
-            { "phase" : "N2", "dies" : ["Huzaiv"] },
-            { "phase" : "D2", "dies" : ["FourBrothers"] },
-            { "phase" : "N3", "dies" : ["perpendicular", "descart"] },
-            { "phase" : "D3", "dies" : ["CeKilatoZ"] },
-            { "phase" : "N4", "dies" : ["http."] },
-            { "phase" : "D4", "dies" : ["cobaltblue","FourBrothers"] },
-            { "phase" : "N5", "dies" : ["R.1.C"] },
-            { "phase" : "D5", "dies" : ["perpendicular"] }
+            {"phase" : "N1", "dies" : []},
+            {"phase" : "D1", "dies" : ["00H3nnyCute00"]},
+            {"phase" : "N2", "dies" : ["Huzaiv"]},
+            {"phase" : "D2", "dies" : ["FourBrothers"]},
+            {"phase" : "N3", "dies" : ["perpendicular", "descart"]},
+            {"phase" : "D3", "dies" : ["CeKilatoZ"]},
+            {"phase" : "N4", "dies" : ["http."]},
+            {"phase" : "D4", "dies" : ["cobaltblue","FourBrothers"]},
+            {"phase" : "N5", "dies" : ["R.1.C"]},
+            {"phase" : "D5", "dies" : ["perpendicular"]}
         ],
         "players" : [
             {"alignment" : "goodies", "role" : "Villager", "id" : "Waika"},
@@ -156,7 +156,7 @@
         "phases" : [
             {"phase" : "D1", "dies" : ["dgr"]},
             {"phase" : "N1", "dies" : ["Papertess", "engokers"]},
-            {"phase" : "D2", "dies" : ["detective1412"], "subsitutions" : [{"subout" : "Empa1", "subin" : "xlimitedx"}]},
+            {"phase" : "D2", "dies" : ["detective1412"]},
             {"phase" : "N2", "dies" : ["pushplay"]},
             {"phase" : "D3", "dies" : ["violetpeach"]},
             {"phase" : "N3", "dies" : ["nakasani"]},
@@ -180,7 +180,7 @@
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "violetpeach"},
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "00H3nnyCute00"},
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "LevuLose", "trait" : "Santo"},
-            {"alignment" : "goodies", "role" : "Pelajar", "id" : "Empa1", "subbed" : "xlimitedx"},
+            {"alignment" : "goodies", "role" : "Pelajar", "id" : "xlimitedx"},
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "Papertess", "trait" : "Si Kembar"},
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "engokers", "trait" : "Si Kembar"},
             {"alignment" : "goodies", "role" : "Pelajar", "id" : "CeKilatoZ", "trait" : "Pengkhianat"},
@@ -212,14 +212,14 @@
         "finish" : "09-08-2011",
         "won" : "baddies",
         "phases" : [
-            {"phase" : "D1", "dies" : ["WiZarD_CoePoe"], "substitutions" : [{"subout" : "rajahoki", "subin" : "grifiest"}]},
+            {"phase" : "D1", "dies" : ["WiZarD_CoePoe"]},
             {"phase" : "N1", "dies" : ["detective1412", "Huzaiv"]},
             {"phase" : "D2", "dies" : ["loediiiii"]},
             {"phase" : "N2", "dies" : ["xlimitedx"]},
             {"phase" : "D3", "dies" : ["R.1.C", "Rian.l4w"]},
             {"phase" : "N3", "dies" : ["TheOldBrother"]},
             {"phase" : "D4", "dies" : ["pasirjengkol"]},
-            {"phase" : "N4", "dies" : ["lukystar", "Gon68", "descart"], "modkill" : ["Gon68", "descart"], "substitutions" : [{"subout" : "jagoan_baru", "subin" : "xjocker"}]},
+            {"phase" : "N4", "dies" : ["lukystar", "Gon68", "descart"], "modkill" : ["Gon68", "descart"]},
             {"phase" : "D5", "dies" : ["dragunovian"]},
             {"phase" : "N5", "dies" : ["grifiest"]},
             {"phase" : "D6", "dies" : ["engokers"]},
@@ -228,7 +228,7 @@
             {"phase" : "N7", "dies" : ["devil7th"]},
             {"phase" : "D8", "dies" : ["rendra_3"]},
             {"phase" : "N8", "dies" : ["ReNveLaTioNa", "aprilmop88"], "modkill" : ["aprilmop88"]},
-            {"phase" : "D9", "dies" : ["Sinergid"]}
+            {"phase" : "D9", "dies" : ["Sinergid"]},
             {"phase" : "N9", "dies" : ["fanatic406"]}
 
         ],
@@ -239,8 +239,8 @@
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "ReNveLaTioNa"},
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "WiZarD_CoePoe"},
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "detective1412"},
-            {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "lukystar", "mvp" : true},
-            {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "pasirjengkol","mvp" : true},
+            {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "lukystar"},
+            {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "pasirjengkol"},
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "Rian.l4w", "trait" : "Uchiha"},
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "Sinergid", "trait" : "Aburame"},
             {"alignment" : "goodies", "role" : "Ninja Konoha", "id" : "rendra_3", "trait" : "Aburame"},
@@ -249,18 +249,19 @@
             {"alignment" : "goodies", "role" : "ANBU", "id" : "R.1.C"},
             {"alignment" : "goodies", "role" : "ANBU", "id" : "fanatic406"},
             {"alignment" : "goodies", "role" : "ANBU", "id" : "00H3nnyCute00"},
-            {"alignment" : "goodies", "role" : "ANBU", "id" : "rajahoki", "subbed" : "grifiest"},
+            {"alignment" : "goodies", "role" : "ANBU", "id" : "grifiest"},
 
             {"alignment" : "goodies", "role" : "ROOT", "id" : "aprilmop88"},
             {"alignment" : "goodies", "role" : "Hyuga", "id" : "TheOldBrother"},
             {"alignment" : "goodies", "role" : "Medical-Ninja", "id" : "xlimited"},
 
             {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "descart"},
-            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "dragunovian", "mvp" : true},
-            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "Jigoku.aya18", "mvp" : true},
-            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "jagoan_baru", "subbed" : "xjocker"},
+            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "dragunovian"},
+            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "Jigoku.aya18"},
+            {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "xjocker"},
             {"alignment" : "baddies", "role" : "Alpha Kamikage", "id" : "engokers"}
-        ]
+        ],
+        "mvp" : ["lukystar", "pasirjengkol", "dragunovian", "Jigoku.aya18"]
     },
     {
         "name" : "An Infiltration Destinies",
@@ -275,7 +276,7 @@
         "phases" : [
             {"phase" : "N1", "dies" : ["FraXtore"]},
             {"phase" : "D1", "dies" : ["andika.pradana"]},
-            {"phase" : "N2", "dies" : ["grifiest", "Leehan666"], "substitution" : [{"subout" : "Kirera76", "subin" : "Xerotess"}, {"subout" : "dul.joni", "subin" : "temenx"}]},
+            {"phase" : "N2", "dies" : ["grifiest", "Leehan666"]},
             {"phase" : "D2", "dies" : ["Cyzerox", "redza_fahredza","unknown.l4w"]},
             {"phase" : "N3", "dies" : ["rendra_3", "Sinergid"], "modkill" : ["Sinergid"]},
             {"phase" : "D3", "dies" : ["detective1412"]},
@@ -294,7 +295,7 @@
             {"alignment" : "goodies", "role" : "Waria", "id" : "aprilmop88"},
             {"alignment" : "goodies", "role" : "Waria", "id" : "luxuria.666"},
             {"alignment" : "goodies", "role" : "Waria", "id" : "WiZarD_CoePoe"},
-            {"alignment" : "goodies", "role" : "Waria", "id" : "Kirera76", "subbed" : "Xerotess"},
+            {"alignment" : "goodies", "role" : "Waria", "id" : "Xerotess"},
 
             {"alignment" : "goodies", "role" : "Waria", "trait" : "Soulmate", "id" : "unknown.l4w"},
             {"alignment" : "goodies", "role" : "Waria", "trait" : "police administration", "id" : "andika.pradana"},
@@ -302,64 +303,20 @@
             {"alignment" : "goodies", "role" : "Waria", "trait" : "Soulmate", "id" : "redza_fahredza"},
 
             {"alignment" : "goodies", "role" : "Gay", "id" : "Sinergid"},
-            {"alignment" : "goodies", "role" : "Gay", "id" : "dul.joni", "subbed" : "temenx"},
-            {"alignment" : "goodies", "role" : "Gay", "trait" : "tante genit","id" : "rendra_3"},
+            {"alignment" : "goodies", "role" : "Gay", "id" : "temenx"},
+            {"alignment" : "goodies", "role" : "Gay", "trait" : "tante genit", "id" : "rendra_3"},
 
             {"alignment" : "goodies", "role" : "Germo", "id" : "Gon68"},
             {"alignment" : "goodies", "role" : "Viagra Gay", "id" : "dragunovian"},
             {"alignment" : "goodies", "role" : "Bokepers", "id" : "LearnToNgaskus"},
-            {"alignment" : "goodies", "role" : "Pejabat", "trait" : "Twitter-Holic",  "id" : "Sansanbgl", "subbed" : "Leehan666"},
+            {"alignment" : "goodies", "role" : "Pejabat", "trait" : "Twitter-Holic",  "id" : "Leehan666"},
 
             {"alignment" : "baddies", "role" : "Pak Kumandan", "id" : "grifiest"},
             {"alignment" : "baddies", "role" : "Kantib", "id" : "Cyzerox"},
             {"alignment" : "baddies", "role" : "Kantib", "id" : "r00t5y5tem"},
-            {"alignment" : "baddies", "role" : "Kantib", "id" : "Creete", "subbed" : "FraXtore"},
+            {"alignment" : "baddies", "role" : "Kantib", "id" : "FraXtore"},
 
             {"alignment" : "neutral", "role" : "Ababil", "trait" : "Facebook-Holic", "id" : "Chewycandies"}
-        ]
-    },
-    {
-        "name" : "Chaos at Yorkshin City",
-        "link" : "http://archive.kaskus.co.id/thread/10342165",
-        "gm" : "Xerotess",
-        "theme" : "Hunter x Hunter",
-        "open" : "01-09-2011",
-        "start" :  "02-09-2011",
-        "finish" : "08-09-2011",
-        "won" : [],
-        "phases" : [
-            {"phase" : "D1", "dies" : ["sacfron"]},
-            {"phase" : "N1", "dies" : ["lukystar"]},
-            {"phase" : "D2", "dies" : []},
-            {"phase" : "N2", "dies" : ["rendra_3"]},
-            {"phase" : "D3", "dies" : ["r00t5y5tem", "ChewyCandies"], "modkill" : ["ChewyCandies"]}
-        ],
-        "players" : [
-            {"id" : "cobaltblue"},
-            {"id" : "lukystar"},
-            {"id" : "Myeekodok"},
-            {"id" : "sacfron"},
-            {"id" : "http."},
-            {"id" : "violetpeach"},
-            {"id" : "Leehan666"},
-            {"id" : "egao.aya18"},
-            {"id" : "detective1412"},
-            {"id" : "r00t5y5tem"},
-            {"id" : "Chewycandies"},
-            {"id" : "FourBrothers"},
-            {"id" : "andika.pradana"},
-            {"id" : "rendra_3"},
-            {"id" : "Sinergid"},
-            {"id" : "jcross"},
-            {"id" : "R.1.C"},
-            {"id" : "aprilmop88"},
-            {"id" : "temenx"},
-            {"id" : "grifiest"},
-            {"id" : "Gon68"},
-            {"id" : "engokid"},
-            {"id" : "ChunRyong"},
-            {"id" : "adnnin"},
-            {"id" : "davindra"}
         ]
     },
     {
@@ -452,13 +409,14 @@
 
             {"alignment" : "goodies", "role" : "Mason", "id" : "leozz"},
             {"alignment" : "goodies", "role" : "Mason", "id" : "nakasani"},
-            {"alignment" : "goodies", "role" : "Mason", "id" : "ayikridic", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Mason", "id" : "ayikridic"},
 
             {"alignment" : "baddies", "role" : "Werewolf", "id" : "Houkago"},
             {"alignment" : "baddies", "role" : "Werewolf", "id" : "LearnToNgaskus"},
-            {"alignment" : "baddies", "role" : "Werewolf", "id" : "Xerotess", "mvp" : true},
-            {"alignment" : "baddies", "role" : "Werewolf", "id" : "egao.aya18", "mvp" : true}
-        ]
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "Xerotess"},
+            {"alignment" : "baddies", "role" : "Werewolf", "id" : "egao.aya18"}
+        ],
+        "mvp" : ["ayikridic", "Xerotess", "egao.aya18"]
     },
     {
         "name" : "Waking The Demon",
@@ -549,16 +507,17 @@
 
             {"alignment" : "goodies", "role" : "Grey Wolf", "id" : "jcross"},
             {"alignment" : "goodies", "role" : "Fairy Godmother", "id" : "ayikridic"},
-            {"alignment" : "goodies", "role" : "Fire Eyes", "id" : "fanatic406", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Fire Eyes", "id" : "fanatic406"},
 
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "grifiest"},
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "teddy5145"},
             {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "YosoRoso.ver2"},
-            {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "rendra_3", "mvp" :true},
+            {"alignment" : "baddies", "role" : "Demon Worshiper", "id" : "rendra_3"},
             {"alignment" : "baddies", "role" : "Guardian Demon", "id" : "andika.pradana"},
 
             {"alignment" : "neutral", "role" : "Cupid", "id" : "WiryoSableng"}
-        ]
+        ],
+        "mvp" : ["fanatic406", "rendra_3"]
     },
     {
         "name" : "Van Helsing",

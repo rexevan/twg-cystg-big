@@ -65,25 +65,25 @@
         "finish" : "29-02-2012",
         "won" : "goodies",
         "phases" : [
-            {"phase" : "D1", "dies" : ["sacfron"] },
-            {"phase" : "N1", "dies" : ["SerPiero"] },
-            {"phase" : "D2", "dies" : ["sygkm"] },
-            {"phase" : "N2", "dies" : ["YosoRoso", "jedayiz"] },
-            {"phase" : "D3", "dies" : ["fanatic406"] },
-            {"phase" : "N3", "dies" : [] },
-            {"phase" : "D4", "dies" : ["leozz"] },
-            {"phase" : "N4", "dies" : ["CeKilatoZ", "DropItOut", "Taurus.175"] },
-            {"phase" : "D5", "dies" : ["Eus"] },
-            {"phase" : "N5", "dies" : ["jackdaws", "Nalluka"] },
-            {"phase" : "D6", "dies" : ["beezelbug", "GoNdoRukem"] },
-            {"phase" : "N6", "dies" : ["killv"] },
-            {"phase" : "D7", "dies" : ["baudjaya"] },
-            {"phase" : "N7", "dies" : ["grifiest"] }
+            {"phase" : "D1", "dies" : ["sacfron"]},
+            {"phase" : "N1", "dies" : ["SerPiero"]},
+            {"phase" : "D2", "dies" : ["sygkm"]},
+            {"phase" : "N2", "dies" : ["YosoRoso", "jedayiz"]},
+            {"phase" : "D3", "dies" : ["fanatic406"]},
+            {"phase" : "N3", "dies" : []},
+            {"phase" : "D4", "dies" : ["leozz"]},
+            {"phase" : "N4", "dies" : ["CeKilatoZ", "DropItOut", "Taurus.175"]},
+            {"phase" : "D5", "dies" : ["Eus"]},
+            {"phase" : "N5", "dies" : ["jackdaws", "Nalluka"]},
+            {"phase" : "D6", "dies" : ["beezelbug", "GoNdoRukem"]},
+            {"phase" : "N6", "dies" : ["killv"]},
+            {"phase" : "D7", "dies" : ["baudjaya"]},
+            {"phase" : "N7", "dies" : ["grifiest"]}
         ],
         "players" : [
             {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "andra_ub17"},
-            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "adnnin", "mvp" : true},
-            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "sacfron", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "adnnin"},
+            {"alignment" : "goodies", "role" : "Paranoid Cop", "id" : "sacfron"},
             {"alignment" : "goodies", "role" : "Naive Cop", "id" : "killv"},
             {"alignment" : "goodies", "role" : "Naive Cop", "id" : "temenx"},
             {"alignment" : "goodies", "role" : "Naive Cop", "id" : "Nalluka"},
@@ -108,10 +108,11 @@
             {"alignment" : "baddies", "role" : "Driver", "id" : "leozz"},
             {"alignment" : "baddies", "role" : "Lone Wolf", "id" : "sygkm"},
             {"alignment" : "baddies", "role" : "Traitor", "id" : "baudjaya"},
-            {"alignment" : "baddies", "role" : "Framer", "id" : "grifiest", "mvp" : true},
+            {"alignment" : "baddies", "role" : "Framer", "id" : "grifiest"},
 
             {"alignment" : "neutral", "role" : "Granny", "id" : "rendra_3"}
-        ]
+        ],
+        "mvp" : ["adnnin", "sacfron", "grifiest"]
     },
     {
         "name" : "The Dark Knight",
@@ -124,7 +125,7 @@
         "finish" : "10-04-2012",
         "won" : "baddies",
         "phases" : [
-            {"phase" : "D1", "dies" : ["jackdaws"], "substituion" : [{"subout" : "sygkm", "subin" : "green.martian"}]},
+            {"phase" : "D1", "dies" : ["jackdaws"]},
             {"phase" : "N1", "dies" : ["keselekpempek", "bebektepos"]},
             {"phase" : "D2", "dies" : ["Antoniio01"]},
             {"phase" : "N2", "dies" : ["blus0n"]},
@@ -146,17 +147,18 @@
             {"alignment" : "goodies", "role" : "Rachel", "id" : "felix.felicis"},
             {"alignment" : "goodies", "role" : "Gotham Mayor", "id" : "negativ"},
             {"alignment" : "goodies", "role" : "Jim Gordon", "id" : "bebektepos"},
-            {"alignment" : "goodies", "role" : "Harvey Dent", "id" : "di.skripsi.nya", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Harvey Dent", "id" : "di.skripsi.nya"},
 
             {"alignment" : "goodies", "role" : "Gotham Police", "id" : "andika.pradana"},
             {"alignment" : "goodies", "role" : "Gotham Police", "id" : "blus0n"},
             {"alignment" : "goodies", "role" : "Gotham Police", "id" : "leozz"},
 
             {"alignment" : "baddies", "role" : "Corrupt Police", "id" : "keselekpempek"},
-            {"alignment" : "baddies", "role" : "Joker", "id" :"fanatic406", "mvp" : true},
-            {"alignment" : "baddies", "role" : "Lau", "id" :"sygkm", "subbed" : "green.martian"},
-            {"alignment" : "baddies", "role" : "Gotham Gangster", "id" : "nakasani", "mvp" : true}
-        ]
+            {"alignment" : "baddies", "role" : "Joker", "id" :"fanatic406"},
+            {"alignment" : "baddies", "role" : "Lau", "id" : "green.martian"},
+            {"alignment" : "baddies", "role" : "Gotham Gangster", "id" : "nakasani"}
+        ],
+        "mvp" : ["di.skripsi.nya", "fanatic406", "nakasani"]
     },
     {
         "name" : "Membunuh atau Dibunuh",
@@ -208,7 +210,7 @@
         "gm" : "egao.aya18",
         "theme" : "Fatal Frame",
         "open" : "09-07-2012",
-        "start" :  "12-07-2012",
+        "start" : "12-07-2012",
         "finish" : "25-07-2012",
         "won" : "goodies",
         "phases" : [
@@ -235,7 +237,7 @@
             {"alignment" : "goodies", "role" : "Mason", "id" : "benny17"},
             {"alignment" : "goodies", "role" : "Mason", "id" : "YosoRoso.ver2"},
 
-            {"alignment" : "goodies", "role" : "Gypsy", "id" : "bagazth", "mvp" : true},
+            {"alignment" : "goodies", "role" : "Gypsy", "id" : "bagazth"},
             {"alignment" : "goodies", "role" : "Hunter", "id" : "blacklist2010  "},
             {"alignment" : "goodies", "role" : "Watcher", "id" : "Eus"},
             {"alignment" : "goodies", "role" : "Informan", "id" : "4rtistic"},
@@ -244,9 +246,10 @@
 
             {"alignment" : "baddies", "role" : "Alpha", "id" : "dgr"},
             {"alignment" : "baddies", "role" : "Kusabi", "id" : "engokid"},
-            {"alignment" : "baddies", "role" : "Copy Wolf", "id" : "devil7th", "mvp" : true},
+            {"alignment" : "baddies", "role" : "Copy Wolf", "id" : "devil7th"},
             {"alignment" : "baddies", "role" : "Roleblocker", "id" : "christian96"}
-        ]
+        ],
+        "mvp" : ["bagazth", "devil7th"]
     },
     {
         "name" : "The Dark Age",
@@ -366,12 +369,12 @@
 			{"alignment" : "goodies", "role" : "Villager", "id" : "Brightlip"},
 			{"alignment" : "goodies", "role" : "Villager", "id" : "Radiv"},
 			{"alignment" : "goodies", "role" : "Villager", "id" : "sygkm"},
-			{"alignment" : "goodies", "role" : "Villager", "id" : "nileajah", "mvp" : true},
+			{"alignment" : "goodies", "role" : "Villager", "id" : "nileajah"},
 			{"alignment" : "goodies", "role" : "Villager", "id" : "baraknaga"},
 			{"alignment" : "goodies", "role" : "Villager", "id" : "aldeen"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "devilzz13"},
             
-			{"alignment" : "goodies", "role" : "Mason", "id" : "sacfron", "mvp" : true},
+			{"alignment" : "goodies", "role" : "Mason", "id" : "sacfron"},
 			{"alignment" : "goodies", "role" : "Mason", "id" : "sweetpoms"},
 			{"alignment" : "goodies", "role" : "Mason", "trait" : "Informan","id" : "andika.pradana"},
             
@@ -388,7 +391,8 @@
 
             {"alignment" : "neutral", "role" : "Worm", "id" : "keselekpempek"},
             {"alignment" : "neutral", "role" : "Snake", "id" : "Fau5t"}
-        ]
+        ],
+        "mvp" : ["nileajah", "sacfron"]
     },
     {
         "name" : "S.H.I.E.L.D",
@@ -459,13 +463,13 @@
             {"phase" : "N2", "dies" : ["jedayiz", "SuryalokaHolmes" ]},
             {"phase" : "D3", "dies" : ["adnnin", "keselekpempek"]},
             {"phase" : "N3", "dies" : ["VayneAureliuz "]},
-            {"phase" : "D4", "dies" : ["teddy5145"], "modkill" : []},
+            {"phase" : "D4", "dies" : ["teddy5145"]},
             {"phase" : "N4", "dies" : ["teddy5145"]},
             {"phase" : "D5", "dies" : ["azelfr", "WiryoSableng"], "modkill" : ["WiryoSableng"]},
             {"phase" : "N5", "dies" : ["AP25"]},
-            {"phase" : "D6", "dies" : ["metaldropal"], "modkill" : []},
+            {"phase" : "D6", "dies" : ["metaldropal"]},
             {"phase" : "N6", "dies" : ["blacklist2010"]},
-            {"phase" : "D7", "dies" : ["baraknaga"], "modkill" : []},
+            {"phase" : "D7", "dies" : ["baraknaga"]},
             {"phase" : "N7", "dies" : ["00H3nnyCute00"]},
             {"phase" : "D8", "dies" : ["r00tsystem"]}
         ],

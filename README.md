@@ -23,15 +23,17 @@ Variabel dan penjelasannya dapat dilihat pada tabel dibawah ini.
 Variabel | Deskripsi
 ---------|---------
 name        | Nama TWG, tidak termasuk nomor romawi di depan nama TWG
-link        | Tautan dari TWG Tersebut. Beberapa TWG yang sudah lama dan masuk *KASKUS archive*, sedangkan yang lebih baru dapat diakses langsung dari situs KASKUS yang sekarang.
+link        | Tautan dari TWG Tersebut. 
 gm          | Game Master / Host dari TWG tersebut
-cogm        | co-Game Master. Seperti co-pilot, co-Game Master membantu Game Master dalam menjalankan permainan.
+cogm        | co-Game Master.
 open        | Tanggal *thread* dibuka
-start       | Tanggal fase pertama dimulai
-finish      | Tanggal fase terakhir selesai
+start       | Game Start. Tanggal fase pertama dimulai
+finish      | Game Finish. Tanggal fase terakhir selesai
 won         | Aligment yang memenangkan permainan (goodies, baddies, neutral).
 phases      | Informasi mengenai fase seperti waktu dimulainya suatu fase dan pemain yang mati / *dead* pada akhir fase tersebut.
 players     | Informasi mengenai pemain seperti *aligment*, *role*, status MVP, dan pemain cadangan (jika pemain bersangkutan digantikan oleh pemain cadangan)
+mvp         | daftar pemain sebagai *Most Valuable Player*
+clones      | Pasangan antara akun clone dan id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimainkan adalah **fullclone**. Hanya beberapa TWG yang memiliki setup ini.
 
 ### phase
 
@@ -47,11 +49,9 @@ dies | pemain yang mati pada akhir fase
 
 Variabel | Deskripsi
 ---------|---------
-id | merujuk kepada pemain TWG yang sedang berlangsung
-mvp | status pemain sebagai *Most Valuable Player*
+id | merujuk kepada pemain TWG yang bermain
 aligment | aligmet pemain (goodies, baddies, neutral)
 role | peran pemain
-Realid | id sesungguhnya dari pemain. variabel ini muncul jika setup yang dimainkan adalah **fullclone**.
 
 Data yang dikumpulkan kemudian disimpan dalam betuk JSON (JavaScript Object Notation).
 Bentuk ini dipilih mengingat data yang dikupulkan merupakan data yang *nested*.
@@ -100,7 +100,6 @@ Status   | TWG
 [x]      | [Massive Attack at Hogwarts](http://archive.kaskus.co.id/thread/9494605)
 [x]      | [Calamity of The Hidden Leaf Village](http://archive.kaskus.co.id/thread/9772548)
 [x]      | [An Infiltration Destinies](http://archive.kaskus.co.id/thread/10108649)
-[x]      | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)
 [x]      | [Game of D (Deception, Denial, Death)](http://archive.kaskus.co.id/thread/10446494)
 [x]      | [How To Save a Life](http://archive.kaskus.co.id/thread/10761235)
 [x]      | [Waking The Demon](http://archive.kaskus.co.id/thread/11118743)
@@ -126,28 +125,25 @@ Status   | TWG
 
 Status   | TWG
 ---------|----------
-[ ]      | [The End of The Dragon World?](http://kask.us/g353e)
-[ ]      | [The Hanged Man](http://kask.us/g5DaG)
-[ ]      | [Apartment 312](http://kask.us/g9d8f)
+[x]      | [The End of The Dragon World?](http://kask.us/g353e)
+[x]      | [Apartment 312](http://kask.us/g9d8f)
 [x]      | [The Mansion Behind the Scarlet Mist](http://kask.us/haK0K)
-[ ]      | [**Remake** Chaos at Yorkshin City](http://kask.us/hb5oJ)
-[ ]      | [The World of Sacfron](http://kask.us/hewh1)
-[ ]      | [Set World on Fire](http://kask.us/hgCuF)
-[ ]      | [99th Expeditions!](http://kask.us/hh1od)
-[ ]      | [Attack On...](http://kask.us/hlWor)
-[ ]      | [Taintful War of Gods (TWG)](http://kask.us/hnd05)
-[x]      | [It's MoeLand !](http://kask.us/hsLsS)
-[ ]      | [The Secret Tomb of Lord Hircine](http://kask.us/hwF2N)
+[x]      | [**Remake** Chaos at Yorkshin City](http://kask.us/hb5oJ)
+[x]      | [The World of Sacfron](http://kask.us/hewh1)
+[x]      | [Set World on Fire](http://kask.us/hgCuF)
+[x]      | [99th Expeditions!](http://kask.us/hh1od)
+[x]      | [Taintful War of Gods](http://kask.us/hnd05)
 
 ## TWG 2014
 
 Status   | TWG
 ---------|----------
-[ ]      | [Invasi Alam Gaib Bumi Nusantara](http://kask.us/hDMkD)
+[x]      | [It's MoeLand !](http://kask.us/hsLsS)
+[x]      | [The Secret Tomb of Lord Hircine](http://kask.us/hwF2N)
+[x]      | [Invasi Alam Gaib Bumi Nusantara](http://kask.us/hDMkD)
 [x]      | [Red Riding Hood - "Red Moon"](http://kask.us/hIipQ)
 [x]      | [Das Ruhenheim](http://kask.us/hKZBJ)
-[ ]      | [The DPR & Dangerous Viruses](http://kask.us/hNFBO)
-[x]      | [CheckMate!](http://kask.us/hQHBC)
+[x]      | [The DPR & Dangerous Viruses](http://kask.us/hNFBO)
 
 ## TWG 2015
 
@@ -181,7 +177,8 @@ Status   | TWG
 
 Status   | TWG
 ---------|----------
-[x]      | [Hisashiburi](https://kask.us/iyBPW)
+[x]      |  [Hisashiburi](https://kask.us/iyBPW)
+[ ]      |  [The Dark Realm](https://kask.us/iFLxj)
 
 ## TWG 2019
 
@@ -192,3 +189,17 @@ Status   | TWG
 
 Status   | TWG
 ---------|----------
+
+## Pengecualian
+
+Tidak semua TWG berjalan dengan mulus.
+Terkadang walaupun GM telah berusaha memmoderasi permainan, masih saja terdapat pelanggaran-pelanggaran yang dilakukan dalam skala besar.
+Ada juga TWG yang Thread-nya hilang entah kemana, ada juga TWG yang peran setiap pemainnya tidak dapat diketahui sebab GM tidak sempat membuka semua role ketika permainnya selesai.
+Untuk beberapa alasan tersebut, maka dibuatlah bagian pengecualian ini.
+
+Tahun | TWG                                     | Alasan pengecualian
+------|-----------------------------------------|--------------------------
+2011  | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)    | Pelanggaran besar-besaran mengenai Screenshot Private Message dari GM
+2013  | [The Hanged Man](http://kask.us/g5DaG)  | Thread telah hilang dari KASKUS
+2013  | [Attack On...](http://kask.us/hlWor)    | Game ditinggalkan oleh GM
+2014  | [CheckMate!](https://kask.us/hQHBC)     | Misteri. Role tidak dibuka oleh GM
