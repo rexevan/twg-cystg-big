@@ -149,36 +149,41 @@ Status   | TWG
 
 Status   | TWG
 ---------|----------
-[ ]      | [Trust & Betrayal](https://kask.us/hV1Bo)
-[ ]      | [Paradise : Brave New World](https://kask.us/h0j4e)
-[ ]      | [Tales of the Psycho Villains](https://kask.us/h1sVd)
-[ ]      | [The Dawn Of Monster](https://kask.us/h3igc)
+[x]      | [Trust & Betrayal](https://kask.us/hV1Bo)
+[x]      | [Andromeda's Fun](https://kask.us/hYwTI)
+[x]      | [Paradise : Brave New World](https://kask.us/h0j4e)
+[x]      | [Tales of the Psycho Villains](https://kask.us/h1sVd)
+[x]      | [The Dawn Of Monster](https://kask.us/h3igc)
 [x]      | [Menuju Indonesia Merdeka](https://kask.us/h53gF)
-[ ]      | [Bulan November 2015](https://kask.us/h9gNK)
-[ ]      | [Serigala Berbulu Qurban](https://kask.us/h7EyC)
+[x]      | [Serigala Berbulu Qurban](https://kask.us/h7EyC)
+[x]      | [Blind Party](https://kask.us/iaMOe)
 
 ## TWG 2016
 
 Status   | TWG
 ---------|----------
-[ ]      | [BOOM! part II](https://kask.us/ibxhD)
-[ ]      | [The Conjuring Theme](https://kask.us/igU6j)
-[ ]      | [Lovers All The Way](https://kask.us/ihXsw)
+[x]      | [BOOM! part II](https://kask.us/ibxhD)
+[x]      | [Cartoons United REQUIEM ~Rainbow Flyer~](https://kask.us/idgD6)
+[x]      | [Cartoons United REDEMPTION ~Gore Blind Party~](https://kask.us/ie7Si)
+[x]      | [Pick!](https://kask.us/igLon)
+[x]      | [Lovers All The Way](https://kask.us/ihXsw)
+[x]      | [Simple Mode part.2](https://kask.us/ikEZX)
+[x]      | [Re:Zero Kara Hajimeru Isekai Seikatsu](https://kask.us/ilo1t)
 
 ## TWG 2017
 
 Status   | TWG
+
 ---------|----------
-[ ]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
-[ ]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
-[ ]      | [TWG: Gathering Berdarah](https://kask.us/itxtJ)
+[x]      | [Trouble in Terrorist Town (season 2)](https://kask.us/il11N)
+[x]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)
+[x]      | [Matrix (Season 1) - When The Ancients Fall](https://kask.us/iqDDq)
 
 ## TWG 2018
 
 Status   | TWG
 ---------|----------
 [x]      |  [Hisashiburi](https://kask.us/iyBPW)
-[ ]      |  [The Dark Realm](https://kask.us/iFLxj)
 
 ## TWG 2019
 
@@ -189,6 +194,7 @@ Status   | TWG
 
 Status   | TWG
 ---------|----------
+[x]      |  [The Dark Realm](https://kask.us/iFLxj)
 
 ## Pengecualian
 
@@ -199,7 +205,10 @@ Untuk beberapa alasan tersebut, maka dibuatlah bagian pengecualian ini.
 
 Tahun | TWG                                     | Alasan pengecualian
 ------|-----------------------------------------|--------------------------
-2011  | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)    | Pelanggaran besar-besaran mengenai Screenshot Private Message dari GM
+2011  | [Chaos at Yorkshin City](http://archive.kaskus.co.id/thread/10342165)    | Chaos. Pelanggaran besar-besaran mengenai Screenshot Private Message dari GM
 2013  | [The Hanged Man](http://kask.us/g5DaG)  | Thread telah hilang dari KASKUS
 2013  | [Attack On...](http://kask.us/hlWor)    | Game ditinggalkan oleh GM
-2014  | [CheckMate!](https://kask.us/hQHBC)     | Misteri. Role tidak dibuka oleh GM
+2014  | [CheckMate!](https://kask.us/hQHBC)     | Misteri. Role tidak dibuka semuanya oleh GM
+2015  | [Bulan November 2015](https://kask.us/h9gNK) | Chaos. Pelanggaran mengenai identitas/akun pemain. Setup juga sulit untuk direkap.
+2016  | [Where Is Dante?](https://kask.us/id4HP)| Misteri. Role tidak dibuka semuanya oleh GM
+2016  | [The Conjuring Theme](https://kask.us/igU6j) | Chaos. GM melakukan kesalahan sehingga permainan perlu di-*restart*  dalam versi Lite.

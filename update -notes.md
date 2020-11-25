@@ -1,5 +1,32 @@
 # Update Notes
 
+## V4 
+
+Menyatukan semua file json menjadi satu file json.
+
+Saya telah menetapkan statistik yang Saya ingin hasilkan. Statistik yang ingin Saya hasilkan ada 2 yaitu statistik pemain dan statistik game.
+Statistik pemain itu terdiri dari
+
+- Total Game Played
+- Total Win
+- Total Lost
+- Total Survived
+- Total MVP
+- Total MMC
+- Total Modkill
+
+Nah, dari statistik-statistik di atas bisa di cari lagi angka yang lain seperti win rate, MVP rate, Survive by Alignment Rate, dll. Tapi yang terpenting 8 statistik di atas harus bisa Saya hasilkan.
+
+Sementara itu, Statistik Game terdiri dari
+
+- Game Duration by date
+- Game Duration by phase
+- Total Game Won by Alignment
+- Total Winstreak by Alignment
+- Total Players by Alignment
+- Total Modkill
+- Game Theme list
+
 ## V3
 
 *Last person gets all the credit*. Ketika terjadi pergantian pemain, bianya akan ada informasi *subbed* dalam informasi para pemain. informasi *subbed* ini akan dihilangkan sebab hanya pemain yang menggantikan tersebut yang direkap (informasi mvp, deadnya, dll.). Oleh karena itu, dalam update ini fitur *subbed* akan dihilangkan.
