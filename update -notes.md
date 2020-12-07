@@ -1,5 +1,13 @@
 # Update Notes
 
+## V5 
+
+Pembuatan statistik yang telah disebut di V4.
+Selain itu, untuk fitur *won*, hanya satu alignmen yang akan dihitung.
+
+Beberapa typo telah diperbaiki.
+
+
 ## V4 
 
 Menyatukan semua file json menjadi satu file json.

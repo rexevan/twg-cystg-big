@@ -1,0 +1,153 @@
+---
+title: "TWG Big Stats from Can You Solve This Game"
+author: "by Tmofer"
+output: html_document
+---
+
+# Player Table
+
+```{r Pendahuluan, include=FALSE}
+
+# packages
+library(here)
+library(tidyverse)
+library(jsonlite)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+
+opts_chunk$set(echo = FALSE)
+
+# Input data
+twg_list <- fromJSON(here("twg-big-json.json")) %>% 
+  as_tibble()  %>%
+  mutate(
+    open = dmy(open),
+    start = dmy(start),
+    finish = dmy(finish)
+  )
+  
+
+twg_players <- twg_list %>%
+  select(name, players) %>%
+  unnest(players)
+
+twg_phases <- twg_list %>%
+  select(name, phases) %>%
+  unnest(phases)
+
+# Checking if there is any id-typo 
+
+#unique(twg_players$id) %>%
+#  sort()
+
+# Checking the stats
+
+twg_dies <- twg_phases %>% 
+  unnest(dies) %>%
+  select(name:dies) %>%
+  drop_na(dies)
+
+twg_mmc <- twg_dies %>% 
+  filter(phase == c("D0", "N0", "D1", "N1"))
+
+twg_modkill <- twg_phases %>% 
+  select(-dies) %>%
+  drop_na(modkill) %>%
+  unnest(modkill)
+
+twg_mvp <- twg_list %>% 
+  select(name, mvp) %>% 
+  unnest(mvp)
+```
+
+
+
+
+```{r PlayerStats}
+
+## Total Game played
+
+PlayerGame <- twg_players %>%
+  group_by(id) %>%
+  count(name = "TotalGame") %>%
+  arrange(-TotalGame)
+
+
+## Total Win 
+
+PlayerWin <- twg_list %>%
+  select(name, won, players) %>%
+  unnest(players) %>%
+  mutate(test = if_else(won == alignment, 1, 0)) %>% 
+  filter(test == 1) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalWin") %>%  
+  arrange(-TotalWin)
+
+ ## Total Lost
+
+PlayerLost <- twg_list %>%
+  select(name, won, players) %>%
+  unnest(players) %>%
+  mutate(test = if_else(won == alignment, 1, 0)) %>% 
+  filter(test == 0) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalLost") %>%  
+  arrange(-TotalLost)
+
+## Total Survived 
+
+PlayerSurvived <- twg_players %>% 
+  select(name, id) %>%
+  anti_join(
+    twg_dies %>% select(name, dies), 
+    by = c("name", "id" = "dies")
+  ) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalSurvived") %>%  
+  arrange(-TotalSurvived)
+
+
+## Total MVP
+
+PlayerMVP <- twg_mvp %>%
+  rename(id = mvp) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalMVP") %>%  
+  arrange(-TotalMVP)
+
+## Total MMC
+
+PlayerMMC <- twg_mmc %>%
+  rename(id = dies) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalMMC") %>%  
+  arrange(-TotalMMC)
+
+## Total Modkill
+
+PlayerModkill <- twg_modkill %>%
+  rename(id = modkill) %>%
+  group_by(id) %>% 
+  count(id, name = "TotalModkill") %>%  
+  arrange(-TotalModkill)
+
+
+## Join Player Stat Together 
+
+player_tbl <- PlayerGame %>% 
+  full_join(PlayerWin, by = "id") %>%
+  full_join(PlayerLost, by = "id") %>%
+  full_join(PlayerMMC, by = "id") %>%
+  full_join(PlayerSurvived, by = "id") %>%
+  full_join(PlayerMVP, by = "id") %>%
+  full_join(PlayerModkill, by = "id") %>% 
+  arrange(id) %>%
+  replace(is.na(.), 0)
+
+
+player_tbl %>%
+  kbl() %>%
+  kable_minimal()
+```

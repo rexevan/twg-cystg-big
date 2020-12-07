@@ -173,7 +173,6 @@ Status   | TWG
 ## TWG 2017
 
 Status   | TWG
-
 ---------|----------
 [x]      | [Trouble in Terrorist Town (season 2)](https://kask.us/il11N)
 [x]      | [Teror @ Kost-Kostan](https://kask.us/imZCL)

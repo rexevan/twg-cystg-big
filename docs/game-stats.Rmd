@@ -1,0 +1,188 @@
+---
+title: "TWG Big Stats from Can You Solve This Game"
+author: "by Tmofer"
+output: html_document
+---
+
+# Game Table
+
+
+```{r Pendahuluan, include=FALSE}
+
+# packages
+library(here)
+library(tidyverse)
+library(jsonlite)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+
+opts_chunk$set(echo = FALSE)
+
+# Input data
+twg_list <- fromJSON(here("twg-big-json.json")) %>% 
+  as_tibble()  %>%
+  mutate(
+    open = dmy(open),
+    start = dmy(start),
+    finish = dmy(finish)
+  )
+  
+
+twg_players <- twg_list %>%
+  select(name, players) %>%
+  unnest(players)
+
+twg_phases <- twg_list %>%
+  select(name, phases) %>%
+  unnest(phases)
+
+# Checking if there is any id-typo 
+
+#unique(twg_players$id) %>%
+#  sort()
+
+# Checking the stats
+
+twg_dies <- twg_phases %>% 
+  unnest(dies) %>%
+  select(name:dies) %>%
+  drop_na(dies)
+
+twg_mmc <- twg_dies %>% 
+  filter(phase == c("D0", "N0", "D1", "N1"))
+
+twg_modkill <- twg_phases %>% 
+  select(-dies) %>%
+  drop_na(modkill) %>%
+  unnest(modkill)
+
+twg_mvp <- twg_list %>% 
+  select(name, mvp) %>% 
+  unnest(mvp)
+```
+
+Secara total, terdapat lebih dari 50 TWG Big yang dimainkan di Sub-Forum Can You Solve This Game dalam kurun waktu kurang lebih 9 tahun, mulai dari Mei 2011 hingga April 2020.
+
+```{r GameStats}
+
+## Game Duration by date
+
+GameDur <- twg_list %>%
+  select (name, open, start, finish) %>%
+  mutate(
+    GameDays = finish - start,
+    OpeningDays = start - open
+  )
+
+## Game Duration by phase
+
+GamePhase <- twg_phases %>% 
+  count(name, name = "GamePhases")
+
+## Total Players by Alignment
+
+GameAlignmentPlayer <- twg_players %>% 
+  count(name, alignment, name = "GamePlayer") %>% 
+  pivot_wider(names_from = alignment, values_from = GamePlayer) %>%
+  replace(is.na(.), 0)
+  
+## Total Modkill
+
+GameModkill <- twg_modkill %>%
+  count(name, name = "GameModkill")
+
+## Game Theme list (already included)
+
+## Join all Game Stats
+
+game_tbl <- GameDur %>%
+  select(name, GameDays, OpeningDays) %>%
+  full_join(GameAlignmentPlayer, by = "name") %>%
+  full_join(GamePhase, by = "name") %>%
+  full_join(GameModkill, by = "name") %>%
+  full_join(twg_list, by = "name") %>% 
+  select(name, open, gm, cogm, goodies, baddies, neutral, theme, GameDays, won, GamePhases) %>%
+  replace(is.na(.), "")
+
+game_tbl %>%
+  select(name, gm, cogm, theme) %>%
+  kbl() %>%  
+  kable_minimal()
+
+game_tbl %>%
+  mutate(Players = goodies + baddies + neutral) %>%
+  rename(Phases = GamePhases) %>%
+  select(name, open, Phases, GameDays, Players, goodies, baddies, neutral, won) %>%
+  kbl() %>%  
+  kable_minimal()
+```
+
+**Keterangan**
+
+- name      :   Nama TWG, tidak termasuk nomor romawi di depan nama TWG
+
+- gm        :   Game Master / Host dari TWG tersebut
+
+- cogm      :   co-Game Master.
+
+- theme     :   Tema yang digunakan dalam TWG tersebut
+
+- won       :   Aligment yang memenangkan permainan (goodies, baddies, neutral).
+
+- goodies   :   Jumlah pemain dengan alignment goodies
+
+- baddies   :   Jumlah pemain dengan alignment baddies
+
+- neutral   :   Jumlah pemain dengan alignment neutral
+
+- won       :   Alignment yang memenangkan permainan
+
+- GameDays  :   Durasi permainan (mulai dari awal fase pertama hingga akhir fase 
+terakhir)
+
+## Games Won and Winstreak by Alignment
+
+Alignment goodies berhasil mencapai 35 kemenangan sedangkan baddies berhasil 20 kemenangan. 
+Satu-satunya keadaan di mana dua alignment tersebut kalah adalah di TWG [BOOM! part II](https://kask.us/ibxhD).
+
+```{r GameWon, include=FALSE}
+## Total Game Won by Alignment
+
+twg_list %>% 
+  count(won) %>%
+  kbl() %>%  
+  kable_classic(position = "float_right", html_font = "Cambria")
+```
+
+
+Berbicara mengenai *Win Streak*, alignment goodies memiliki win streak yang lebih banyak daripada baddies. 
+Suatu kemenangan dinyatakan sebagai *win streak* jika alignment tersebut juga memenangkan 1 TWG sebelumnya.
+Alignment goodies memiliki 27 winstreak, sedangkan baddies memiliki 7 win streak.
+Untuk tabel lengkapnya, dapat dilihat di tabel dibwah ini.
+
+```{r GameStreak}
+## Total Winstreak by Alignment
+
+GameStreak <- twg_list %>%
+  select(name, open, won) %>%
+  arrange(open) %>%
+  mutate(
+    temp_points = case_when(
+      won == "goodies" ~ 10,
+      won == "baddies" ~ -10,
+      won == "neutral" ~ 0
+    ),
+    Streak = case_when(
+      temp_points + lag(temp_points) >=  20 ~ "Goodies Win Streak",
+      temp_points + lag(temp_points) <= -20 ~ "Baddies Win Streak"
+    )
+  ) %>%
+  select(-temp_points) %>%
+  replace((is.na(.)), "")
+
+
+GameStreak %>%
+  kbl() %>%  
+  kable_minimal()
+```

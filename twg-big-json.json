@@ -3,7 +3,6 @@
         "name" : "Kutukan Sri dan Gala",
         "link" : "https://archive.kaskus.co.id/thread/8765940",
         "gm" : "Huzaiv",
-        "theme" : "Werewolves",
         "open" : "25-05-2011",
         "start" : "26-05-2011",
         "finish" : "05-06-2011",
@@ -48,7 +47,7 @@
         "open" : "05-06-2011",
         "start" :  "06-06-2011",
         "finish" : "16-06-2011",
-        "won" : ["goodies", "neutral"],
+        "won" : "goodies",
         "phases" : [
             {"phase" : "D1", "dies" : ["nakasani"]},
             {"phase" : "N1", "dies" : ["xjocker"]},
@@ -84,7 +83,7 @@
             {"alignment" : "baddies", "role" : "Werewolf","id" : "xlimitedx"},
             {"alignment" : "baddies", "role" : "Werewolf","id" : "FourBrothers"},
 
-            {"alignment" : "Neutral", "role" : "Serial Killer","id" : "CeKilatoZ"}
+            {"alignment" : "neutral", "role" : "Serial Killer","id" : "CeKilatoZ"}
         ]
     },
     {
@@ -114,7 +113,7 @@
             {"alignment" : "goodies", "role" : "Villager", "id" : "Empa1"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "irfan14"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "xjocker"},
-            {"alignment" : "goodies", "role" : "Villager", "id" : "Grifiest"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "grifiest"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "devil7th"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "6May1997"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "Xerotess"},
@@ -254,7 +253,7 @@
 
             {"alignment" : "goodies", "role" : "ROOT", "id" : "aprilmop88"},
             {"alignment" : "goodies", "role" : "Hyuga", "id" : "TheOldBrother"},
-            {"alignment" : "goodies", "role" : "Medical-Ninja", "id" : "xlimited"},
+            {"alignment" : "goodies", "role" : "Medical-Ninja", "id" : "xlimitedx"},
 
             {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "descart"},
             {"alignment" : "baddies", "role" : "Kamikage Ninja", "id" : "dragunovian"},
@@ -335,7 +334,7 @@
             {"phase" : "N1", "dies" : ["TheOldBrother"]},
             {"phase" : "D2", "dies" : ["bagazth"]},
             {"phase" : "N2", "dies" : ["Myeekodok"]},
-            {"phase" : "D3", "dies" : ["Ryuzakichibi"]},
+            {"phase" : "D3", "dies" : ["ryuzakichibi"]},
             {"phase" : "N3", "dies" : ["aprilmop88"]},
             {"phase" : "D4", "dies" : ["teddy5145"]},
             {"phase" : "N4", "dies" : ["detective1412"]},
@@ -352,7 +351,7 @@
             {"alignment" : "goodies", "role" : "Police", "id" : "teddy5145"},
             {"alignment" : "goodies", "role" : "Police", "id" : "gimmeluck"},
             {"alignment" : "goodies", "role" : "Police", "id" : "WiryoSableng"},
-            {"alignment" : "goodies", "role" : "Police", "id" : "Ryuzakichibi"},
+            {"alignment" : "goodies", "role" : "Police", "id" : "ryuzakichibi"},
 
             {"alignment" : "goodies", "role" : "SPK", "id" : "adnnin"},
             {"alignment" : "goodies", "role" : "SPK", "id" : "Xerotess"},
@@ -605,13 +604,13 @@
             {"alignment" : "goodies", "role" : "Priest", "id" : "Priandika"},
             {"alignment" : "goodies", "role" : "Secret Agent", "id" : "anugia"},
 
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "sectrait" : "Faith", "id" : "leozz"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Santo", "sectrait" : "Faith", "id" : "ayikridic"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Gunsmith", "sectrait" : "Faith","id" : "irfan14"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Bomber", "sectrait" : "Faith",  "id" : "rendra_3"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "sectrait" : "Faith", "id" : "CeKilatoZ"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Watcher", "sectrait" : "Faith", "id" : "andika.pradana"},
-            {"alignment" : "goodies", "role" : "Townie", "trait" : "Amnestic", "sectrait" : "Faith", "id" : "limit_breaker"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "id" : "leozz"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Santo", "id" : "ayikridic"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Gunsmith", "id" : "irfan14"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Bomber", "id" : "rendra_3"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Drunker", "id" : "CeKilatoZ"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Watcher", "id" : "andika.pradana"},
+            {"alignment" : "goodies", "role" : "Townie", "trait" : "Amnestic", "id" : "limit_breaker"},
 
             {"alignment" : "goodies", "role" : "Townie", "trait" : "Fool", "id" : "adnnin"},
             {"alignment" : "goodies", "role" : "Townie", "trait" : "Stalker", "id" : "jedayiz"},
@@ -737,10 +736,9 @@
         "name" : "Membunuh atau Dibunuh",
         "link" : "http://archive.kaskus.co.id/thread/14482535",
         "gm" : "egao.aya18",
-        "theme" : "Werewolves",
-        "open" : "16/05/2012",
-        "start" :  "19/05/2012",
-        "finish" : "30/05/2012",
+        "open" : "16-05-2012",
+        "start" :  "19-05-2012",
+        "finish" : "30-05-2012",
         "won" : "goodies",
         "phases" : [
             {"phase" : "D1", "dies" : ["sacfron"]},
@@ -789,7 +787,7 @@
         "phases" : [
             {"phase" : "D1", "dies" : ["baddies"]},
             {"phase" : "N1", "dies" : ["benny17"]},
-            {"phase" : "D2", "dies" : ["4rtistic", "Eus"], "modkill" : ["Eus"]},
+            {"phase" : "D2", "dies" : ["4Rtistic", "Eus"], "modkill" : ["Eus"]},
             {"phase" : "N2", "dies" : ["jedayiz"]},
             {"phase" : "D3", "dies" : ["davindra", "metaldropal"], "modkill" : ["metaldropal"]},
             {"phase" : "N3", "dies" : ["ranggagreat"]},
@@ -813,7 +811,7 @@
             {"alignment" : "goodies", "role" : "Gypsy", "id" : "bagazth"},
             {"alignment" : "goodies", "role" : "Hunter", "id" : "blacklist2010"},
             {"alignment" : "goodies", "role" : "Watcher", "id" : "Eus"},
-            {"alignment" : "goodies", "role" : "Informan", "id" : "4rtistic"},
+            {"alignment" : "goodies", "role" : "Informan", "id" : "4Rtistic"},
             {"alignment" : "goodies", "role" : "Virgin", "id" : "ranggagreat"},
             {"alignment" : "goodies", "role" : "Guardian Angel", "id" : "davindra"},
 
@@ -828,10 +826,9 @@
         "name" : "The Dark Age",
         "link" : "http://archive.kaskus.co.id/thread/15858591",
         "gm" : "baddies",
-        "theme" : "Werewolves",
-        "open" : "06/08/2012",
-        "start" :  "07/08/2012",
-        "finish" : "15/08/2012",
+        "open" : "06-08-2012",
+        "start" :  "07-08-2012",
+        "finish" : "15-08-2012",
         "won" : "goodies",
         "phases" : [
             {"phase" : "D1", "dies" : ["devil7th"]},
@@ -860,7 +857,7 @@
 			{"alignment" : "goodies", "id" : "heru.enviro"},
 			{"alignment" : "goodies", "id" : "keselekpempek"},
 
-			{"alignment" : "baddies", "id" : "martebsa"},
+			{"alignment" : "baddies", "id" : "martebs"},
 			{"alignment" : "baddies", "id" : "lukystar"},
 			{"alignment" : "baddies", "id" : "devilzz13"},
 			{"alignment" : "baddies", "id" : "egao.aya18"},
@@ -976,7 +973,7 @@
         "open" : "03-10-2012",
         "start" :  "09-10-2012",
         "finish" : "25-10-2012",
-        "won" : ["goodies", "neutral"],
+        "won" : "goodies",
         "phases" : [
             {"phase" : "D1", "dies" : ["hacker00321"]},
             {"phase" : "N1", "dies" : []},
@@ -1002,7 +999,7 @@
             {"alignment" : "goodies", "role" : "Thor", "id" : "FourBrothers"},
             
 			{"alignment" : "goodies", "role" : "Mockingbird", "id" : "andika.pradana"},
-			{"alignment" : "goodies", "role" : "Emma Frost", "id" : "pasiljengkol"},
+			{"alignment" : "goodies", "role" : "Emma Frost", "id" : "pasirjengkol"},
 			{"alignment" : "goodies", "role" : "Kitty Pride", "id" : "WiryoSableng"},
 			{"alignment" : "goodies", "role" : "Spiderman", "id" : "fanatic406"},
 			{"alignment" : "goodies", "role" : "Rogue", "id" : "Leehan666"},
@@ -1091,7 +1088,7 @@
             {"phase" : "N2", "dies" : ["nileajah", "bagazth", "violetpeach"]},
             {"phase" : "D3", "dies" : ["xXCardCaptorXx"]},
             {"phase" : "N3", "dies" : ["adnnin", "Ryojacko"], "modkill" : ["Ryojacko"]},
-            {"phase" : "D4", "dies" : ["DustChain", "kapitanvic", "shakato"], ":modkill" : ["shakato"]},
+            {"phase" : "D4", "dies" : ["DustChain", "kapitanvic", "shakato"], "modkill" : ["shakato"]},
             {"phase" : "N4", "dies" : ["Liong33"]},
             {"phase" : "D5", "dies" : ["rena97"]},
             {"phase" : "N5", "dies" : ["cresthofan"]},
@@ -1193,7 +1190,7 @@
         "open" : "10-04-2013",
         "start" :  "13-04-2013",
         "finish" : "23-04-2013",
-        "won" : ["goodies", "neutral"],
+        "won" : "goodies",
         "phases" : [
             {"phase" : "D1", "dies" : ["eyangkabur", "Glassie"]},
             {"phase" : "N1", "dies" : ["bagazth"]},
@@ -1247,7 +1244,7 @@
         "open" : "01-06-2013",
         "start" : "02-06-2013",
         "finish" : "17-06-2013",
-        "won" : ["baddies", "neutral"],
+        "won" : "baddies",
         "phases" : [
             {"phase" : "D1", "dies" : ["xy4kuz4x"]},
             {"phase" : "N1", "dies" : ["RodjoLele"]},
@@ -1261,7 +1258,7 @@
             {"phase" : "N5", "dies" : ["cahzero"]},
             {"phase" : "D6", "dies" : ["egga.kaskus"]},
             {"phase" : "N6", "dies" : []},
-            {"phase" : "D7", "dies" : ["version-9.99", "Rena97"], "modkill" : ["Rena97"]},
+            {"phase" : "D7", "dies" : ["version-9.99", "rena97"], "modkill" : ["rena97"]},
             {"phase" : "N7", "dies" : ["nakapyon"]},
             {"phase" : "D8", "dies" : ["vrexioustvent"]},
             {"phase" : "N8", "dies" : ["5hooterflik"]},
@@ -1314,7 +1311,7 @@
             {"phase" : "N3", "dies" : ["nileajah"]},
             {"phase" : "D4", "dies" : ["4Rtistic"]},
             {"phase" : "N4", "dies" : ["cahzero"]},
-            {"phase" : "D5", "dies" : ["glanzderfreude", "vayneaureliuz"], "modkill" : ["vayneaureliuz"]},
+            {"phase" : "D5", "dies" : ["glanzderfreude", "VayneAureliuz"], "modkill" : ["VayneAureliuz"]},
             {"phase" : "N5", "dies" : ["thesuperbejo", "rena97"]}
         ],
         "players" : [
@@ -1333,7 +1330,7 @@
             {"alignment" : "goodies","role" : "Drunken Seer", "id" : "cobainmain"},
             {"alignment" : "goodies","role" : "Hunter", "id" : "rena97"},
 			{"alignment" : "goodies","role" : "Crazy Hunter" , "id" : "parralel"},
-			{"alignment" : "goodies","role" : "Guardian Angel" , "id" : "vayneaureliuz"},
+			{"alignment" : "goodies","role" : "Guardian Angel" , "id" : "VayneAureliuz"},
             {"alignment" : "goodies","role" : "Goodguy GA", "id" : "nakapyon"},
 
             {"alignment" : "baddies", "role" : "Werewolf", "id" : "nileajah"},
@@ -1345,7 +1342,7 @@
         ],
         "clones" : [
             {"clone" : "NakanoAzusa", "id" : "leozz"}, 
-            {"clone" : "hunterrandomorg", "id" : "vayneaureliuz"}, 
+            {"clone" : "hunterrandomorg", "id" : "VayneAureliuz"}, 
             {"clone" : "metagamers", "id" : "algazel"}, 
             {"clone" : "P3N6U1N", "id" : "thesuperbejo"}, 
             {"clone" : "amssdibmo", "id" : "rena97"},
@@ -1396,7 +1393,7 @@
             {"alignment" : "goodies", "role" : "Villager", "id" : "davindra"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "perpendicular"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "Leehan666"},
-            {"alignment" : "goodies", "role" : "Villager", "id" : "Dustchain"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "DustChain"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "thesuperbejo"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "aldeen"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "cobainmain"},
@@ -1521,7 +1518,7 @@
         "phases" : [
             {"phase" : "D1", "dies" : ["vandi94"]},
             {"phase" : "N1", "dies" : ["indosphere", "sacfron"]},
-            {"phase" : "D2", "dies" : ["Dustchain"]},
+            {"phase" : "D2", "dies" : ["DustChain"]},
             {"phase" : "N2", "dies" : ["nileajah"]},
             {"phase" : "D3", "dies" : ["version-9.99"]},
             {"phase" : "N3", "dies" : ["thesuperbejo"]},
@@ -1702,7 +1699,7 @@
             {"phase" : "D2", "dies" : ["Auditore30", "suhendrosl"]},
             {"phase" : "N2", "dies" : ["SchyZeR"]},
             {"phase" : "D3", "dies" : []},
-            {"phase" : "N3", "dies" : ["Capingbasunanda", "Dustchain", "CloudyTama"]},
+            {"phase" : "N3", "dies" : ["Capingbasunanda", "DustChain", "CloudyTama"]},
             {"phase" : "D4", "dies" : ["nileajah", "Demonzx", "thesuperbejo"]},
             {"phase" : "N4", "dies" : ["moko_moko", "blacklist2010"]},
             {"phase" : "D5", "dies" : ["vandi94"]},
@@ -1722,7 +1719,7 @@
             {"alignment" : "goodies", "role" : "Researcher", "id" : "Rikirif"},
             {"alignment" : "goodies", "role" : "Researcher", "id" : "xy4kuz4x"},
             {"alignment" : "goodies", "role" : "Researcher", "id" : "Capingbasunanda"},
-            {"alignment" : "goodies", "role" : "Researcher", "id" : "Dustchain"},
+            {"alignment" : "goodies", "role" : "Researcher", "id" : "DustChain"},
             {"alignment" : "goodies", "role" : "Researcher", "id" : "Demonzx"},
             {"alignment" : "goodies", "role" : "Researcher", "id" : "thesuperbejo"},
             {"alignment" : "goodies", "role" : "Researcher", "id" : "moko_moko"},
@@ -1819,7 +1816,6 @@
         "link" : "http://kask.us/hNFBO",
         "gm" : "fahape",
         "cogm" : "thesuperbejo",
-        "theme" : "Werewolves",
         "open" : "03-10-2014",
         "start" : "06-10-2014 ",
         "finish" : "23-10-2014",
@@ -1912,8 +1908,7 @@
         "link" : "https://kask.us/hV1Bo",
         "gm" : "andika.pradana",
         "cogm" : "greenvespa",
-        "theme" : "Werewolves",
-        "open" : " 09-02-2015",
+        "open" : "09-02-2015",
         "start" :  "09-02-2015",
         "finish" : "17-02-2015",
         "won" : "baddies",
@@ -1941,7 +1936,7 @@
             {"alignment" : "goodies", "role" : "Villager", "id" : ".falcongirl."},
             {"alignment" : "goodies", "role" : "Villager", "id" : "andromedafun"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "mz.mpiz"},
-            {"alignment" : "goodies", "role" : "Villager", "id" : "nalfiaadi"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "nalfiadi"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "Auditore30"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "sakurasougw"},    
             {"alignment" : "goodies", "role" : "Mason", "id" : "ZhumpHex"},
@@ -1956,7 +1951,6 @@
         "link" : "https://kask.us/h0j4e",
         "gm" : "Auditore30",
         "cogm" : "Mr.Avalanche",
-        "theme" : "Werewolves",
         "open" : "23-04-2015",
         "start" :  "25-04-2015",
         "finish" : "02-05-2015",
@@ -2010,7 +2004,7 @@
             {"phase" : "D1", "dies" : ["2nd.zett"]},
             {"phase" : "N1", "dies" : ["gamemaster123", "rojopurwo", "ekliptika"]},
             {"phase" : "D2", "dies" : ["CloudyTama", "anon009"]},
-            {"phase" : "N2", "dies" : ["xhem.phax"]},
+            {"phase" : "N2", "dies" : ["xemp.phax"]},
             {"phase" : "D3", "dies" : [".falcongirl."]},
             {"phase" : "N3", "dies" : ["remaqo"]},
             {"phase" : "D4", "dies" : ["Auditore30"]},
@@ -2032,7 +2026,7 @@
             {"alignment" : "goodies", "role" : "Psycho Villain", "id" : "fajriawansu"},
             {"alignment" : "goodies", "role" : "Psycho Villain", "id" : "rojopurwo"},
             {"alignment" : "goodies", "role" : "Psycho Villain", "id" : "andromedafun"},
-            {"alignment" : "goodies", "role" : "Psycho Villain", "id" : "xhem.phax"},
+            {"alignment" : "goodies", "role" : "Psycho Villain", "id" : "xemp.phax"},
             {"alignment" : "goodies", "role" : "Insomnia", "id" : "jedith3"},
             {"alignment" : "goodies", "role" : "Security", "id" : "ekliptika"},
             {"alignment" : "goodies", "role" : "Mad Man", "id" : "anon009"},
@@ -2061,7 +2055,7 @@
             {"clone" : "jellyreds", "id" : "gamemaster123"},
             {"clone" : "caramelz.18", "id" : "anon009"},
             {"clone" : "murmurs", "id" : "rojopurwo"},
-            {"clone" : "azrael.jr", "id" : "xhem.phax"}
+            {"clone" : "azrael.jr", "id" : "xemp.phax"}
         ]
     },
     {
@@ -2204,7 +2198,7 @@
         "open" : "24-12-2015",
         "start" :  "25-12-2015",
         "finish" : "03-01-2016",
-        "won" : "Baddies",
+        "won" : "baddies",
         "phases" : [
             {"phase" : "D1", "dies" : ["Xump.phex", "sacfron"], "modkill" : ["sacfron"]},
             {"phase" : "N1", "dies" : ["ekliptika", "Sherry24"]},
@@ -2218,7 +2212,7 @@
             {"phase" : "N5", "dies" : ["alfianhenry"]},
             {"phase" : "D6", "dies" : ["candidat.master"]},
             {"phase" : "N6", "dies" : ["vandi94"]},
-            {"phase" : "D7", "dies" : ["singkongoreng", "crow1503"]}
+            {"phase" : "D7", "dies" : ["sinkongoreng", "crow1503"]}
         ],
         "players" : [
             {"alignment" : "baddies", "role" : "Godfather", "id" : "Sutan Syahrir"},
@@ -2235,7 +2229,7 @@
             {"alignment" : "goodies", "role" : "Villager", "trait" : "Lightkeeper", "id" : "Sherry24"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "candidat.master"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "xump.phex"},
-            {"alignment" : "goodies", "role" : "Villager", "id" : "singkongoreng"},
+            {"alignment" : "goodies", "role" : "Villager", "id" : "sinkongoreng"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "Crow1503"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "sacfron"},
             {"alignment" : "neutral", "role" : "Arsonist", "id" : "mikuxmikuo"},
@@ -2255,20 +2249,20 @@
         "finish" : "24-01-2016",
         "won" : "neutral",
         "phases" : [
-            {"phase" : "N1", "dies" : ["singkongoreng", "yoshi.rega", "xemp.phax"]},
+            {"phase" : "N1", "dies" : ["sinkongoreng", "yoshi.rega", "xemp.phax"]},
             {"phase" : "N2", "dies" : ["anon009", "Sutan Syahrir"]},
             {"phase" : "N3", "dies" : ["heregrarium", "candidat.master", "mdinowumbo"]},
             {"phase" : "N4", "dies" : ["ekliptika", "asnol2"]}
         ],
         "players" : [
-            {"alignment" : "baddies", "role" : "Mafia", "id" : "yoshi.reg"},
+            {"alignment" : "baddies", "role" : "Mafia", "id" : "yoshi.rega"},
             {"alignment" : "baddies", "role" : "Mafia", "id" : "candidat.master"},
             {"alignment" : "baddies", "role" : "Mafia", "id" : "ekliptika"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "kantongerz"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "Mr.Avalanche"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "ezto.community"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "sagarichan"},
-            {"alignment" : "goodies", "role" : "Jester", "id" : "dbaindo"},
+            {"alignment" : "goodies", "role" : "Jester", "id" : "dbaindojunkersy"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "blacklist2010"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "sallamx28"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "milennium2000"},
@@ -2280,7 +2274,7 @@
             {"alignment" : "goodies", "role" : "Jester", "id" : "Sutan Syahrir"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "anon009"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "xemp.phax"},
-            {"alignment" : "goodies", "role" : "Jester", "id" : "singkongoreng"},
+            {"alignment" : "goodies", "role" : "Jester", "id" : "sinkongoreng"},
             {"alignment" : "goodies", "role" : "Jester", "id" : "asnol2"},
             {"alignment" : "neutral", "role" : "Transporter", "id" : "arifauzi92"}
         ],
@@ -2288,7 +2282,7 @@
         "clones" : [
             {"clone" : "tatakaee", "id" : "kantongerz"},
             {"clone" : "yreevv", "id" : "xemp.phax"},
-            {"clone" : "25.th.bam", "id" : "dbaindo"},
+            {"clone" : "25.th.bam", "id" : "dbaindojunkersy"},
             {"clone" : "chefanolt", "id" : "alfianhenry"},
             {"clone" : "fireblue", "id" : "leoril"},
             {"clone" : "diajahat21", "id" : "IandGunners"},
@@ -2304,7 +2298,7 @@
             {"clone" : "vellhaz", "id" : "Mr.Avalanche"},
             {"clone" : "caramelz.18", "id" : "asnol2"},
             {"clone" : "sarkophagus", "id" : "ezto.community"},
-            {"clone" : "jellyreds", "id" : "singkongoreng"},
+            {"clone" : "jellyreds", "id" : "sinkongoreng"},
             {"clone" : "gm.runningman", "id" : "ekliptika"},
             {"clone" : "maling0kambing", "id" : "yoshi.rega"},
             {"clone" : "spensa338atpi", "id" : "candidat.master"}
@@ -2357,7 +2351,7 @@
             {"alignment" : "goodies", "role" : "William Walton", "id" : "UnyeUnyu"},
             {"alignment" : "goodies", "role" : "Willie Pennington", "id" : "ezto.community"},
             {"alignment" : "goodies", "role" : "Jesselyn Rain", "id" : "chefanolt"},
-            {"alignment" : "neutral", "role" : "Beetrus Nimgo", "id" : "donjackdarknessas"},
+            {"alignment" : "neutral", "role" : "Beetrus Nimgo", "id" : "donjackdarkness"},
             {"alignment" : "neutral", "role" : "Kuro Ageha", "id" : "hollymichaels"},
             {"alignment" : "neutral", "role" : "Rosemary Adelaide", "id" : "xump.phex"}
         ],
@@ -2366,7 +2360,7 @@
     {
         "name" : "Cartoons United REDEMPTION ~Gore Blind Party~",
         "link" : "https://kask.us/ie7Si",
-        "gm" : "Edolbogel",
+        "gm" : "edolbogel",
         "theme" : "Anime",
         "open" : "10-05-2016",
         "start" :  "12-05-2016",
@@ -2438,7 +2432,7 @@
         "gm" : "fahape",
         "cogm" : "edolbogel",
         "theme" : "Original",
-        "open" : " 01-07-2016",
+        "open" : "01-07-2016",
         "start" :  "02-07-2016",
         "finish" : "07-07-2016",
         "won" : "baddies",
@@ -2468,7 +2462,7 @@
             {"alignment" : "goodies", "role" : "Villager", "id" : "donjackdarkness"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "candidat.master"},
             {"alignment" : "goodies", "role" : "Villager", "id" : "saitamakan"},
-            {"alignment" : "goodies", "role" : "Night 3 Vigilante", "id" : "alfianhenry "}
+            {"alignment" : "goodies", "role" : "Night 3 Vigilante", "id" : "alfianhenry"}
         ],
         "mvp" : ["causechooser"]
     },
@@ -2497,7 +2491,7 @@
         ],
         "players" : [
             {"alignment" : "baddies", "role" : "Killer", "id" : "jarvision1.1.1"},
-            {"alignment" : "baddies", "role" : "Lone Cupid", "id" : "arifauzi92 "},
+            {"alignment" : "baddies", "role" : "Lone Cupid", "id" : "arifauzi92"},
             {"alignment" : "baddies", "role" : "Killer", "id" : "little.leia"},
             {"alignment" : "baddies", "role" : "Killer", "id" : "rafc"},
      
@@ -2523,7 +2517,6 @@
         "link" : "https://kask.us/ikEZX",
         "gm" : "edolbogel",
         "cogm" : "handstylez",
-        "theme" : "Werewolves",
         "open" : "12-11-2016",
         "start" :  "12-11-2016",
         "finish" : "22-11-2016",
@@ -2572,7 +2565,7 @@
         "link" : "https://kask.us/ilo1t",
         "gm" : "causechooser",
         "cogm" : "helium.rusak",
-        "theme" : "Re:Zero Kara Hajimeru Isekai Seikatsu",
+        "theme" : "Re:Zero",
         "open" : "08-12-2016",
         "start" :  "11-12-2016",
         "finish" : "21-12-2016",
@@ -2741,7 +2734,7 @@
         "name" : "Matrix (Season 1) - When The Ancients Fall",
         "link" : "https://kask.us/iqDDq",
         "gm" : "heregrarium",
-        "open" : " 30-06-2017",
+        "open" : "30-06-2017",
         "start" :  "10-07-2017",
         "finish" : "13-07-2017",
         "won" : "baddies",
@@ -2772,7 +2765,7 @@
         "link" : "https://kask.us/itxtJ",
         "gm" : "sacfron",
         "open" : "10-11-2017",
-        "start" :  "",
+        "start" :  "16-11-2017",
         "finish" : "20-11-2017",
         "won" : "goodies",
         "phases" : [
@@ -2807,7 +2800,6 @@
         "name" : "Hisashiburi",
         "link" : "https://kask.us/iyBPW",
         "gm" : "Solahart",
-        "theme" : "Werewolves",
         "open" : "10-10-2018",
         "start" :  "17-10-2018",
         "finish" : "22-10-2018",
@@ -2818,7 +2810,7 @@
             {"phase" : "D2", "dies" : ["isul.ternoda"]},
             {"phase" : "N2", "dies" : ["RaynaQ"]},
             {"phase" : "D3", "dies" : ["nakapyon", "akhirx.punya.id", "sikaksikaku"], "modkill" : ["akhirx.punya.id", "sikaksikaku"]},
-            {"phase" : "N3", "dies" : ["leoril", "yosa31", "mdinowumbo"], "modkill" : ["yosa31", "mdinowumbo"]},
+            {"phase" : "N3", "dies" : ["leoril", "Yosa31", "mdinowumbo"], "modkill" : ["Yosa31", "mdinowumbo"]},
             {"phase" : "D4", "dies" : ["murmurs", "sagarichan"], "modkill" : ["sagarichan"]},
             {"phase" : "N4", "dies" : ["Sherry24"]},
             {"phase" : "D5", "dies" : ["top0502"]}
@@ -2826,7 +2818,7 @@
         "players": [
             { "alignment" : "goodies", "role" : "Villager", "id" : "Yosa31"},
             { "alignment" : "goodies", "role" : "Villager", "id" : "leoril"},
-            { "alignment" : "goodies", "role" : "Villager", "id" : "excimer"},
+            { "alignment" : "goodies", "role" : "Villager", "id" : "excimer."},
             { "alignment" : "goodies", "role" : "Villager", "id" : "Sherry24"},
             { "alignment" : "goodies", "role" : "Villager", "id" : "fixsilver"},
             { "alignment" : "goodies", "role" : "Villager", "id" : "mdinowumbo"},
